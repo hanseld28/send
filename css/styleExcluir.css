@@ -1,0 +1,82 @@
+.swal-button--confirm {
+
+    background-color: #00bfff;
+    height: 45px;
+    width: 120px;
+    font-size: 15px;
+
+}
+
+.swal-button--confirm:hover {
+    background-color: rgba(0, 191, 255, .6);
+}
+
+
+.swal-button--cancel {
+    background-color: #ff4757;
+    color: aliceblue;
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+
+}
+
+.swal-button--cancel:hover {
+    background-color: #ff0000;
+}
+.swal-overlay--show-modal {
+    opacity:80;
+    pointer-events: auto;
+    background-color: rgba(0,0,0,.6);
+}
+
+.swal-overlay--show-modal .swal-modal {
+    opacity: 1;
+    pointer-events: auto;
+    width: 570px;
+    height: 340px;
+    -webkit-animation: showSweetAlert .3s;
+    animation: showSweetAlert .3s;
+    will-change: transform;
+}
+.swal-footer {
+    text-align: right;
+    padding-top: 13px;
+    margin-top: 16px;
+    border-radius: inherit;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 45px;
+    padding-top: 40px;
+    padding-right: 5px;
+}
+.swal-icon {
+    width: 80px;
+    height: 80px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+    box-sizing: content-box;
+    top: 22px;
+    left: 0%;
+}
+.swal-title {
+    color: rgba(0,0,0,.65);
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    display: block;
+    padding: 13px 16px;
+        padding-bottom: 13px;
+    font-size: 27px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0;
+    top: 35px;
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Corbel', sans-serif;
+    background-size: cover;
+}
+.caixaLogin{
+	position: fixed;
+	margin-left: 30%;
+	margin-top: 10%;
+	width: 35%;
+	height: 60%;
+	background-color: rgba(0,0,0,.5);
+	box-shadow: 1px 1px 2.5px #000;
+	transition: .7s;
+}
+#funcionario{
+	background-color: rgba(0,0,0,.5);
+	box-shadow: 1px 1px 2.5px #000;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 0%;
+	transition: .7s;
+	z-index: -2;
+}
+#responsaveis{
+  background-color: rgba(0,0,0,.5);
+  box-shadow: 1px 1px 2.5px #000;
+  margin-left: 0%;
+  margin-top: 0%;
+  width: 0%;
+  transition: .7s;
+  z-index: -2;
+}
+img{
+	position: fixed;
+	width: 1.5%;
+	height: 3%;
+	margin-top: 3.2%;
+	margin-left: 15%;
+	cursor: pointer;
+  z-index: 10;
+}
+form{
+	position: fixed;
+	margin-left: 3.5%;
+	margin-top: 5%;
+}
+.caixaLabels {
+  position: relative;
+}
+
+.caixaLabels input{
+  width: 350px;
+  margin-top: 22%;
+  display: block;
+  border: none;
+  border-bottom: solid 1px #0984e3;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #0984e3 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #0984e3 4%);
+  background-position: -350px 0;
+  background-size: 350px 100%;
+  background-repeat: no-repeat;
+}
+
+.caixaLabels input:focus {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+.caixaLabels label {
+  font-size: 14pt;
+  position: absolute;
+  margin-top: -10%;
+  transition: .2s ease-out;
+  color: #fff;
+}
+.btnLogar{
+  margin-top: 4%;
+  margin-left: 15%;
+  border: none;
+  border-radius: 3px;
+  border: 2px solid #0984e3;
+  position: fixed;
+  width: 11%;
+  height: 5.5%;
+  background-color: #0984e3;
+  cursor: pointer;
+  opacity: .7;
+}

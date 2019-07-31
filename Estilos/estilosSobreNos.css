@@ -1,0 +1,75 @@
+body {
+    margin-left: 150px;
+    overflow-x: hidden;
+}
+
+.logoPolaris img {
+    width: 180px;
+    height: 85px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.conteudoSobreNos {
+    margin-left: 35px;
+}
+
+.conteudoSobreNos h1 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.conteudoSobreNos h2 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: -25px;
+}
+
+.conteudoSobreNos p {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+.conteudoSobreNos ul{
+    margin-top: 30px;
+    list-style: none;
+}
+
+.conteudoSobreNos ul li{
+color: grey;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.rodape {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+
+}
+
+.rodape p {
+    text-align: center;
+    font-size: 18px;
+    font-family: calibri;
+    color: grey;
+}
+
+.rodape p a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.rodape p a:hover {
+    text-decoration: underline;
+}

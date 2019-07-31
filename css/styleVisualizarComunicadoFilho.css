@@ -1,0 +1,81 @@
+.telaVisualizarComunicados{
+    position: relative;
+    width: 100%;
+	height: 550px;
+    background-color: #fff;
+}
+.topoTelaVisualizarComunicados{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #0088cc;
+}
+.iconeRetornarCardsFilhosComunicados{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 8px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+    z-index: 5;
+}
+.iconeRetornarCardsFilhosComunicados:hover{
+    border-radius: 3px;
+}
+.iconSetaRetornoComunicados{
+    position: relative;
+    width: 30px;
+    top: 12px;
+    left: 12px;
+}
+.iconeComunicadoElabel{
+    position: relative;
+    left: 350px;
+}
+
+.lblTelaVisualizarComunicados{
+    position: relative;
+    font-size: 25pt;
+    left: 10px;
+    color: #fff;
+}
+.conteudoTelaVisualizarComunicados{
+    position: relative;
+	width: 100%;
+	height: 476px;
+    border-top-style: solid;
+    border-top-color: #0088cc;
+	background-color: #fff;
+}
+
+table.tabelaComunicadosFilhopV{
+	position: relative;
+    top: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    border-collapse: collapse;
+} 
+table .tituloCFpV{
+    color: #404040;
+    text-align: center;
+    font-size: 15pt;
+}
+table.tabelaComunicadosFilhopV tr.linhaCFpV td {
+    text-align: center;
+    color:#666666;
+    font-size: 15pt;
+}
+.btnVisualizarComunicadoFilho{
+    position: relative;
+    margin-top: -12px;
+    padding-top: 5px;
+    border-radius: 3px;
+    color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 9px;
+    background-color: #0088cc;
+}

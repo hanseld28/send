@@ -1,0 +1,13 @@
+@media (max-width:1302px){
+    #menu-cima{
+        width: 1302px;
+    }
+    
+    .conteudo{
+        width: 1222px;
+    }
+    
+    body{
+        overflow-x: scroll;
+    }
+}

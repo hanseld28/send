@@ -1,0 +1,1134 @@
+.telaVisualizarAlunos {
+    position: relative;
+    width: 100%;
+    height: 870px; 
+    //background-color: blue;
+}
+
+.topoTelaVisualizarAlunos {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #27ae60;
+}
+
+.iconeRetornoAbaAlunos {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+}
+
+.iconeRetornoAbaAlunos:hover {
+    border-radius: 3px;
+}
+
+.iconSetaRetornoAbaAlunos {
+    position: relative;
+    width: 35px;
+    top: 12.5px;
+    left: 12px;
+}
+
+.iconeElabelAlunos {
+    
+    text-align: center;
+}
+
+.iconTopoAlunos {
+    position: relative;
+    width: 50px;
+    top: 15px;
+}
+
+.lblTopoAlunos {
+    position: relative;
+    font-family: Calibri;
+    color: #fff;
+    font-size: 24.5pt;
+    top: 4px;
+    left: 5px;
+}
+
+
+/* o que eu mexi na view dos alunos das turmas */
+
+.artCCC1 {
+    position: relative;
+    width: 97.9%;
+    border-radius: 3px;
+    top: 4px;
+    left: 10px;
+    background-color: #fff;
+}
+.linha1T {
+
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 59px;
+    background-color: #fff;
+
+}
+.linha2T {
+
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+
+}
+.linha3T{
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+.artC1{
+    position: relative;
+    width: 44%;
+    height: 50px;
+    border-radius: 3px;
+    top: 4px;
+    left: 10px;
+    background-color: #fff;
+}
+.artC2{
+    position: relative;
+    width: 45.4%;
+    height: 50px;
+    border-radius: 3px;
+    top: 4px;
+    left: 20px;
+    background-color: #fff;
+}
+.artC3{
+    position: relative;
+    width: 6.5%;
+    height: 50px;
+    border-radius: 3px;
+    top: 4px;
+    left: 30px;
+    background-color: #fff;
+}
+
+.conteudoAlunos {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+table.tabelaAlunosTurmaProf {
+
+    position: relative;
+    width: 99%;
+    top: 12px;
+    border-collapse: collapse;
+
+}
+
+table.tabelaAlunosTurmaProf tr.infoAlunosT .linhaATPS {
+    font-family: Calibri;
+    font-size: 13pt;
+    color: #666666;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.infoAlunosT,
+.tituloAlunosT,
+.linhaATP {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #bfbfbf;
+}
+
+table .tituloAlunosT {
+    color: #404040;
+    text-align: center;
+    font-size: 14pt;
+}
+
+table.tabelaAlunosTurmaProf tr.infoAlunosT td {
+    font-family: Calibri;
+    font-size: 13pt;
+    color: #666666;
+    padding-left: 7px;
+}
+
+
+.iconeGerarPdfAlunosTurma {
+    position: absolute;
+    width: 52px;
+    height: 42px;
+    top: 4px;
+    left: 13%;
+    border-radius: 3px;
+    background-color: #27ae60;
+    
+}
+
+.iconeGerarPdfTurma1 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: all .4s;
+    cursor: pointer;
+    background-color: #fff;
+    z-index: 9;
+    float: right;
+    top: -35px;
+    
+}
+
+.localComunicados {
+    position: relative;
+    width: 100%;
+    height: 517px;
+    background-color: #fff;
+}
+.artCC1 {
+    position: relative;
+    width: 99%;
+    border-radius: 3px;
+    top: 4px;
+    left: 10px;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+.iconeGerarPdfTurma1 img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.iconPdfAlunosTurma {
+    position: relative;
+    width: 30px;
+    top: 5px;
+    left: 10px;
+}
+
+.lblTurmaAlunoT {
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 13px;
+    left: 17px;
+}
+
+.lbltotalAlunosT {
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 13px;
+    left: 97px;
+}
+.iconConfirmacaoR{
+    position: relative;
+    width: 20px;
+    top: 3.5px;
+    left: -10px;
+    
+}
+.lblEnviada{
+    font-family: Calibri;
+    font-size: 13pt;
+    color: #27ae60;
+}
+.lblPendente{
+    font-family: Calibri;
+    font-size: 13pt;
+    color: #b3b3b3;
+}
+.iconPendeR{
+    position: relative;
+    width: 20px;
+    top: 3.5px;
+    left: -10px;
+}
+.lblRoEnviadas{
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 13px;
+    left: 17px;
+}
+.lblRoFaltam{
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 13px;
+    left: 97px;
+}
+/* =========================================  */
+
+/* o que eu mexi na view do comunicado, e do novo comunicado */
+
+.telaComunicado {
+    position: relative;
+    width: 100%;
+    height: 570px;
+}
+
+.topoTelaComunicado{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #27ae60;
+}
+.conteudoTelaComunicado {
+    position: relative;
+    width: 100%;
+    height: 570px;
+    background-color: white;
+}
+.iconeComunicadoElabel{
+    text-align: center;
+}
+.iconComunicado{
+    position: relative;
+    width: 55px;
+    top: 12px;
+}
+
+.lblTopoComunicado {
+    position: relative;
+    color: #fff;
+    top: -2px;
+    margin-left: 7px;
+    font-size: 27pt;
+    text-align: center;
+    font-family: Calibri;
+}
+
+
+
+.menuComunicado {
+    position: relative;
+    width: 100%;
+    height: 49px;
+    background-color: #f2f2f2;
+}
+
+.iconNovoComunicado{
+    position: relative;
+    width: 35px;
+    top: 5px;
+    left: 15px;
+}
+.lblNovoComunicado{
+    position: relative;
+    color: #27ae60;
+    top: -4px;
+    left: 25px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.btnVerTodasRotinasDeterminadaTurma{
+    position: absolute;
+    width: 200px;
+    height: 49px;
+    left: 200px;
+    
+    background-color: #f2f2f2;
+}
+.btnVerComunicadosRecentesDeterminadaTurma{
+    position: absolute;
+    width: 200px;
+    height: 49px;
+    left: 400px;
+    background-color: #f2f2f2;
+}
+.lblTodosComunicadosDeterminadaTurma{
+    position: relative;
+    color: #27ae60;
+    top: 2px;
+    left: 25px;
+    font-size: 14.5pt;
+    cursor: pointer;
+}
+.lblRecentesComunicadosDeterminadaTurma{
+    position: relative;
+    color: #27ae60;
+    top: 2px;
+    left: 25px;
+    font-size: 14.5pt;
+    cursor: pointer;
+}
+.iconTodosComunicados{
+    position: relative;
+    width: 29px;
+    top: 9px;
+    left: 15px;
+}
+.iconRecentesComunicados{
+    position: relative;
+    width: 29px;
+    top: 9px;
+    left: 15px;
+}
+.lblNaoHaComunicados {
+    position: absolute;
+    font-size: 14pt;
+    top: 50%;
+    left: 50%;
+    color: #999999;
+    transform: translate(-50%,-50%);
+}
+.localDeterminadaLabelTurma{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 140px;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px grey;
+}
+.lblDeterminadaTurma{
+    position: relative;
+    font-size: 16pt;
+    top: 10px;
+    left: 8px;
+    color: #595959;
+}
+
+
+.lblTituloComunicado{
+    font-family: Calibri;
+    color: #4d4d4d;
+    position: relative;
+    top: 10px;
+    font-size: 17pt;
+    
+}
+.inputAssunto {
+    position: relative;
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 15pt;
+    border: 1px solid #bfbfbf;
+    top: -12px;
+}
+
+.caixaAssunto label {
+    font-size: 17pt;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: Calibri;
+    color: #404040;
+    position: relative;
+    top: -15px;
+}
+
+.lblProfessorComunicado{
+    font-family: Calibri;
+    color: #404040;
+    position: relative;
+    font-size: 16pt;
+    top: -15px;
+}
+.linhaComu1{
+    position: relative;
+    width: 100%;
+    height: 59px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: #e6e6e6;
+}
+.linhaComu2{
+    position: relative;
+    width: 100%;
+    height: 59px;
+    background-color:#e6e6e6;
+}
+.linhaComu3{
+    position: relative;
+    width: 100%;
+    height: 289px;
+    background-color:#e6e6e6;
+}
+.linhaComu4{
+    position: relative;
+    width: 100%;
+    height: 62px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color:#e6e6e6;
+}
+.artComunC1{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: #fff;
+}
+.artComunC2{
+    position: relative;
+    width: 98%;
+    height: 50px;
+    border-radius: 3px;
+    top: 4px;
+    left: 9px;
+    background-color: #fff;
+}
+.artComunC3{
+    position: relative;
+    width: 98%;
+    height: 280px;
+    border-radius: 3px;
+    top: 4px;
+    left: 9px;
+    background-color: #fff;
+}
+.artComunC4{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 13px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #fff;
+}
+.lblComunicadoPara{
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 13px;
+    left: 2%;
+}
+.lblDeProf{
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 13px;
+    left: 45%;
+}
+.lblAssuntoComunicado{
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 13px;
+    left: 2%;
+}
+
+.caixaAssunto {
+    display: flex;
+    top: 85px;
+    position: relative;
+}
+
+.taComunicado {
+    position: relative;
+    resize: none;
+    width: 99%;
+    height: 250px;
+    font-size: 15pt;
+    font-family: 'Calibri',sans-serif;
+    color: #595959;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: none;
+    border: 1px solid #bfbfbf;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-top: 70px;
+}
+.btnCancelarComunicado{
+    position: relative;
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 13.5pt;
+    background-color: #e74c3c;
+    cursor: pointer;
+    top: 7px;
+    left: 82%;
+    margin-right: 9%;
+}
+
+.btnEnviarComunicado {
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 13.5pt;
+    background-color: #27ae60;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+}
+
+.iconeRetornaparaabasturmasalunos{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+}
+.iconeRetornaparaabasturmasalunos:hover{
+    border-radius: 3px;
+}
+.iconSetaRetornaparaabasturmasalunos{
+    position: relative;
+    width: 35px;
+    top: 12.5px;
+    left: 12px;
+}
+.caixaComunicado {
+    position: relative;
+    width: 96%;
+    height: 470px;
+    border-radius: 2px;
+    top: 10px;
+    left: 2%;
+    background-color: #fff;
+}
+
+/* =========================================  */
+
+/* o que eu mexi na tabela de comunicados recentes */
+
+.caixaTabelaRecentesOsComunicados {
+
+    position: relative;
+    width: 96%;
+    height: 490px;
+    border-radius: 2px;
+    top: 10px;
+    left: 2%;
+    background-color: #fff;
+
+}
+.linhaComuRec1{
+    position: relative;
+    width: 100%;
+    height: 59px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color:#e6e6e6;
+}
+.linhaComuRec2{
+    position: relative;
+    width: 100%;
+    height: 371px;
+    background-color:#e6e6e6;
+}
+.linhaComuRec3{
+    position: relative;
+    width: 100%;
+    height: 59px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color:#e6e6e6;
+}
+.artComunRec1{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: #fff;
+}
+.artComunRec2{
+    position: relative;
+    width: 98%;
+    height: 362px;
+    border-radius: 3px;
+    top: 4px;
+    left: 9px;
+    background-color: #fff;
+}
+.artComunRec3{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #fff;
+}
+.lblTodosR{
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 13px;
+    left: 2%;
+}
+table.tabelaComunicadoTurmaRecentes{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    border: 1px solid #bfbfbf;
+    border-collapse: collapse;
+}
+table .tituloAlunosT {
+    color: #404040;
+    text-align: center;
+    font-size: 14pt;
+    padding: 10px;
+}
+.tituloComunicado2, .tituloComunicado, .linhaComunicadore, .linhaComuT{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #bfbfbf;
+    padding: 10px;
+}
+table.tabelaComunicadoTurmaRecentes tr.linhaComunicado td {
+    text-align: left;
+    color: #666666;
+    padding-left: 7px;
+}
+/* ===========================================================================  */
+
+/* o que eu mexi na view da tabela de todos os comunicados */
+
+.caixaTabelaTodosOsComunicados {
+    position: relative;
+    width: 96%;
+    height: 490px;
+    border-radius: 2px;
+    top: 10px;
+    left: 2%;
+}
+.linhaComuTodos1{
+    position: relative;
+    width: 100%;
+    height: 59px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color:#e6e6e6;
+}
+.linhaComuTodos2{
+    position: relative;
+    width: 100%;
+    height: 59px;
+    background-color:#e6e6e6;
+}
+.linhaComuTodos3{
+    position: relative;
+    width: 100%;
+    height: 322px;
+    background-color:#e6e6e6;
+}
+.linhaComuTodos4{
+    position: relative;
+    width: 100%;
+    height: 59px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color:#e6e6e6;
+}
+
+.artComunTodos1{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: #fff;
+}
+
+.artComunTodos2{
+    position: relative;
+    width: 98%;
+    height: 50px;
+    border-radius: 3px;
+    top: 4px;
+    left: 9px;
+    background-color: #fff;
+}
+.artComunTodos3{
+    position: relative;
+    width: 98%;
+    height: 313px;
+    border-radius: 3px;
+    top: 4px;
+    left: 9px;
+    text-align: center;
+    background-color: #fff;
+}
+.artComunTodos4{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #fff;
+}
+.lblTodosT {
+
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: 3px;
+    left: 2%;
+
+}
+.iconeGerarPdfComunicadoT{
+    position: absolute;
+    width: 52px;
+    height: 42px;
+    top: 4px;
+    left: 94%;
+    border-radius: 3px;
+    background-color: #27ae60;
+}
+.iconPdfComunicadoT{
+    position: relative;
+    width: 30px;
+    top: 5px;
+    left: 10px;
+}
+.lblDeTabelaTodosOsComunicados{
+    position: relative;
+    color: #404040;
+    font-size: 17pt;
+    font-family: Calibri;
+    top: 22px;
+    left: 2%;
+}
+.inpDeTabelaTodosOsComunicados{
+    position: relative;
+    width: 122px;
+    height: 25px;
+    top: 20px;
+    left: 2%;
+    padding-left: 5px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 11pt;
+    border: 1px solid #bfbfbf;
+}
+.lblAteTabelaTodosOsComunicados{
+    position: relative;
+    color: #404040;
+    font-size: 17pt;
+    font-family: Calibri;
+    top: 22px;
+    left: 2.5%;
+}
+.inpAteTabelaTodosOsComunicados{
+    position: relative;
+    width: 122px;
+    height: 25px;
+    top: 20px;
+    left: 2.5%;
+    padding-left: 5px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 11pt;
+    border: 1px solid #bfbfbf;
+}
+.btnBuscarTodosComunicados {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 11pt;
+    background-color: #3498db;
+    cursor: pointer;
+    top: 49px;
+    left: 375px;
+}
+.btnTodosComunicados{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 11pt;
+    background-color: #3498db;
+    cursor: pointer;
+    top: 49px;
+    left: 452px;
+}
+
+.divSelectOrdenarTodosComunicados {
+
+    position: relative;
+    cursor: pointer;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    width: 150px;
+    height: 36px;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+.divSelectOrdenarTodosComunicados select{
+    position: relative;
+    cursor: pointer;
+    width: 180px;
+    height: 38px;
+    background: url(../Imagens/iconeSetaSelectDeOrdenacao.png) no-repeat;
+    background-position: 124px center;
+    border: none;
+    font-size: 10.5pt;
+    padding-left: 3px;
+    font-family: 'Calibri',sans-serif;
+    color: #4d4d4d;
+}
+
+table.tabelaComunicadoTurma {
+
+    position: relative;
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    border-collapse: collapse;
+    top: 30px;
+
+}
+table .tituloComunicado1 {
+
+    color: #404040;
+    text-align: center;
+    font-size: 14pt;
+    padding: 10px;
+
+}
+.tituloComunicado1, .tituloComunicado, .linhaComunicado, .linhaComuT{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #bfbfbf;
+}
+table.tabelaComunicadoTurma tr.linhaComunicado td {
+
+    text-align: left;
+    color: #666666;
+    padding: 10px;
+
+}
+.lblOrdernarPorTabelaTodosOsComunicados {
+
+    position: relative;
+    color: #404040;
+    font-size: 16pt;
+    font-family: Calibri;
+    top: 13px;
+    display: flex;
+    float: right;
+    right: -10px;
+    top: 20px;
+
+}
+/* ===========================================================================  */
+
+/* o que eu mexi na view de turmas do professor */
+
+a{
+    text-decoration: none;
+}
+.topoTelaVisualizarTurmas{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #27ae60;
+}
+
+.iconelabelTurmas{
+    text-align: center;
+}
+
+.iconTopoTurmas {
+    position: relative;
+    width: 55px;
+    top: 12px;
+}
+.lblTopoTurmas{
+    position: relative;
+    color: #fff;
+    top: -2px;
+    margin-left: 7px;
+    font-size: 27pt;
+    text-align: center;
+    font-family: Calibri;
+}
+.conteudoTurmas {
+
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+
+}
+.caixaTabelaTurmasT{
+    position: relative;
+    width: 96%;
+    height: 370px;
+    border-radius: 2px;
+    top: 10px;
+    left: 2%;
+    background-color: #e6e6e6;
+}
+.linhaTabelaTurmas1{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color:#e6e6e6;
+}
+.linhaTabelaTurmas2 {
+
+    position: relative;
+    width: 100%;
+    height: 59px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #fff;
+
+}
+.artTabelaTurmas1{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: #fff;
+}
+.artTabelaTurmas2{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #fff;
+}
+
+table.tabelaTurmasT {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    border: none;
+    border-radius: 3px;
+}
+.tituloTurmasT, .infoTurmasT, .linhaTurmasT {
+    margin: 80px;
+    padding-bottom: 20px;
+}
+table .tituloTurmasT{
+    color: #404040;
+    text-align: center;
+    font-size: 14pt;
+}
+table.tabelaTurmasT tr.infoTurmasT td {
+    text-align: center;
+    color:#666666;
+}
+.table.tabelaTurmasT tr:nth-child(2n+2){
+   background-color: #CEF5ED;
+}
+
+
+table.tabelaComunicadoTurma tr:nth-child(2n+2) {
+background-color: #CEF5ED;
+}
+
+table.tabelaComunicadoTurma tr.linhaComunicado td{
+    background-color: #CEF5ED;
+}
+
+.btnNovaRotina{
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    margin-top: -12px;
+    margin-left: -45px;
+    padding-top: 9px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #2ecc71;
+}
+.btnNovoComunicadoTurma{
+    position: absolute;
+    width: 115px;
+    height: 30px;
+    margin-top: -12px;
+    margin-left: -55px;
+    padding-top: 9px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #2ecc71;
+}
+.btnVisualizarAlunos{
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    margin-top: -12px;
+    margin-left: -40px;
+    padding-top: 9px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #2ecc71;
+}
+.btnNovoComunicado {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+}
+.iconeRetornaparaabaPrincipal{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+}
+.iconeRetornaparaabaPrincipal:hover{
+    border-radius: 3px;
+}
+.iconSetaRetornaparaabaPrincipal{
+    position: relative;
+    width: 35px;
+    top: 12.5px;
+    left: 12px;
+}
+.lblnaoEncontrado {
+    position: absolute;
+    font-size: 14pt;
+    top: 150px;
+    color: #999999;
+    font-family: Calibri;
+    left: 50%;
+    transform: translate(-50%);
+}
+/* ===========================================================================  */

@@ -1,0 +1,1128 @@
+/*CheckBox*/
+
+.checkbox-regular {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.checkbox-regular:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+
+}
+
+.checkbox-regular:checked:after {
+    content: '\2714';
+    font-size: 13px;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+    color: limegreen;
+}
+
+/*FIM CheckBox*/
+
+/*Radio*/
+
+.radio-regular {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+/*FIM Radio*/
+
+/*Select*/
+
+/*FIMSelect*/
+
+/*input[type="Text"]*/
+
+/*.regular-input-text {
+    width: 402px;
+    height: 25px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+.regular-input-text:focus {
+    border: 2px solid rgba(30, 144, 255, 1.0);
+}*/
+
+.inputLabelImg {
+    position: relative;
+    margin-bottom: -1px;
+}
+
+.inputLabelImg img {
+    position: absolute;
+    top: 22px;
+    width: 23px;
+    height: 23px;
+    margin-left: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/*FIM input[type="Text"]*/
+
+.formCadastroAluno {
+    width: 800px;
+    background-color: white;
+    height: 77.5%;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.mesmalinha {
+    display: flex;
+}
+
+
+.regular-input-text-mesma-linha {
+    width: 175px;
+    height: 25px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+
+.regular-input-text-num {
+    width: 90px;
+    height: 25px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+
+.regular-input-text-logradouro {
+    width: 300px;
+    height: 25px;
+    border: 1px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-left: 15px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+}
+
+
+
+.cep {
+    width: 175px;
+    height: 25px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+
+.select-regular {
+    width: 210px;
+    height: 30px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 32px;
+    margin-left: 15px;
+}
+
+
+.titulodeCadastrosh4 {
+    font-family: Calibri;
+    font-size: 22px;
+    color: grey;
+    margin-top: -20px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+
+.btnAdiconaResp {
+    background-color: rgba(9, 132, 227, 1.0);
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: none;
+    box-shadow: 0px;
+    position: absolute;
+    top: 264px;
+    left: 220px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.barraPesquisa {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    padding: 0 25px;
+    font-size: 20px;
+    position: relative;
+    color: grey;
+    border: 0px;
+    border-right: 0px;
+}
+
+.barraPesquisaBotao {
+    border-radius: 0 5px 5px 0;
+    width: 40px;
+    height: 35px;
+    border: 0px;
+    outline: none;
+    cursor: auto;
+    margin-top: 0px;
+    border-left: 0px;
+    font-size: 20px;
+    color: white;
+    background-color: white;
+}
+
+.barraPesquisaBotao img {
+    margin-top: 5px;
+}
+
+.barraPesquisaGeral {
+    position: absolute;
+    margin-top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.barraPesquisaGeral label {
+    color: white;
+    font-family: calibri;
+    font-size: 30px;
+    position: relative;
+    margin-left: -245px;
+    top: 3px;
+}
+
+.barraPesquisaGeral form {
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.tabelaAluno {
+    margin-top: 40px;
+
+}
+
+.tabelaFunc {
+    margin-top: 20px;
+}
+
+.div-result-func {
+    position: relative;
+    width: 100%;
+
+}
+
+.tableResponsavel {
+    margin-top: 10px;
+}
+
+.tabelaUsuario {
+    margin-top: 10px;
+}
+
+.tabelaMatricula {
+    margin-top: 10px;
+}
+
+.div-result {
+    margin-top: 20px;
+}
+
+.div-result-resp {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.div-result-user {
+    position: absolute;
+    margin-top: 110px;
+
+}
+
+.div-result-matricula {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.centralizaTabela {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+/*Cadastro em Passos*/
+
+.passosCadastros {
+    width: 100%;
+    margin-top: -20px;
+
+}
+
+/*.barraProgresso {
+    counter-reset: passo;
+}
+
+.barraProgresso li {
+    list-style-type: none;
+    float: left;
+    width: 33.33%;
+    position: relative;
+    text-align: center;
+}
+
+.barraProgresso li:before {
+    content: counter(passo);
+    counter-increment: passo;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid #ddd;
+    display: block;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+.barraProgresso li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3%;
+    background-color: #ddd;
+    top: 20px;
+    left: -46%;
+    z-index: -10;
+}
+
+.barraProgresso li:first-child:after {
+    content: none;
+}
+
+.barraProgresso li.ativo {
+    color: green;
+}
+
+.barraProgresso li.ativo:before {
+    border-color: green;
+}
+
+.barraProgresso li.ativo + li:after {
+    background-color: green;
+}
+
+.barraProgresso li.active:before {
+    border-color: green;
+}
+
+.barraProgresso li.ativo1:before {
+    background-image: url(../Imagens/check-mark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: green;
+    font-size: 0px;
+}
+
+.barraProgresso li.ativo1 + li:after {
+    background-color: green;
+}
+
+.barraProgresso li.ativo3:before {
+    border-color: green;
+}
+
+.barraProgresso li.ativo3:before {
+    background-image: url(../Imagens/check-mark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: green;
+    font-size: 0px;
+}
+
+.barraProgresso li.ativo3 + li:after {
+    background-color: green;
+}
+
+.barraProgresso li.ativo4:before {
+    border-color: green;
+}
+
+.barraProgresso li.ativo4:before {
+    background-image: url(../Imagens/check-mark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: green;
+    font-size: 0px;
+}
+
+.barraProgresso li.ativo4 + li:after {
+    background-color: green;
+}*/
+
+/*FIM Cadastro Passos*/
+
+.FormCadastroAluno {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.FormCadastroAluno form {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+/*.fieldSetResp {
+    font-family: Calibri;
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+
+}
+
+.fieldSetResp legend {
+    font-family: Calibri;
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 8px;
+}
+
+.fieldSetResp img {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 60%;
+    z-index: -1;
+}
+
+.regular-text-resp {
+    width: 180px;
+    height: 25px;
+    color: grey;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    padding-left: 5px;
+}*/
+
+.CPF {
+    width: 180px;
+    height: 25px;
+    color: grey;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.regular-text-resp1 {
+    width: 380px;
+    height: 25px;
+    color: grey;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgba(9, 132, 227, 1.0);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.btnProxPasso {
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+
+.btnProxPasso:hover {
+    background-color: #7bed9f;
+}
+
+
+.formCadastroMatricula {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+
+}
+
+.formCadastroMatricula form {
+    position: relative;
+}
+
+.formCadastroMatricula fieldset {
+    width: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+    padding-bottom: 30px;
+}
+
+fieldset{
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;     
+}
+
+.formCadastroMatricula fieldset legend {
+    font-family: Calibri;
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 8px;
+
+}
+
+.labelsMatricula {
+    margin-left: 15px;
+    color: grey;
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.formCadastroMatricula fieldset img {
+    position: relative;
+    margin-top: -130px;
+    float: right;
+    margin-right: 10px;
+}
+
+.formCadastroMatricula .btnProxPasso {
+    bottom: -60px;
+    position: absolute;
+    right: 0px;
+}
+
+.gerarPront {
+    width: 250px;
+    height: 45px;
+    font-size: 20px;
+    font-family: Calibri;
+    color: white;
+    background-color: rgba(9, 132, 227, 1.0);
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%);
+}
+
+.cadastroSucessoAluno p {
+    font-family: Calibri;
+    font-size: 30px;
+    color: grey;
+    margin-left: 10%;
+}
+
+.cadastroSucessoAluno {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cadastroSucessoAluno img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30%;
+    z-index: 2;
+
+}
+
+.cadastradoComSucesso {
+    width: 450px;
+    height: 300px;
+    border: grey 1px solid;
+    border-radius: 5px;
+    left: 50%;
+    position: absolute;
+    margin-top: 280px;
+    transform: translate(-50%, -50%);
+}
+
+/*.cadastroFuncionario {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cadastroFuncionario form {
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%);
+}
+
+.cadastroFuncionario .btnProxPasso {
+    margin-top: 0px;
+}
+
+.cadastroFuncionario .mesmalinha1 {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+
+}
+
+.cadastroFuncionario .mesmalinha1 p {
+    color: grey;
+    font-family: Calibri;
+    font-size: 22px;
+}
+
+.cadastroFuncionario .select-regular {
+    width: 182px;
+    margin-left: 5px;
+}*/
+
+.edicaoResp {
+    width: 400px;
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%);
+    margin-top: 40px;
+}
+
+.edicaoResp form {
+    height: 140px;
+}
+
+.edicaoResp fieldset {
+    height: 190px;
+}
+
+.edicaoResp form .btnProxPasso {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 95px;
+
+}
+
+
+.FormEditarAluno {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.FormEditarAlunoMatriculaEdit {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.FormEditarAlunoMatriculaEdit form{
+    position: absolute;
+    left: 50%;
+    margin-top: 250px;
+    transform: translate(-50%);
+}
+
+.FormEditarAlunoMatriculaEdit label {
+    font-family: Calibri;
+    font-size: 25px;
+    color: grey;
+    margin-left: 15px;
+    margin-right: -8px;
+}
+
+
+.FormEditarAlunoMatriculaEdit button{
+    z-index: 9999;
+    width: 100%;
+}
+
+.fotoDePerfilAlunoMatricula h1 {
+
+    font-weight: 500;
+    color: grey;
+    font-size: 20px;
+    width: 1000%;
+
+}
+
+
+.FormEditarAluno form {
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%);
+}
+
+.FormEditarAluno label {
+    font-family: Calibri;
+    font-size: 25px;
+    color: grey;
+    margin-left: 15px;
+    margin-right: -8px;
+}
+
+.tituloEdicao {
+    text-align: center;
+    color: grey;
+    font-family: Calibri;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+
+.tituloEdicaoUser {
+    text-align: center;
+    color: grey;
+    font-family: Calibri;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 20px;
+
+}
+
+.pPersonalizado {
+    font-size: 22px;
+    color: grey;
+    margin-left: 15px;
+    margin-right: -10px;
+    font-family: Calibri;
+}
+
+.selectMenor .select-regular {
+    width: 188px;
+}
+
+.labelsEdit {
+    font-family: Calibri;
+    font-size: 25px;
+    color: grey;
+    margin-left: 15px;
+    margin-right: -8px;
+}
+
+.TituloIndicativo {
+    color: white;
+    font-family: Calibri;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+}
+
+.tituloTop {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: calibri;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+    position: absolute;
+}
+
+.cimaPesquisa {
+    width: 100%;
+    height: 95px;
+    position: relative;
+    background-color: #00a8ff;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+
+.abrirAbaCadastro {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: white;
+    border-radius: 90%;
+    z-index: 1;
+}
+
+.abrirAbaCadastro img {
+    width: 65px;
+    height: 65px;
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+.abrirAbaCadastroAux {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 180px;
+    left: 15px;
+    background-color: white;
+    border-radius: 90%;
+    z-index: 1;
+}
+
+.abrirAbaCadastroAux img {
+    width: 55px;
+    height: 55px;
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+.abrirRelatorioGeralCadAux{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 180px;
+    left: 88px;
+    background-color: white;
+    border-radius: 90%;
+    z-index: 1;
+}
+
+.abrirRelatorioGeralCadAux img {
+    width: 55px;
+    height: 55px;
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+.tituloCadAux {}
+
+.labelCadAux {
+    font-size: 25px;
+    font-family: calibri;
+    color: grey;
+    margin-left: 15px;
+
+}
+
+.FormCadastroAtividade {
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    margin-top: -20px;
+}
+
+.FormCadastroAtividade legend {
+    font-family: calibri;
+    color: grey;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.FormCadastroAtividade fieldset {
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+    width: 451px;
+}
+.FormCadastroAtividade .regular-input-text {
+    width: 270px;
+    margin-left: 20px;
+}
+
+.FormCadastroAtividade img {
+    width: 128px;
+    height: 128px;
+    float: right;
+    margin-right: 0px;
+    margin-top: -30px;
+}
+
+.FormCadastroAtividade.imgAtividadeCurricular{
+    width: 208px;
+    height: 128px;
+}
+
+.FormCadastroAtividade .btnProxPasso {
+    margin-top: 20px;
+}
+
+.FormCadastroAtividade .btnProxPasso1 {
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    float: right;
+    right: 0px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.FormCadastroAtividade  .select-regular{
+    height: 40px;   
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue; 
+    margin-left: 20px;
+}
+
+.btnProxPasso1:hover {
+    background-color: #7bed9f;
+}
+
+.FormCadastroAtividade .btnProxPasso13{
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    float: right;
+    right: 0px;
+    margin-top: 160px;
+    position: absolute;
+}
+.FormCadastroAtividade .btnProxPasso14{
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    
+    right: 160px;
+    margin-top: 160px;
+    position: absolute;
+}
+
+.FormCadastroAtividade p{
+    position: absolute;
+    top: 170px;
+    right: 0px;
+}
+
+.FormCadastroPeriodo p{
+      position: absolute;
+    top: 170px;
+    right: 0px;  
+}
+
+.FormCadastroPeriodo .btnProxPasso{
+margin-right: 10px;
+}
+
+.FormCadastroAtividade .btnProxPasso{
+margin-right: 10px;
+}
+
+.FormCadastroPeriodo{
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    margin-top: -10px;
+}
+
+.FormCadastroPeriodo legend{
+    font-family: calibri;
+    color: grey;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.FormCadastroPeriodo fieldset {
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;  
+    width: 440px;
+    margin-top: -25px;
+}
+
+.FormCadastroPeriodo .regular-input-text{
+    width: 350px;
+    margin-right: 15px;
+    margin-left: 12px;
+}
+
+.FormCadastroPeriodo img{
+    float: right;
+    margin-top: -85px;
+}
+
+
+.FormCadastroPeriodo .select-regular{
+    height: 40px;   
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue; 
+    margin-left: 10px;
+    
+}
+
+.FormCadastroPeriodo .regular-input-text-mesma-linha{
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;  
+    margin-left: 12px;
+    height: 35px;
+}
+
+.FormCadastroPeriodo .btnProxPasso{
+    margin-top: 15px;
+}
+
+.FormCadastroPeriodo .btnProxPasso1{
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    float: right;
+    right: 0px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.FormCadastroPeriodo .select-regular{
+    margin-top: 0px;
+}
+
+.abriRelatorioGeral{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    left: 135px;
+    background-color: white;
+    border-radius: 90%;
+    z-index: 1;
+}
+
+.abriRelatorioGeral img {
+    width: 65px;
+    height: 65px;
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

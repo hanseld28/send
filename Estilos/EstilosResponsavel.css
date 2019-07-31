@@ -1,0 +1,1621 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**Menu Cima*/
+
+.menuCima {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 58px;
+    float: right;
+    z-index: 9998;
+    transition: all .6s;
+    box-shadow: 1px 1px 7px grey;
+    background-color: whitesmoke;
+    top: 0px;
+}
+
+
+.localizacaoLogo {
+    position: relative;
+    width: 170px;
+    height: 58px;
+    left: 270px;
+    border-right: 1px solid #dcdcdc; //background-color: blueviolet;
+}
+
+
+.lblLogoTopo {
+    position: absolute;
+    font-size: 30pt;
+    top: 4px;
+    left: 25px;
+    color: #74b9ff;
+    font-weight: bold;
+}
+
+/* --------------- */
+
+/* icone do logo */
+
+.iconeLogoSendTopo {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+/* -------------- */
+
+/* menu dos icones do topo */
+
+/* ------------------------- */
+
+/* icone de noticações */
+
+.iconeNotificacoes {
+    position: relative;
+    width: 75px;
+    height: 58px;
+    transition: all .4s; //background-color: brown;
+}
+
+.iconeNotificacoes:hover {
+    background-color: #e6e6e6;
+}
+
+.numNotificacao {
+    width: 20px;
+    height: 20px;
+    background-color: #ee5253;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    right: 75px;
+    cursor: pointer;
+}
+
+.numNotificacao p {
+    position: relative;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #fff;
+    top: 1px;
+    left: 6px;
+    cursor: pointer;
+}
+
+.iconNotificacoes {
+    position: relative;
+    width: 32px;
+    top: 11px;
+    left: 20px;
+    cursor: pointer;
+}
+
+/* ----------------------- */
+
+/* icone de saida */
+
+.iconeSaida {
+    position: relative;
+    width: 75px;
+    height: 58px;
+    transition: all .4s; //background-color: cornflowerblue;
+}
+
+.iconeSaida:hover {
+    background-color: #e6e6e6;
+}
+
+.iconSair {
+    position: relative;
+    cursor: pointer;
+    width: 32px;
+    top: 12px;
+    left: 20px;
+}
+
+/* -------------------- */
+
+/* tooltip de notificações */
+
+.tooltipNotificacoes {
+    visibility: hidden;
+    width: 100px;
+    background-color: #cccccc;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    top: 50px;
+    left: 17px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.iconNotificacoes:hover .tooltipNotificacoes {
+    visibility: visible;
+    cursor: pointer;
+}
+
+/* ------------------------------ */
+
+/* tooltip de saida */
+
+.tooltipSaida {
+    visibility: hidden;
+    width: 50px;
+    background-color: #cccccc;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    top: 50px;
+    left: 7px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.iconeSaida:hover .tooltipSaida {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.iconesMenuCima {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    float: right;
+    right: 30px;
+}
+
+.iconesMenuCima li {
+    margin-left: 20px;
+
+}
+
+/* -------- Animacao de carregamento-------------- */
+
+.enviandoCarregando {
+    width: 320px;
+    background-color: #0099e5;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 80px;
+    z-index: 9999;
+    left: 55%;
+    transform: translate(-55%);
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+
+}
+
+.divimg {
+    background-image: url(../Imagens/loading.png);
+    animation: gira 3s linear infinite;
+    width: 32px;
+    height: 32px;
+    top: 10px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+}
+/* ------------------------------ */
+
+.menuCanto {
+    position: fixed;
+    width: 280px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    background-color: #0099e5;
+    transition: all .6s;
+}
+
+.menuCanto .iconeHome img {
+    width: 40px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.FotoResponsavel {}
+
+
+.FotoResponsavel fieldset {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 86%;
+    height: 280px;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+
+}
+
+
+.FotoResponsavel fieldset img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 6.5px;
+}
+
+
+.FotoResponsavel legend {
+    width: 70%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-color: #fff;
+    height: 35px;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+
+.FotoResponsavel legend p {
+    font-size: 15pt;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    font-family: Calibri;
+    color: #404040;
+
+}
+
+.PerfilDoResponsavel {
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.iconeVisu {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    background-color: #2573a7;
+}
+
+.iconPerfilResp {
+    position: relative;
+    width: 27px;
+    top: 8px;
+    left: 9px;
+}
+
+.visualizarCardsFilho {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    transition: all .4s;
+    cursor: pointer;
+    background-color: #159d82;
+}
+
+.funcionalidades {
+    position: relative;
+    width: 80%;
+    height: 120px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: blueviolet;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.conteudoAtalhos {
+    position: absolute;
+    width: 84%;
+    height: 91%;
+    background-color: white;
+    border-radius: 3px;
+    top: 70px;
+    left: 290px;
+    right: 100%;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+
+.caixaDosAtalhosEdastelas {
+    position: relative;
+    /*     width: 98.8%;
+    height: 550px; */
+    /* é 500px para os cards */
+    /*  border-radius: 3px; */
+    top: -70px;
+    /* left: 5px;
+    background-color: #fff; */
+}
+
+.iconePerfilElabel h1 {
+    text-align: center;
+    top: 5px;
+    font-weight: 500;
+
+}
+
+.iconePerfilElabel img {
+    width: 40px;
+}
+
+.menuTopoTelaVisualizarPerfilResponsavel {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    transition: all 0.4s;
+    background-color: #f2f2f2;
+}
+
+.painelMeuPerfilResponsavel {
+    position: relative;
+    width: 100%;
+    height: 406px;
+    transition: all 0.4s;
+    background-color: #fff;
+
+
+}
+
+.lblMeuPerfilResp {
+    position: relative;
+    font-size: 14pt;
+    top: 10px;
+    left: 52px;
+    cursor: pointer;
+    color: #4d4d4d;
+}
+
+.lblMeuPerfilResp img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: -10px;
+    top: 2px;
+}
+
+.lblAltFoResp {
+    position: relative;
+    font-size: 14pt;
+    top: 10px;
+    left: 52px;
+    cursor: pointer;
+    color: #8c8c8c;
+}
+
+.lblAltFoResp img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: -10px;
+    top: 2px;
+}
+
+.fotoPerfilDoresponsavel img {
+    position: relative;
+    width: 240px;
+    height: 240px;
+}
+
+
+.lblLoginResponsavelPerfil {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    left: 95px;
+    font-size: 14pt;
+    color: #4d4d4d;
+}
+
+.localFotoDoResponsavelElogin {
+    width: 390px;
+    height: 390px;
+    border: 3px solid #536DFE;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: -70px;
+    margin-right: 50px;
+}
+
+.localFotoDoResponsavelElogin img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7.5px;
+}
+
+.localFotoDoResponsavelElogin p {
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.localFotoDoResponsavelElogin2 {
+    width: 350px;
+    height: 370px;
+    border: 3px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 145px;
+}
+
+.localFotoDoResponsavelElogin2 img {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6.5px;
+}
+
+.visualizarDadosResponsavel {
+    position: relative;
+    width: 100%;
+}
+
+.conteudoTelaVisualizarPerfilResponsavel {
+    position: relative;
+    width: 100%;
+    height: 477px;
+    transition: all .4s;
+    border-top-style: solid;
+    border-top-color: #536DFE;
+    background-color: #fff;
+}
+
+.conteudoAtalhos {
+    position: absolute;
+    width: 83%;
+    height: 89%;
+    background-color: white;
+    border-radius: 3px;
+    top: 70px;
+    left: 290px;
+    right: 100%;
+    border: 1px solid rgba(0, 0, 0, .125);
+        border-bottom-color: rgba(0, 0, 0, 0.125);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    padding: 10px;
+    border-bottom: 0px;
+}
+
+.divQueDivideAfotoDasInformacoes {
+    position: relative;
+    width: 8px;
+    height: 480px;
+    top: 30px;
+    border-radius: 3px;
+    background-color: #536DFE;
+}
+
+.iconeRetornoAba {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 8px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.iconeRetornoAba:hover {
+    border-radius: 3px;
+}
+
+
+.localInputsAltaracaoDeSenha {
+    position: relative;
+    width: 550px;
+    height: 410px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.localInputsAltaracaoDeSenha label {
+    position: relative;
+    display: block;
+    font-size: 25px;
+    color: grey;
+}
+
+.localInputsAltaracaoDeSenha input[type="password"] {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    border: 1.8px solid #cccccc;
+    font-family: 'Calibri', sans-serif;
+    font-size: 12pt;
+    color: #666666;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.btnAlterarSenhaForm {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 3.5px;
+    color: #fff;
+    font-size: 15pt;
+    font-family: 'Calibri', sans-serif;
+    background-color: #536DFE;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: all .4s;
+    float: right;
+    right: 152px;
+}
+
+.btnAlterarSenhaForm:hover {
+    opacity: .8;
+}
+
+
+.fundoPainelAlterarSenhaResponsavel {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+.fundoMeuPerfilResponsavel {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* #imagem {
+    display: none;
+} */
+
+.iconTrocaFoto{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.iconTrocaFoto .iconPF{
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menuLateralHamburguer {
+    position: fixed;
+    top: 6px;
+    left: 180px;
+    width: 50px;
+    height: 44px;
+    padding: 4px 8px;
+    background-color: whitesmoke;
+    z-index: 9999;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.menuLateralHamburguer span{
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: #0099e5;
+    margin: 6px 0;
+    transition: .5s;
+}
+
+.menuCanto.ativaMenu{
+ margin-left: 0px;
+}
+
+.trocaFotoenuLateral{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(108, 92, 231,.0);
+    
+}
+
+.trocaFotoenuLateral:hover{
+    background-color: rgba(108, 92, 231,.6);
+    transition: all .4s;
+   
+}
+
+.trocaFotoenuLateral:hover .iconTrocaFoto{
+     opacity: 1;
+     transition: all .4s;
+}
+
+.menuLateralHamburguer.ativaMenu span{
+    position: absolute;
+    width: calc(100% - 16px);
+    top: calc(50% - 8px); 
+}
+
+.menuLateralHamburguer.ativaMenu span:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.menuLateralHamburguer.ativaMenu span:nth-child(3){
+    transform: rotate(-45deg);
+}
+
+.menuLateralHamburguer.ativaMenu span:nth-child(2){
+    display: none;
+}
+
+.iconeElabelFilhos h1{
+    text-align: center;
+    top: 10px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+}
+
+.iconeElabelFilhos h1 img{
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    margin-left: -45px
+    
+}
+
+.telaDeVisualizarOsFilhos {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+
+
+.conteudotelaDeVisualizarOsFilhos {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    left: 55%;
+    transform: translate(-50%);
+    top: 120px;
+}
+.iconeReAbasCardsFilhos{
+    z-index: 1;
+}
+
+
+.localFotoFilho .iconFotoFilho {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.localFotoFilho {
+    position: relative;
+    width: 425px;
+    height: 400px;
+    background-color: #fff;
+    //border: 2px solid #536DFE;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+}
+.localNomeAgendaEprontuario {
+    position: relative;
+    width: 425px;
+    height: 75px;
+    border-top: 1px solid #536DFE;
+    background-color: #536DFE;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+.cardsFilhos {
+    position: relative;
+    width: 340px;
+    height: 410px;
+    top: 10px;
+    margin-left: 40px;
+    margin-right: 190px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.pNomeMeuFilho {
+    position: relative;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.iconeVisualizarProntuario {
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 80px;
+    top: 230px;
+    left: 335px;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .4s;
+    background-color: #1e90ff;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+.iconeVisualizarProntuario:hover{
+    left: 225px;
+    padding-left: 110px;
+}
+.lblIconAgenda {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-size: 17pt;
+    top: -7px;
+    right: 69px;
+    cursor: pointer;
+}
+.lblIconProntuario {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-size: 17pt;
+    top: -7px;
+    right: 99px;
+    cursor: pointer;
+}
+
+/* .iconeVisualizarProntuario:hover{
+    left: 165px;
+    padding-left: 110px;
+} */
+
+.iconeVisualizarAgenda {
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 80px;
+    top: 90px;
+    left: 335px;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .4s;
+    background-color: #10ac84;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+.iconeVisualizarAgenda:hover{
+    left: 245px;
+    padding-left: 90px;
+}
+/* .iconeVisualizarAgenda:hover{
+    left: 10px;
+    padding-right: 80px;
+} */
+.paginacaoCards {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 550px;
+    transform: translate(-50%, -50%);   
+}
+.paginacaoCards li{
+    list-style: none;
+}
+
+.paginacaoCards li a{
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+    margin: 5px;
+    background-color: white;
+    color: #0099e5;
+    text-decoration: none;
+    margin: 4px;
+    border-radius: 4px;
+    transition: all .4s;
+    border: 2px solid #0099e5;
+}
+.paginacaoCards li:hover a{
+    background-color: #0099e5;
+    color: white;
+}
+
+.visualizacaoProntuarioFilho {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.iconeEprontuario{
+    position: relative;
+
+
+}
+
+.iconeEprontuario h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    top: 5px;
+    position: relative;
+}
+.iconeEprontuario img{
+    width: 40px;
+    position: relative;
+    top: 5px;
+}
+
+.iconeRetornarCardFilho {
+
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 8px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+    z-index: 1;
+
+}
+
+.areaFichaMedica label {
+    /* margin-top: -60px;
+    left: 400px; */
+}
+
+.visualizarAgenda {
+    position: relative;
+    width: 100%;
+    height: 550px;
+
+}
+
+.iconeEagenda h1{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    top: 5px;
+}
+
+.iconeEagenda img{
+    width: 40px;
+    position: relative;
+    top: 10px;
+    left: -5px;
+    
+}
+.inpDe {
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    top: 37px;
+    left: 200px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 11.7pt;
+    border: 1px solid #bfbfbf;
+}
+
+.inpAte{
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    top: 37px;
+    left: 390px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 11.7pt;
+    border: 1px solid #bfbfbf;
+}
+
+.bntBuscarRotina {
+    position: absolute;
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12pt;
+    background-color: #3498db;
+    cursor: pointer;
+    top: 37px;
+    left: 535px;
+}
+
+.bntTodasAsRotinas {
+    position: absolute;
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12pt;
+    background-color: #3498db;
+    cursor: pointer;
+    top: 37px;
+    left: 620px;
+}
+
+.ordernarRotinaAgenda {
+    left: 69%;
+    position: relative;
+    top: 38px;
+    display: flex;
+}
+
+.esSelect {
+    position: relative;
+    cursor: pointer;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    width: 145px;
+    height: 35px;
+    overflow: hidden;
+}
+.lblOrdenarPor {
+    position: relative;
+    font-size: 17pt;
+    color: #595959;
+    margin-top: 3px;
+    left: -6px;
+}
+
+.iconeComunicadosFilho {
+    position: absolute;
+    width: 54px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.iconeComunicado {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    //top: 0px;
+    //left: 948px;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .4s;
+    background-color: #0088cc;
+    overflow: hidden;
+    border-radius: 50%;
+    float: right;
+    right: 30px;
+    top: 20px;
+}
+
+
+.NumComunicado {
+    background-color: #ee5253;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    width: 25px;
+    height: 25px;
+    float: right;
+    right: -40px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 99999;
+}
+
+.SemRotina {
+    width: 100%;
+    top: 200px;
+    position: relative;
+}
+
+.SemRotina p {
+    text-align: center;
+    color: #666666;
+    font-size: 25px;
+    top: 50px;
+}
+
+table.tabelaRotina {
+    position: relative;
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    border-collapse: collapse;
+    border-radius: 5px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.iconeRetornarCards {
+    z-index: 1;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 8px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+
+}
+
+.iconeRetornarCards:hover{
+    border-radius: 3px;
+}
+
+.visualizacaoRotinaEspecifica {
+    position: relative;
+    width: 100%;
+    
+    background-color: #fff;
+}
+.caixaDataDaRotina {
+    position: relative;
+    width: 713px;
+    height: 70px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #bfbfbf;
+
+}
+
+.caixaNomeDoFilhoEturmaDoFilho {
+    position: relative;
+    width: 712px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #bfbfbf;
+    height: 150px;
+}
+
+.areaCardsDaRotinaDofilho {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border-left: 2px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+    border-left-style: none;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-color: #bfbfbf;
+}
+.informacoesRotina {
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    left: 50%;
+    transform: translate(-50%);
+}
+.areaInformacoesDadosDaRotinaDofilho {
+    position: relative;
+    width: 713px;
+    background-color: #fff;
+
+}
+.lbTituloAlernativa {
+    position: relative;
+    top: 33px;
+    left: 78px;
+    font-size: 17pt;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+
+.centraldenotificacao {
+    width: 320px;
+    height: 260px;
+    background-color: #fff;
+    z-index: 9999;
+    float: right;
+    right: 100px;
+    position: relative;
+    box-shadow: 1px 1px 7px grey;
+    top: 60px;
+  display: none;
+
+}
+
+/* .centraldenotificacao::-webkit-scrollbar { width:10px; background:#e3e0d6; } configurando scroll
+.centraldenotificacao::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
+.centraldenotificacao::-webkit-scrollbar-thumb { border-radius:10px; background:#8b8778;  } */
+
+.centraldenotificacao ul{
+   width: 100%;
+    height: 218px;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+.centraldenotificacao ul li {
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.centraldenotificacao ul li:hover {
+    background-color: #f2f2f2;
+}
+
+.centraldenotificacao ul li h1 {
+
+    font-size: 20px;
+    color: grey;
+    font-weight: 600;
+    margin-bottom: 0px;
+    width: 98%;
+    white-space: nowrap;                   
+    overflow: hidden;              /* "overflow" value must be different from "visible" */ 
+    text-overflow:    ellipsis;
+
+}
+.centraldenotificacao ul li p{
+font-size: 19px;
+color: grey;
+font-weight: 500;
+    width: 98%;
+          white-space: nowrap;                   
+  overflow: hidden;              /* "overflow" value must be different from "visible" */ 
+  text-overflow:    ellipsis;
+}
+
+.centraldenotificacao legend {
+    color: grey;
+    background-color: rgb(238,238,238);
+    width: 97.4%;
+    padding: 2px;
+        padding-top: 2px;
+        padding-left: 2px;
+    padding-left: 2px;
+    left: -2px;
+    position: relative;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.pTurmaDoFilho{
+    position: relative;
+    top: 34px;
+    left: 10px;
+    font-size: 16pt;
+    color: #333333;
+}
+.pProfessorDoFilho{
+    position: relative;
+    top: 7px;
+    left: 140px;
+    font-size: 16pt;
+    color: #333333;
+    max-width: 270px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lblTurmaNaRotina{
+    position: relative;
+    top: 29px;
+    left: 20px;
+    font-size: 16pt;
+    color: #e74c3c;
+}
+.lblTProfessorNaRotina{
+    position: absolute;
+    top: 87px;
+    left: 150px;
+    font-size: 16pt;
+    color: #e74c3c;
+}
+.pNomeDoFilho{
+    position: relative;
+    top: 19px;
+    left: 10px;
+    font-size: 16pt;
+    color: #333333;
+    max-width: 390px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lblNomeDoFilhoNaRotina{
+    position: relative;
+    top: 12px;
+    left: 20px;
+    font-size: 16pt;
+    color: #e74c3c;
+}
+.lblOcorrenciasDofilho{
+    position: relative;
+    top: 12px;
+    left: 20px;
+    font-size: 16pt;
+    color: #e74c3c;
+}
+.pOcorrenciaRelatada{
+    position: relative;
+    top: 28px;
+    left: 20px;
+    margin-bottom: 10px;
+    font-size: 16pt;
+    color: #333333;
+}
+.iconGerarPdfRotinaEspecifica{
+    position: absolute;
+    width: 65px;
+    top: 7px;
+    left: 635px;
+    cursor: pointer;
+}
+.comunicadoSelecionadoParaLer{
+    position: relative;
+    width: 98%;
+    height: 460px;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+    //background-color: aqua;
+}
+.topoNomeDoProfessorQueEnviouDataEbotaoDefechar{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #fff;
+}
+.OcomunicadoEnviado{
+    position: relative;
+    width: 100%;
+    height: 410px;
+    background-color: #e6e6e6;
+}
+.atAssunto{
+    position: relative;
+    width: 95%;
+    height: 40px;
+    top: 10px;
+    left: 2%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.atComunicado{
+    position: relative;
+    padding: 10px;
+    top: 20px;
+    left: 2%;
+    width: 95%;
+    height: 290px;
+    color: #333333;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.lblatAssunto{
+    position: relative;
+    color: #333333;
+    font-size: 15pt;
+    top: 7px;
+}
+.lblNomeDoProfessorQueEnviou{
+    position: relative;
+    font-size: 15pt;
+    top: 12px;
+    left: 12px;
+    color: #404040;
+}
+.lblturmadocomunicado{
+    position: absolute;
+    font-size: 15pt;
+    top: 12px;
+    left: 422px;
+    color: #404040;
+}
+.lblDataEhoraEnviada{
+    position: relative;
+    font-size: 14.5pt;
+    top: 11px;
+    left: 610px;
+    color: #595959;
+}
+.iconeDeFecharComunicado {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    margin-left: 655px;
+    top: 7px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+.iconFecharCResponsavel {
+    position: relative;
+    top: 5.7px;
+    left: 5.07px;
+    width: 16px;
+}
+#menu-config {
+    width: 270px;
+    height: 150px;
+    position: fixed;
+    background-color: white;
+    box-shadow: 1px 1px 7px grey;
+    right: 50px;
+    top: 60px;
+    color: #0099e5;
+    z-index: 9999;
+    transition: all .4s;
+    display: none;
+}
+
+#menu-config legend{
+    background-color: #0099e5;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    display: flex;
+    width: 97.5%;
+    height: 25px;
+}
+
+#menu-config legend img{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+#menu-config legend p{
+    color: white;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+}
+
+.tema{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tema img{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.tema button{
+    background-color: #0099e5;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    width: 85px;
+    padding-bottom: 2px;
+}
+
+.imgLua{
+background-image: url(../Imagens/moon.png);
+}
+
+.imgConfigMenor{
+    background-image: url(../Imagens/settings-work-tool-menor.png);
+}
+
+
+.iconConfiResp {
+    margin-top: 12px;
+    right: -22px;
+    position: relative;
+    background-image: url(../Imagens/config.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.iconSair {
+    position: relative;
+    cursor: pointer;
+    width: 32px;
+    top: 12px;
+    left: 20px;
+    background-image: url(../Imagens/logout1.png);
+}
+
+.iconNotificacoes {
+    position: relative;
+    width: 32px;
+    top: 11px;
+    left: 20px;
+    cursor: pointer;
+    background-image: url(../Imagens/alarm1.png);
+}
+
+
+
+
+
+@media (max-height:570px) {
+    .menuCanto {
+        height: 570px;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    
+    .menuCanto{
+        margin-left: -280px;
+    }
+    
+    .localizacaoLogo {
+        margin-left: -270px;
+        
+    }
+    
+    .conteudoAtalhos{
+        margin-left: -280px;
+        width: 96.5%;
+        right: 0px;
+        margin-right: 0px;
+    }
+    
+    .menuLateralHamburguer{
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 1900px){
+    
+    .conteudoAtalhos{
+        width: 83%;
+    }
+}
+
+@media only screen and (max-width: 1862px){
+    
+    .conteudoAtalhos{
+        width: 82.5%;
+    }
+}
+
+@media only screen and (max-width: 1814px){
+    
+    .conteudoAtalhos{
+        width: 82%;
+    }
+}
+
+@media only screen and (max-width: 1782px){
+    
+    .conteudoAtalhos{
+        width: 81.5%;
+    }
+}
+
+@media only screen and (max-width: 1736px){
+    
+    .conteudoAtalhos{
+        width: 81%;
+    }
+}
+
+@media only screen and (max-width: 1700px){
+    
+    .conteudoAtalhos{
+        width: 80.5%;
+    }
+}
+
+@media only screen and (max-width: 1652px){
+    
+    .conteudoAtalhos{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1608px){
+    
+    .conteudoAtalhos{
+        width: 79.5%;
+    }
+}
+
+@media only screen and (max-width: 1570px){
+    
+    .conteudoAtalhos{
+        width: 79%;
+    }
+}
+@media only screen and (max-width: 1534px){
+    
+    .conteudoAtalhos{
+        width: 78.5%;
+    }
+}
+
+@media only screen and (max-width: 1502px){
+    
+    .conteudoAtalhos{
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    
+    .conteudoAtalhos{
+        width: 96.4%;
+    }
+}
+
+@media only screen and (max-width: 1156px){
+    
+    .conteudoAtalhos{
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 1032px){
+    
+    .conteudoAtalhos{
+        width: 95.5%;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    
+    .conteudoAtalhos{
+        width: 95%;
+    }
+}
+
+
+
+
+
+

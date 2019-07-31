@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --------------------------------- */
+
+
+.caixapainelAtalhos {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.caixaPainel {
+    position: relative;
+    width: 100%;
+    height: 89.5%;
+    background-color: white;
+}
+
+.iconHomeMeuPainelAbas{
+    position: relative;
+    width: 52px;
+    height: 50px;
+    top: 3px;
+    left: 310px;
+}
+.lblMeuPainelResponsavel{
+    position: absolute;
+    font-size: 24pt;
+    top: 10px;
+    margin-left: 19px;
+    color: #fff;
+}
+
+

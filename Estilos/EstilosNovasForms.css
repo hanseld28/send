@@ -1,0 +1,1684 @@
+/*Padrões regulares*/
+
+.regular-input-text {
+    font-size: 18px;
+    color: #444;
+    padding: 6px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+}
+
+.select-regular {
+    font-size: 18px;
+    color: #444;
+    height: 40px;
+    padding: 6px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+}
+
+fieldset {
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+}
+
+/*FIM Padrôes Regulares*/
+
+/*Cadastro em Passos*/
+
+.passosCadastros {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+}
+
+.barraProgresso {
+    counter-reset: passo;
+}
+
+.barraProgresso li {
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    position: relative;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.barraProgresso li:before {
+    content: counter(passo);
+    counter-increment: passo;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border: 2.5px solid #dcdcdc;
+    display: block;
+    background-color: #dcdcdc;
+    text-align: center;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.barraProgresso li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    background-color: #ddd;
+    top: 15px;
+    left: -46%;
+    z-index: -1;
+}
+
+.barraProgresso li:first-child:after {
+    content: none;
+}
+
+.barraProgresso li.ativo {
+    color: white;
+
+}
+
+.barraProgresso li.ativo:before {
+    border-color: #27ae60;
+    background-color: #27ae60;
+
+}
+
+.barraProgresso li.ativo + li:after {
+    background-color: green;
+}
+
+.barraProgresso li.ativo2 {
+    color: white;
+
+}
+
+.barraProgresso li.ativo2:before {
+    background-color: green;
+}
+
+.barraProgresso li.ativo2:before {
+    border-color: #27ae60;
+    background-color: #27ae60;
+}
+
+.barraProgresso li.ativo2 + li:after {
+    background-color: green;
+}
+
+.barraProgresso li.ativo3 {
+    color: white;
+
+}
+
+.barraProgresso li.ativo3:before {
+    background-color: green;
+}
+
+.barraProgresso li.ativo3:before {
+    border-color: #27ae60;
+    background-color: #27ae60;
+}
+
+.barraProgresso li.ativo3 + li:after {
+    background-color: green;
+}
+
+
+.barraProgresso li.ativo4 {
+    color: white;
+
+}
+
+.barraProgresso li.ativo4:before {
+    background-color: green;
+}
+
+.barraProgresso li.ativo4:before {
+    border-color: #27ae60;
+    background-color: #27ae60;
+}
+
+.barraProgresso li.ativo4 + li:after {
+    background-color: green;
+}
+
+
+
+.cimaPesquisaAluno {
+    width: 100%;
+    height: 95px;
+    position: relative;
+    background-color: #00a8ff;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    z-index: -3;
+}
+
+/*FIM Cadastro Passos*/
+
+/*CADASTRO DO FUNCIONÁRIO*/
+
+.conteudoCadastroFuncionario {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 55%;
+    margin-top: 20px;
+}
+
+.dadosFunc {
+    margin-top: 0px;
+}
+
+.dadosFunc > * {
+    box-sizing: border-box;
+
+}
+
+.cadastroFuncionario form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+
+}
+
+.cadastroFuncionario form label {
+    display: block;
+    box-sizing: border-box;
+    color: grey;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cadastroFuncionario form p {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cadastroFuncionario form .regular-input-text {
+    width: 100%;
+    font-size: 18px;
+    color: #444;
+    padding: 6px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+}
+
+
+.cadastroFuncionario form .btnProxPasso {
+
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    grid-column: 2;
+    margin-right: 10px;
+
+}
+
+.cadastroFuncionario form .btnProxPasso:hover {
+    background-color: #7bed9f;
+    border: 0px;
+}
+
+
+.cadastroFuncionario form .maiorInput {
+    grid-column: 1 / 3;
+}
+
+.cadastroFuncionario form checkbox {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: -10px;
+    box-sizing: border-box;
+}
+
+.cadastroFuncionario form select {
+    width: 100%;
+
+}
+
+.cadastroFuncionario form h3 {
+    color: grey;
+    font-weight: 600;
+}
+
+sub {
+    color: darkred;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subBranco {
+    color: transparent;
+}
+
+/*FIM CADASTRO DO FUNCIONÁRIO*/
+
+/*CADASTRO DO RESPONSÁVEL*/
+
+/*Dados do Responsável*/
+
+.conteudoDadosResp {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 70%;
+
+
+}
+
+.dadosResp {
+    margin-top: 80px;
+
+}
+
+.dadosResp > * {
+    box-sizing: border-box;
+}
+
+.cadastroResp form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+
+}
+
+.cadastroResp form label {
+    display: block;
+    box-sizing: border-box;
+    color: grey;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cadastroResp form p {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cadastroResp form input,
+.cadastroResp form select {
+    width: 100%;
+    font-size: 18px;
+    color: #444;
+    padding: 6px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+
+}
+
+.cadastroResp form .maiorInput {
+    grid-column: 1 / 4;
+}
+
+.cadastroResp .select-regular {
+    margin-left: -2px;
+}
+
+.cadastroResp form input:disabled {
+    border: 1px solid grey;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.cadastroResp form select:disabled {
+    border: 1px solid grey;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+sub {
+    color: darkred;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cadastroResp .mensagemdeConfirmacao {
+    color: grey;
+    font-weight: 500;
+}
+
+.InputMensagemdeConfirmacaosim {
+    background-color: #2ecc71;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 23px;
+    font-family: calibri;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.InputMensagemdeConfirmacaosim:hover {
+    background-color: #7bed9f;
+}
+.InputMensagemdeConfirmacaonao {
+    background-color: #2ecc71;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 23px;
+    font-family: calibri;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.InputMensagemdeConfirmacaonao:hover {
+    background-color: #7bed9f;
+}
+
+
+
+
+/*Fim dados do Responsável*/
+
+/*PESQUISA DOS RESPONSÁVEIS*/
+
+.pesquisaResp {
+    width: 100%;
+    background-color: #00a8ff;
+    position: absolute;
+    top: 82px;
+    height: 65px;
+
+}
+
+
+/*FIM PESQUISA DOS RESPONSÁVEIS*/
+
+/*Tabela do responsável*/
+
+.consultaResp {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    width: 70%;
+    top: 140px;
+
+}
+
+
+/* FIM Tabela do responsável*/
+
+/*DADOS ADICIONAIS DO RESPONSÁVEL*/
+
+.conteudodadosAdicionaisResp {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.dadosAdicionaisResp {
+    margin-top: 0px;
+}
+
+.dadosAdicionaisResp > * {
+    box-sizing: border-box;
+
+}
+
+.cadastroDadosResp form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+
+}
+
+
+.cadastroDadosResp form label {
+    display: block;
+    box-sizing: border-box;
+    color: grey;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    /*TIRAR A O DISPLAY block*/
+}
+
+.cadastroDadosResp form input {
+    width: 100%;
+    font-size: 18px;
+    color: #444;
+    padding: 6px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+    margin-top: 0px;
+}
+
+.cadastroDadosResp form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+}
+
+.cadastroDadosResp h3 {
+    color: #444;
+
+}
+
+.cadastroDadosResp h3 img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+
+}
+
+.cadastroDadosResp form .maiorInput {
+    grid-column: 2;
+    float: right;
+}
+
+.cadastroDadosResp form .btnProxPasso {
+
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    grid-column: 2;
+    margin-right: 10px;
+
+}
+
+/*FIM DADOS ADICIONAIS DO RESPONSÁVEL*/
+
+/*BOTÃO PRÓXIMO PASSO*/
+
+.cadastroDadosResp form .btnProxPasso:hover {
+    background-color: #7bed9f;
+    border: 0px;
+}
+
+/* FIM BOTÃO PRÓXIMO PASSO*/
+
+/*FIM CADASTRO DO RESPONSÁVEL*/
+
+
+
+
+/*Pront VIEW*/
+
+.conteudoDadosProntView {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.dadosProntView {
+    margin-top: 390px;
+}
+
+.dadosProntView > * {
+    box-sizing: border-box;
+}
+
+.prontView form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+
+}
+
+.prontView form label {
+    display: block;
+    box-sizing: border-box;
+    color: grey;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.prontView form p {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.prontView form input,
+.prontView form select {
+    width: 100%;
+    font-size: 18px;
+    color: #444;
+    padding: 6px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+
+}
+
+.prontView form select {
+    margin-left: -2px;
+}
+
+.btnPront{
+    display: flex;
+    margin-top: 70px;
+    float: right;
+}
+
+
+.prontView .btnProxPasso{
+        width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    grid-column: 2;
+    margin-right: 10px;
+}
+
+
+.prontView .btnProxPasso:hover{
+      background-color: #7bed9f;
+    border: 0px;  
+}
+/* .prontView form .maiorInput {
+    grid-column: 1 / 3;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* CADASTRO DO ALUNO*/
+
+.conteudoDadosAluno {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.dadosAluno {
+    margin-top: 250px;
+}
+
+.dadosAluno > * {
+    box-sizing: border-box;
+}
+
+.cadastroAluno form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+
+}
+
+.cadastroAluno form label {
+    display: block;
+    box-sizing: border-box;
+    color: grey;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.cadastroAluno form p {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cadastroAluno form input,
+.cadastroAluno form select {
+    width: 100%;
+    font-size: 18px;
+    color: #444;
+    padding: 6px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+
+}
+
+.cadastroAluno form select {
+    margin-left: -2px;
+}
+
+.cadastroAluno form .maiorInput {
+    grid-column: 1 / 3;
+}
+
+
+
+.cadastroAluno form .btnProxPasso {
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    grid-column: 2;
+    margin-right: 10px;
+    float: left;
+}
+
+.cadastroAluno form .btnProxPasso:hover {
+    background-color: #7bed9f;
+    border: 0px;
+}
+
+.cimaPesquisaAluno h1 {
+    bottom: -35px;
+    position: absolute;
+    font-weight: 500;
+    font-family: arial;
+    left: 50%;
+    transform: translate(-50%);
+    margin-right: 10px;
+}
+
+
+
+
+.fotoDePerfilAlunoMatricula {
+    width: 178px;
+    height: 178px;
+    top: 10px;
+    border: 1px solid #0099e5;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.fotoDePerfilAlunoMatricula img {
+    width: 178px;
+    height: 178px;
+
+}
+
+
+.fotoAlunoProntuario {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 120px;
+
+}
+
+.fotoAlunoProntuario img {
+    width: 178px;
+    height: 178px;
+    border: 1px solid #0099e5;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+    border-radius: 5px;
+}
+
+
+.fotoAlunoProntuario .labelNegritoPront {
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fotoAlunoProntuario .labelPront{
+    color: grey;
+    font-size: 20px;
+}
+
+
+/*FOTO DO ALUNO*/
+
+.fotoDePerfilAluno {
+    width: 178px;
+    height: 178px;
+    top: 140px;
+    border: 1px solid #0099e5;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.fotoDePerfilAluno img {
+    width: 178px;
+    height: 178px;
+}
+
+.btnEscolherImagem {
+    position: absolute;
+    left: 50%;
+    top: 83%;
+    cursor: pointer;
+    transform: translate(-50%);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+
+}
+
+.btnEscolherImagem img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    width: 40px;
+    margin-top: 2px;
+    height: 40px;
+}
+
+.btnfotoAluno {
+    color: transparent;
+}
+
+label[for="imagem"] img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.btnfotoAluno {
+    display: none;
+}
+
+
+/*FIM FOTO DO ALUNO*/
+
+/*CADASTRO DA LOCALIZAÇÃO*/
+
+.conteudoDadosLocalizacao {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.dadosLocalizacao {
+    margin-top: 20px;
+}
+
+.dadosLocalizacao > * {
+    box-sizing: border-box;
+
+}
+
+.cadastroLocalizacao form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+
+}
+
+.cadastroLocalizacao form label {
+    display: block;
+    box-sizing: border-box;
+    color: grey;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.cadastroLocalizacao form p {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cadastroLocalizacao form input,
+.cadastroLocalizacao form select {
+    width: 100%;
+    font-size: 18px;
+    color: #444;
+    padding: 6px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border: 1px solid #0099e5;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+
+}
+
+.cadastroLocalizacao form .maiorInput {
+    grid-column: 1 / 3;
+}
+
+.cadastroLocalizacao h3 {
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.cadastroLocalizacao form .btnProxPasso {
+    width: 150px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    grid-column: 1;
+    float: left;
+
+}
+
+.cadastroLocalizacao form .btnProxPasso:hover {
+    background-color: #7bed9f;
+    border: 0px;
+}
+
+.embrulho {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 30px;
+    border: 1px solid #d7dfe3;
+    border-top: 0px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.embrulho12 {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* FIM CADASTRO DA LOCALIZAÇÃO*/
+
+/* FIM CADASTRO DO ALUNO*/
+
+.barraPesquisaGeral h1 {
+    color: #fff;
+    font-weight: 500;
+    font-family: Arial;
+    margin-right: 10px;
+}
+
+
+
+.conteudoProntuarioReview {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.dadosProntuarioReview {
+    margin-top: 20px;
+}
+
+.dadosProntuarioReview > * {
+    box-sizing: border-box;
+
+}
+
+.ProntuarioReview {
+    display: grid;
+    grid-gap: 0px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.ProntuarioReview b {
+    color: grey;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.ProntuarioReview p {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ProntuarioReview label {
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.reviewFichaSaude {
+    border: 1px solid #0099e5;
+    box-shadow: inset 0px 0px 2px deepskyblue;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+/*Deficiencia*/
+
+.divDeficiencia {
+    display: none;
+}
+
+
+/*Problema de Saúde*/
+
+.divProblemaSaude {
+    display: none;
+}
+
+/* .divProblemaSaude .checkbox-regular{
+    margin-bottom: 12px;
+} */
+
+.divProblemaSaude label {
+    margin-right: 15px
+}
+
+.divProblemaSaude p {
+    margin-right: 10px;
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*Doenças Contagiosas*/
+
+/* .divContagiosas .checkbox-regular{
+    margin-bottom: 12px;
+} */
+
+.divContagiosas label {
+    margin-right: 15px
+}
+
+.divContagiosas p {
+    margin-right: 10px;
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.divContagiosas {
+    display: none;
+}
+
+/*Tratamento cirurgico*/
+
+.divTratamento {
+    display: none;
+    margin-top: 10px;
+}
+
+/*Alergia*/
+
+.divAlergia {
+    margin-top: 8px;
+    display: none;
+}
+
+/*Medicamento*/
+
+.divMedicamento {
+    display: none;
+
+}
+
+
+
+.naoDeficiencia {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.naoDeficiencia:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.naoDeficiencia:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+
+.simDeficiencia {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.simDeficiencia:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.simDeficiencia:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+
+
+
+
+.radio-regular-naoProblemaSaude {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular-naoProblemaSaude:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular-naoProblemaSaude:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+
+.radio-regular-simProblemaSaude {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular-simProblemaSaude:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular-simProblemaSaude:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+
+.radio-regular-simContagiosa {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular-simContagiosa:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular-simContagiosa:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+.radio-regular-naoContagiosa {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular-naoContagiosa:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular-naoContagiosa:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+
+
+.radio-regular-simTratamento {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular-simTratamento:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular-simTratamento:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+
+
+.radio-regular-naoTratamento {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular-naoTratamento:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular-naoTratamento:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+
+
+.radio-regular-simAlergia {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular-simAlergia:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular-simAlergia:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+.radio-regular-naoAlergia {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-regular-naoAlergia:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.radio-regular-naoAlergia:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+.regular-input-naoMedicamento {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.regular-input-naoMedicamento:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.regular-input-naoMedicamento:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+
+.regular-input-simMedicamento {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #0099e5;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.regular-input-simMedicamento:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+}
+
+.regular-input-simMedicamento:checked:after {
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    background: limegreen;
+    left: 2px;
+}
+
+.tituloCadAlunoFicha {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+    color: gray;
+    font-size: 30px;
+}
+
+.btnEdit {
+    display: flex;
+}
+
+.praBaixo {
+
+    top: 220px;
+    position: absolute;
+    right: -10px;
+
+}
+
+
+.praBaixo2 {
+
+    top: 195px;
+    position: absolute;
+    right: -10px;
+
+}
+
+
+/*Dados do Revisão*/
+.conteudoDadosRevisao{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 70%;
+    
+
+}
+.dadosRevisao{
+    margin-top: 50px;
+    
+}
+
+.dadosRevisao > *{
+  box-sizing: border-box;
+   
+}
+
+.revisar form{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+    
+}
+
+.revisar form label{
+    display: block;
+    box-sizing: border-box;
+    color: grey;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.revisar form p{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.revisar form b{
+font-size: 20px;    
+}
+
+.revisar form .maiorInput {
+    grid-column: 1 / 3;
+}
+/**/
+
+/*Perfil*/
+
+.fieldPerfil {
+    width: 40%;
+    position: relative;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.btnProxPassoA {
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    font-family: Calibri;
+    border: 0px;
+    border-radius: 5px;
+    float: right;
+    right: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.btnProxPassoA:hover {
+    background-color: #7bed9f;
+    border: 0px;
+}
+
+.btnProxPassoA {
+    bottom: -70px;
+    right: -10px;
+    position: relative;
+}
+
+.fieldSenha{
+    border: 0px solid #fff;
+    position: relative;
+    margin-top: 80px;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%);
+}
+
+.fieldPerfil .labelNegritoPront{
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.fieldPerfil .labelDesc{
+    color: grey;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.fieldSenha .labelNegritoPront{
+       color: grey;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.fieldSenha .regular-input-text{
+    width: 300px;
+}
+
+
+.fieldSenha  .btnProxPasso{
+    right: -50px;
+}
+
+
+/*Dados do Revisão Funcionário*/
+.conteudoDadosRevisaoFunc{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 70%;
+    
+
+}
+.dadosRevisaoFunc {
+    margin-top: 50px;
+}
+
+.dadosRevisaoFunc > *{
+  box-sizing: border-box;
+   
+}
+
+.revisarFunc form{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 15px;
+    box-sizing: border-box;
+    
+}
+
+.revisarFunc form label {
+    display: block;
+    box-sizing: border-box;
+    color: grey;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.revisarFunc form label img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    position: relative;
+    top: 8px;
+}
+
+.revisarFunc form p{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.revisarFunc form b {
+    font-size: 24px;
+}
+
+.revisarFunc form .maiorInput {
+    grid-column: 1 / 3;
+}
+/**/
+
+
+.abrirRelatorioGeralRevisaoDados {
+
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 60px;
+    width: 75px;
+    height: 75px;
+    left: 20px;
+
+}
+
+.abrirRelatorioGeralRevisaoDados img {
+
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.TurmaImg{
+    margin-top: -40px;
+}

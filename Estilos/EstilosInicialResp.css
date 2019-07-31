@@ -1,0 +1,237 @@
+.conteudoCardResp {
+    width: 102%;
+    left: -1%;
+    position: absolute;
+    top: -15px;
+    background-color: #fff;
+    border: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    line-height: 1.4;
+
+
+}
+
+.embrulhoCardsResp {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.conteudoTopoMensagensResp {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 25px;
+    background-color: whitesmoke;
+    grid-template-areas: 'topoMensagensGame1';
+    
+}
+
+.topoMensagensGame1 {
+
+    background-color: white;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    min-height: 10px;
+    box-shadow: 0px 2px 5px grey;
+    color: #0099e5;
+    font-size: 20px;
+
+}
+/* .topoMensagens2 {
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    min-height: 20px;
+    box-shadow: 0px 2px 5px grey;
+} */
+
+.top-conteudoGame {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-areas: 
+        'top-caixaGame2 top-caixaGame2 top-caixaGame1 top-caixaGame1  ' 
+       
+    /* 'top-caixa2 top-caixa2 top-caixa2 top-caixa1 top-caixa1 top-caixa1 miniCard4'; */
+}
+
+.topo-caixaGame{
+    background-color: white;
+    display: grid;
+    box-shadow: 0px 2px 5px grey;
+    
+}
+
+.topoMensagensGame1 img{
+    width: 35px;
+    position: relative;
+    top: 7px;
+    margin-right: 10px;
+}
+.top-caixaGame1 {
+    grid-area: top-caixaGame1;
+    min-height: 350px;
+    background-image: url(../Imagens/ImagensJogos/tic%20ta%20toe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.top-caixaGame2 {
+    grid-area: top-caixaGame2;
+    min-height: 350px;
+    background-image: url(../Imagens/ImagensJogos/rotation.png);
+    background-position: center;
+    border-radius: 3px;
+}
+ .descricaoJogo{
+    color: #fff;
+    top: 331px;
+    position: relative;
+    background-color: #0099e5;
+    width: 100%;
+    height: 19%;
+}
+
+.descricaoJogo {
+    color: #fff;
+    top: 325px;
+    position: relative;
+    background-color: #0099e5;
+    width: 100%;
+    height: 16%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.top-caixaGame2 a{
+    text-decoration: none;
+}
+.top-caixaGame1 a{
+    text-decoration: none;
+}
+.hovergame {
+    text-decoration: none;
+    width: 100%;
+    height: 370px;
+    top: -10px;
+    position: relative;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.hovergame:hover{
+   background-color: rgba(50,51,59,.6);
+    transition: all .4s;  
+}
+
+.descricaoJogo h1{
+  font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.descricaoJogo h2{
+  font-weight: 500;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+.caixasGame {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.caixaGame1{
+    background-color: white;
+    min-height: 300px;
+    box-shadow: 0px 2px 5px grey;
+    background-image: url(../Imagens/ImagensJogos/pingpong.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+.caixaGame2{
+    background-color: white;
+    min-height: 300px;
+    box-shadow: 0px 2px 5px grey;
+    background-image: url(../Imagens/ImagensJogos/Snake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    
+}
+.caixaGame3{
+    background-color: white;
+    min-height: 300px;
+    box-shadow: 0px 2px 5px grey;
+    background-image: url(../Imagens/ImagensJogos/Runner.png);
+    background-position: bottom;
+    border-radius: 3px;
+}
+
+
+.descricaoGameCaixa{
+    width: 100%;
+    height: 20%;
+    background-color: #0099e5;
+    position: relative;
+    top: 255px;
+    text-decoration: none;
+}
+
+.descricaoGameCaixa h1{
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.descricaoGameCaixa h2{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.caixasGame a{
+    text-decoration: none;
+}
+
+.hoverCaixa{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 311px;
+    top: -5px;
+    position: relative;
+    text-decoration: none;
+    
+}
+.hoverCaixa:hover{
+    background-color: rgba(50,51,59,.6);
+    transition: all .4s; 
+    text-decoration: none;
+}
+
+.conteudoRodapeGame {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.rodapeGame {
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    min-height: 15px;
+    box-shadow: 0px 2px 5px grey;
+    color: grey;
+    font-size: 18px;
+}
+
+/*CARDS*/
+
+/*PREVISÃO DO TEMPO*/

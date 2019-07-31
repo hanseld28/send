@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Calibri',sans-serif;
+    overflow-x: hidden;
+}
+
+/* Se for usar a */
+
+a{
+    text-decoration: none;
+}
+
+/* ---------------- */

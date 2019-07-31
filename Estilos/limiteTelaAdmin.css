@@ -1,0 +1,43 @@
+@media(max-width:1190px){
+
+    
+    #cabecalho{
+        width: 1089.8px;
+    }
+    
+    #menu-cima{
+        width: 1190px;
+    }
+    #menu-cima{
+      width: 1190px;  
+    }
+    .conteudoCard{
+        width: 1109.55px;
+    }
+    
+    #conteudo1{
+        width: 1089.8px;
+    }
+    .cimaCadAux{
+        width: 1087.8px;
+    }
+    
+    .top-caixa2{
+        width: 444.833px;
+    }
+    .top-caixa1{
+        width: 289.35px;
+    }
+    .miniCard1{
+        width: 306.367px;
+    }
+    .miniCard2{
+        width: 306.367px;
+    }
+    body{
+        overflow-x: scroll;
+    }
+    .painelAbas{
+        width:  1099.55;
+    }
+}

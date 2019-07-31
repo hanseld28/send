@@ -1,0 +1,199 @@
+a{
+    text-decoration: none;
+}
+/* .telaVisualizarTurmas {
+    position: relative;
+    width: 100%;
+    height: 890px;
+    //left: 40px;
+    //background-color: aqua;
+    box-shadow: 1px 1px 7px grey;
+} */
+.topoTelaVisualizarTurmas{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #27ae60;
+}
+.iconeElabelTurmas{
+    position: relative;
+    left: 420px;
+  
+}
+.iconTopoTurmas{
+    position: relative;
+    width: 55px;
+    top: 12px;
+}
+.lblTopoTurma{
+    position: relative;
+    color: #fff;
+    font-size: 27pt;
+    top: -2px;
+    left: 5px;
+}
+.conteudoTurmas{
+    position: relative;
+    width: 100%;
+    height: 810px;
+    background-color: #fff;
+}
+/* .caixaPesquisaTurmas{
+    position: relative;
+    width: 650px;
+    height: 430px;
+    top: 20px;
+    left: 160px;
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    //background-color: blueviolet;
+} */
+.lblPesquisaTurmas{
+    position: relative;
+    top: 12px;
+    left: 20px;
+    font-size: 16pt;
+    color: #333333;
+}
+.inpPesquisaTurmas{
+    position: relative;
+    width: 180px;
+    height: 27px;
+    top: 11px;
+    left: 30px;
+    padding-left: 5px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 11.5pt;
+    border: 1px solid #bfbfbf;
+}
+
+/* .caixaTabelaTurmas{
+    position: relative;
+    width: 650px;
+    height: 368px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+}
+ */
+
+table.tabelaTurmasT {
+    position: relative;
+    width: 65%;
+    height: 80%;
+    top: 20px;
+    left: 50%;
+    border: none;
+    border-radius: 3px;
+    transform: translate(-50%);
+}
+.tituloTurmasT, .infoTurmasT, .linhaTurmasT {
+    margin: 80px;
+    padding-bottom: 20px;
+}
+table .tituloTurmasT{
+    color: #404040;
+    text-align: center;
+    font-size: 14pt;
+}
+table.tabelaTurmasT tr.infoTurmasT td {
+    text-align: center;
+    color:#666666;
+}
+.infoTurmasT:nth-child(2n+2){
+    background-color: #CEF5ED;
+}
+
+.btnNovaRotina{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    margin-top: -12px;
+    margin-left: -38px;
+    padding-top: 5px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #2ecc71;
+}
+.btnNovoComunicadoTurma{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    margin-top: -12px;
+    margin-left: -55px;
+    padding-top: 5px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #3498db;
+}
+.btnVisualizarAlunos{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    margin-top: -12px;
+    margin-left: -40px;
+    padding-top: 5px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #3498db;
+}
+.caixaTabelaTurmasT{
+    position: relative;
+    width: 100%;
+    height: 239px;
+    border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px;
+    //background-color: blue;
+}
+.linhaPaginacaoTurmasT{
+    position: relative;
+    width: 100%;
+    height: 49px;
+    border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px;
+    //background-color: blue;
+}
+
+
+
+////////////////
+.iconeElabelTurmas h1 {
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.iconTopoTurmas {
+    position: relative;
+    width: 55px;
+    top: 12px;
+}
+
+
+.iconeRetornaparaabaPrincipal{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+}
+.iconeRetornaparaabaPrincipal:hover{
+    border-radius: 3px;
+}
+.iconSetaRetornaparaabaPrincipal{
+    position: relative;
+    width: 35px;
+    top: 12.5px;
+    left: 12px;
+}
+------------------------------------------------
+

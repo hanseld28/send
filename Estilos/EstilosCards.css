@@ -1,0 +1,778 @@
+.conteudoCard {
+    width: 102%;
+    left: -1%;
+    height: 101%;
+    position: absolute;
+    top: 0px;
+    background-color: #eef5f9;
+    border: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    line-height: 1.4;
+
+
+}
+
+.embrulhoCards {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.conteudoTopoMensagens {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 25px;
+    background-color: whitesmoke;
+    grid-template-areas: 'topoMensagens1';
+    
+}
+
+.topoMensagens1 {
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    min-height: 20px;
+    box-shadow: 0px 2px 5px grey;
+}
+
+/* .topoMensagens2 {
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    min-height: 20px;
+    box-shadow: 0px 2px 5px grey;
+} */
+
+.top-conteudoCard {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-areas: 'top-caixa2 top-caixa2 top-caixa2 top-caixa1 top-caixa1 top-caixa1 miniCard1' 'top-caixa2 top-caixa2 top-caixa2 top-caixa1 top-caixa1 top-caixa1 miniCard2';
+    /* 'top-caixa2 top-caixa2 top-caixa2 top-caixa1 top-caixa1 top-caixa1 miniCard4'; */
+}
+
+.miniCard1 {
+    grid-area: miniCard1;
+    background-color: rgb(255, 102, 0);
+    padding: 0rem;
+    height: 160px;
+    display: flex;
+    text-align: left;
+    box-shadow: 0px 2px 5px grey;
+}
+
+.miniCard2 {
+    grid-area: miniCard2;
+    background-color: #fff;
+    padding: 0rem;
+    justify-content: center;
+    box-shadow: 0px 2px 5px grey;
+    min-height: 300px;
+
+}
+
+.miniCard4 {
+    grid-area: miniCard4;
+    background-color: #fff;
+    padding: 0rem;
+    display: flex;
+    justify-content: left;
+    box-shadow: 0px 2px 5px grey;
+}
+
+.topo-caixa {
+    background-color: white;
+    display: grid;
+    box-shadow: 0px 2px 5px grey;
+}
+
+.top-caixa1 {
+    grid-area: top-caixa1;
+    min-height: 500px;
+}
+
+.top-caixa2 {
+    grid-area: top-caixa2;
+    min-height: 500px;
+}
+
+.caixas {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.caixa {
+    background-color: white;
+    min-height: 100px;
+    box-shadow: 0px 2px 5px grey;
+}
+
+
+.conteudoRodape {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.rodape {
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    min-height: 15px;
+    box-shadow: 0px 2px 5px grey;
+    color: grey;
+    font-size: 18px;
+}
+
+/*CARDS*/
+
+/*PREVISÃO DO TEMPO*/
+
+.top-caixa2 .cardTopo {
+    width: 100%;
+    height: 50%;
+    background-color: #ff2877;
+    position: relative;
+    top: 0px;
+}
+
+.top-caixa1 .cardTopo {
+    width: 100%;
+    height: 30%;
+    background-color: #ff2877;
+    position: relative;
+    top: 0px;
+}
+
+/*FIM PREVISÃO DO TEMPO*/
+
+/*FIM CARDS*/
+
+.cardTop .imgCard {
+    position: absolute;
+    top: 180px;
+    background-color: #fff;
+}
+
+
+.tempoFrame {
+    position: absolute;
+    float: right;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.miniCard1 figure {
+    margin-left: auto;
+    margin-right: 30px;
+
+}
+
+.miniCard1 figure img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+
+}
+
+.miniCard1 figure figcaption {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+.miniCard2 .cardTopo {
+    width: 100%;
+    height: 70%;
+    background-color: #2196f3;
+    position: relative;
+    top: 0px;
+}
+
+.imgCard {
+    position: absolute;
+    top: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.imgCard img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.miniCard2 h1 {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%);
+}
+
+.miniCard2 h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-left: 12px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.miniCard2 .cardTopo {
+    
+}
+
+.miniCard2 .cardTopo p {
+    color: transparent;
+    visibility: hidden;
+}
+
+.clock {
+  margin: auto;
+  margin-top: 0px;
+  background-color: #ff2877;
+  width: 100%;
+  min-height: 100px;
+}
+
+.clock span{
+  font-size: 35px;
+  color: #fff;
+  margin-top: 20px;
+  float: right;
+  right: 50px;
+  position: absolute
+}
+
+.clock img{
+    float: left;
+    width: 65px;
+    background-color: #FC427B;
+    padding: 17px;
+}
+
+.horaImg{
+    
+    height: 100%;
+    width: 120px;
+}
+
+.cor1{
+    background-color: rgb(32, 193, 237);
+    min-height: 100px;
+}
+
+.cor1 img{
+    background-color: rgb(27, 164, 202);
+    float: left;
+    padding: 17px;
+    width: 65px;
+}
+
+.cor2{
+    background-color: rgb(24, 165, 93);
+    min-height: 100px;
+}
+
+.cor2 img{
+    background-color: rgb(20, 140, 79);
+    float: left;
+    padding: 17px;
+    width: 65px;
+}
+
+.cor3{
+    background-color: rgb(241, 155, 44);
+    min-height: 100px;
+}
+
+.cor3 img{
+    background-color: rgb(205, 132, 37);
+    float: left;
+    padding: 17px;
+    width: 65px;
+}
+
+.caixa p{
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+}
+
+.caixa a{
+    text-decoration: none;
+}
+
+
+.conteudoTopoMensagens h1{
+    color: #0099e5;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.conteudoTopoMensagens img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#calcFrame
+{
+	display: block;
+	background: #1c191c;
+	height: 100%;
+	width: 100%;
+}
+#outLine { padding-left: 12px; padding-top: 70px;}
+#divLine { padding-left: 12px; }
+#multLine { padding-left: 12px; }
+#subLine { padding-left: 12px; }
+#plusLine { padding-left: 12px; }
+#equalsLine { padding-left: 12px; margin-left: 5px;}
+#output
+{
+	background: #1c191c;
+	color: white;
+}
+#ac, #plusMinus, #percent
+{
+	background: rgba(202,202,204,1) !important;
+	color: #1c191c !important;
+}
+#divide, #multiply, #minus, #add, #equals
+{
+	background: rgba(252,156,23,1) !important;
+}
+
+
+#equalsLine input{
+	height: 60px;
+	width: 60px;
+	border: 3px solid #1c191c;
+	border-radius: 20px;
+	color: white;
+	background: #555;
+	font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+	//font-weight: bold;
+}
+#output input{
+	height: 60px;
+	width: 60px;
+	border: 3px solid #1c191c;
+	border-radius: 20px;
+	color: white;
+	background: #555;
+	font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+	//font-weight: bold;
+}
+
+
+#plusLine input
+{
+	height: 60px;
+	width: 60px;
+	border: 3px solid #1c191c;
+	border-radius: 20px;
+	color: white;
+	background: #555;
+	font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+	//font-weight: bold;
+}
+
+
+#divLine input
+{
+	height: 60px;
+	width: 60px;
+	border: 3px solid #1c191c;
+	border-radius: 20px;
+	color: white;
+	background: #555;
+	font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+	//font-weight: bold;
+}
+
+#multLine input
+{
+	height: 60px;
+	width: 60px;
+	border: 3px solid #1c191c;
+	border-radius: 20px;
+	color: white;
+	background: #555;
+	font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+	//font-weight: bold;
+}
+
+#subLine input
+{
+	height: 60px;
+	width: 60px;
+	border: 3px solid #1c191c;
+	border-radius: 20px;
+	color: white;
+	background: #555;
+	font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+	//font-weight: bold;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+#output
+{
+	width: 250px;
+	border-radius: 0;
+	text-align: right;
+	font-size: 35px;
+    margin-right: 8px;
+}
+
+#output {
+    background: #1c191c;
+    color: white;
+    border: 0px;
+}
+#zero
+{
+	width: 125px;
+	border-radius: 20px;
+}
+
+/* Rmedia queries */
+
+@media(max-width:1608px){
+    .cor3 p{
+        top: 20px;
+    }
+}
+@media(max-width:1475px){
+    .miniCard1 figure {
+    margin-right: 15px;
+    margin-top: 30px;
+
+}
+
+.miniCard1 figure img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+
+}
+
+.miniCard1 figure figcaption {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: -20px;
+
+}
+}
+/* 
+@media(max-width:1076px){
+ .top-conteudoCard {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-areas: 
+        'top-caixa1 top-caixa1 top-caixa1 miniCard1' 
+        'top-caixa1 top-caixa1 top-caixa1 miniCard2'
+        'top-caixa2 top-caixa2 top-caixa2 top-caixa2 ';
+    'top-caixa2 top-caixa2 top-caixa2 top-caixa1 top-caixa1 top-caixa1 miniCard4';
+}
+    .miniCard2 h1{
+        font-size: 20px;
+    }
+    .miniCard2 h2{
+        font-size: 18px;
+    }
+    
+    #calcFrame
+{
+    display: block;
+    background: #1c191c;
+    height: 100%;
+    width: 100%;
+}
+#outLine { padding-left: 12px; padding-top: 70px;}
+#divLine { width: 100%; padding-left: 0px; margin-left: -20px;} 
+#multLine { width: 100%; padding-left: 0px; margin-left: -20px;} 
+#subLine { width: 100%; padding-left: 0px; margin-left: -20px;} 
+#plusLine { width: 100%; padding-left: 0px; margin-left: -20px;} 
+#equalsLine { width: 100%; margin-left: -28px;}
+#output
+{
+    background: #1c191c;
+    color: white;
+}
+#ac, #plusMinus, #percent
+{
+    background: rgba(202,202,204,1) !important;
+    color: #1c191c !important;
+}
+#divide, #multiply, #minus, #add, #equals
+{
+    background: rgba(252,156,23,1) !important;
+    
+}
+#output input
+{
+    left:15%;
+    position: relative;
+    height: 65px;
+    width: 100px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    padding: 0px;
+    //font-weight: bold;
+}
+    #plusLine input
+{
+    left:15%;
+    position: relative;
+    height: 65px;
+    width: 100px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    padding: 0px;
+    //font-weight: bold;
+}
+    
+        #divLine input
+{
+    left:15%;
+    position: relative;
+    height: 65px;
+    width: 100px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    padding: 0px;
+    //font-weight: bold;
+}
+    
+            #multLine input
+{
+    left:15%;
+    position: relative;
+    height: 65px;
+    width: 100px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    padding: 0px;
+    //font-weight: bold;
+}
+    
+    
+#subLine input
+{
+    left:15%;
+    position: relative;
+    height: 65px;
+    width: 100px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    padding: 0px;
+    //font-weight: bold;
+}
+    #equalsLine input
+{
+    left:15%;
+    position: relative;
+    height: 65px;
+    width: 100px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    padding: 0px;
+    //font-weight: bold;
+}
+    
+    
+   
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+#output
+{
+    width: 90%;
+    border-radius: 0;
+    text-align: right;
+    font-size: 80px;
+    left: 0px;
+}
+#zero
+{
+    width: 95px;
+    border-radius: 20px;
+}
+    
+    .caixa{
+        height: 10px;
+    }
+    
+    .cor2  p{
+        top: 40px;
+        font-size: 18px;
+    }
+    
+    .clock span{
+        font-size: 25px;
+        right: 25px;
+        top: 20px;
+    }
+    
+    .cor3 p{
+        font-size: 20px;
+    }
+    
+    
+    
+    #equalsLine input{
+    height: 60px;
+    width: 90px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+    //font-weight: bold;
+}
+#output input{
+    height: 60px;
+    width: 90px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+    //font-weight: bold;
+}
+
+
+#plusLine input
+{
+    height: 60px;
+    width: 90px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+    //font-weight: bold;
+}
+
+
+#divLine input
+{
+    height: 60px;
+    width: 90px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+    //font-weight: bold;
+}
+
+#multLine input
+{
+    height: 60px;
+    width: 90px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+    //font-weight: bold;
+}
+
+#subLine input
+{
+    height: 60px;
+    width: 90px;
+    border: 3px solid #1c191c;
+    border-radius: 20px;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    margin-right: 6px;
+    padding: 10px;
+    //font-weight: bold;
+}
+
+}
+
+
+
+
+ */

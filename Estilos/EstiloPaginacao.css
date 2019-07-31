@@ -1,0 +1,76 @@
+.paginacao {
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+.paginacao li{
+    list-style: none;
+}
+
+.paginacao li a{
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    margin: 5px;
+    background-color: white;
+    color: grey;
+    text-decoration: none;
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px solid rgba(9, 132, 227, 1.0);
+    box-shadow: inset 0px 0px 2px deepskyblue;
+}
+
+.div-itens-consulta{
+    position: relative;
+    width: 100%;
+}
+
+.paginacao li:hover a{
+    background-color: rgba(9, 132, 227, 1.0);
+    color: white;
+}
+
+
+.paginacaoCadAux{
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+}
+
+.paginacaoCadAux li{
+   list-style: none; 
+    width: 36px;
+    height: 5px;
+    border: 0px;
+}
+
+.paginacaoCadAux li a{
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    color: grey;
+    text-decoration: none;
+    border: 1px solid rgba(9, 132, 227, 1.0);
+    box-shadow: inset 0px 0px 2px deepskyblue;
+    margin: 0px;
+}
+
+.paginacaoCadAux li:hover a{
+    background-color: rgba(9, 132, 227, 1.0);
+    color: white;
+}
+

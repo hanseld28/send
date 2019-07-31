@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: wf_segoe-ui_light,Segoe UI Light,Segoe WP Light,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2,h3{
+    margin: 0;
+    padding: 1em 0;
+}
+
+.menu-superior {
+    width: 100%;
+    background-color: whitesmoke;
+    top: 0px;
+    height: 75px;
+    position: fixed;
+    box-shadow: 1px 1px 7px gray;
+    z-index: 9998;
+}
+
+.menu-superior img {
+    width: 160px;
+    height: 65px;
+    top: 5px;
+    left: 15%;
+    position: absolute;
+}
+
+.acessoLogin{
+    background-color: #0099e5;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 18px;
+    font-family: Calibri;
+    cursor: pointer;
+    font-weight: 600;
+    position: absolute;
+    right: 15%;
+    top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+
+.borda1{
+    position: absolute;
+    bottom: 80;
+    left: 0;
+    width: 100%;
+    border-width: 100px 0 0 2000px; 
+    border-style: solid;
+    border-color: transparent transparent transparent #0078d7;
+    
+}
+
+.borda2{
+    position: relative;
+    top: -65px;
+    left: -20px;
+    width: 100%;
+    border-width: 0 0 100px 2000px; 
+    border-style: solid;
+    border-color: transparent transparent transparent #0078d7;
+    
+}
+
+/* .bordaDiagonal {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    border-width: 200px 0px 0px 3100px;
+    border-color: transparent transparent transparent #0078d7;
+    border-style: solid;
+}
+
+.bordaDiagonal2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-width: 0 0 200px 3100px;
+    border-color: transparent transparent transparent #0078d7;
+    border-style: solid;
+    display: none;
+}
+ */
+
+/*Primeira Parte */
+
+#cabecalho{
+    min-height: 600px;
+    color: #fff;
+    text-align: center;
+    top: 200px;
+    margin-top: 80px;
+}
+
+#cabecalho video {
+    width: 950px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    position: relative;
+}
+
+
+#cabecalho h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #0078d7;
+}
+
+#cabecalho .conteudo-cobertura{
+    padding: 0 0.5em;
+}
+
+/*Section 1*/
+
+#section1{
+    background-color: #0078d7;
+    padding: 2em 1em 1em;
+    margin-top: 100px;
+}
+
+#section1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section1 li{
+    margin-bottom: 1em;
+    background-color: transparent;
+    color: grey;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#section1 h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#section1 h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#section1 h4{
+    font-size: 20px;
+    font-weight: 900;
+    color: #cce4f7;
+}
+
+#section1 h5{
+    font-size: 17px;
+    font-weight: 600;
+    color: #cce4f7;
+}
+
+.conteudoCard{
+  padding: 1.5em;
+}
+
+
+/*Section 2*/
+
+#section2{
+    background-color: #fff;
+    padding: 2em 1em 1em;
+    margin-top: 30px;
+}
+
+#section2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section2 li{
+    margin-bottom: 1em;
+    background-color: white;
+    color: grey;
+}
+
+#section2 h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #0078d7;
+}
+
+.conteudoCard{
+  padding: 1.5em;  
+}
+
+
+/*Rodapé*/
+#rodape {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+
+}
+
+#rodape p {
+    text-align: center;
+    font-size: 18px;
+    font-family: calibri;
+    color: grey;
+}
+
+#rodape p a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+#rodape p a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*Responsividade*/
+
+
+@media(max-width:430px) {
+
+    .menu-superior {
+        width: 430px;
+    }
+    
+    section{
+        width: 430px;
+    }
+}
+
+@media(max-width:635px) {
+
+
+.acessoLogin {
+    right: 10px;
+
+}
+    .menu-superior img{
+        left: 10px;
+    }
+}
+
+@media(min-width:1000px) {
+
+    #section1 ul {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section1 li {
+        width: 31%;
+    }
+
+    #section2 ul {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section2 li {
+        width: 20%;
+    }
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

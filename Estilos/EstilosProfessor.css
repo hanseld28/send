@@ -1,0 +1,800 @@
+* {
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #CEF5ED;
+    overflow-y: scroll;
+    font-family: 'Arial', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.balao {
+    float: right;
+    margin-right: 150px;
+    margin-top: 76px;
+    position: relative;
+    z-index: 9999;
+    height: 50px;
+    width: 420px;
+    background-color: #dcdcdc;
+    border-top: 100px;
+    border-radius: .4em;
+    display: none;
+}
+
+.balao:after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: -16px;
+    border-left: 20px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #dcdcdc;
+    -webkit-transform: rotate(1040deg);
+
+}
+
+.balao p {
+    margin-top: 18px;
+    position: absolute;
+    color: dimgray;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 100;
+    margin-left: 35px;
+}
+
+.balao img {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+label[for="btn-menu-lateral"] {
+    width: 30px;
+    height: 30px;
+    padding: 9px;
+    color: #2ecc71;
+    font-size: 29px;
+    cursor: pointer;
+    position: fixed;
+    margin-left: 240px;
+    z-index: 1;
+    display: none;
+}
+
+#btn-menu-lateral {
+    display: none;
+}
+
+
+/*Menu de Cima*/
+
+#menu-cima {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    float: right;
+    height: 58px;
+    position: fixed;
+    box-shadow: 1px 1px 7px gray;
+    z-index: 1;
+}
+
+.icones-menu-cima {
+    float: right;
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 269px;
+}
+
+.icones-menu-cima img {
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+}
+
+.icones-menu-cima li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.perfil-usuario {
+    height: 38px;
+}
+
+.perfil-usuario img {
+    width: 35px;
+    height: 35px;
+}
+
+.perfil-usuario p {
+    margin-left: 10px;
+    float: right;
+    position: relative;
+    font-size: 18px;
+    font-family: Calibri;
+    margin-top: 8px;
+    color: gray;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+/*Fim Menu de Cima*/
+
+/*Lugar do Logo*/
+
+#logo {
+    background-color: whitesmoke;
+    width: 230px;
+    height: 58px;
+    float: left;
+    position: fixed;
+    border-right: 1px solid #dcdcdc;
+    z-index: 9998;
+}
+
+#logo h1 {
+    padding: 10px;
+    padding-left: 70px;
+}
+
+/*FIM Lugar do Logo*/
+
+/*Menu Lateral*/
+
+#menu-lateral {
+    background-color: #2ecc71;
+    /*ou #3589F0 ou #078fbc ou #069* ou rgb(66, 133, 244)*/
+    width: 230px;
+    height: 94%;
+    position: fixed;
+    margin-top: 58px;
+    transition: all .8s;
+    border-top: 1px solid #27ae60;
+    box-shadow: 1px 1px 7px gray;
+    z-index: 5;
+}
+
+/*Menu Lateral parte superior*/
+
+.viewPerfil {
+    width: 230px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #27ae60;
+}
+
+.viewPerfil h1 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #fff;
+    position: absolute;
+    margin-top: -57px;
+    margin-left: 73px
+}
+
+.viewPerfil h2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Calibri;
+    color: #fff;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 74px;
+}
+
+.titulo-menu-lateral {
+    padding: 8px;
+    color: #d7e4f3;
+    font-size: 20px;
+}
+
+.iconePerfil img {
+    width: 58px;
+    height: 58px;
+    margin-left: 10px;
+    border-radius: 40px;
+    border: 2px solid #16a085;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/*FIM Menu Lateral parte superior*/
+
+/*Menu Lateral icones de cadastros*/
+
+.icones-menu-lateral {
+    position: absolute;
+    margin-top: 20px;
+    color: aqua;
+}
+
+.icones-menu-lateral li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: -39px;
+    cursor: pointer;
+    width: 230px;
+}
+
+.icones-menu-lateral li:hover {
+    background-color: #33d9b2;
+}
+
+.icones-menu-lateral li p {
+    color: #fff;
+    font-size: 17.5px;
+
+}
+
+.icones-menu-lateral ul li p {
+    margin-top: -10px;
+
+}
+
+.icones-menu-lateral a {
+    text-decoration: none;
+}
+
+/*FIM Icones do subMenu*/
+
+/*Menu Lateral Hover e imagens*/
+
+/*Troca Imagens do icones do menu lateral*/
+
+/*#7ac7eb*/
+
+.imgTurma {
+    background-image: url(../Imagens/tuurmaa.png);
+}
+
+.imgOutrasOpcoes {
+    background-image: url(../Imagens/listing-option.png);
+}
+
+
+/*FIM Troca Imagens do icones do menu lateral*/
+
+/*FIM Menu Lateral Hover e imagens*/
+
+/*FIM Menu Lateral icones de cadastros*/
+
+.icones-menu-lateral p {
+    color: white;
+    text-decoration: none;
+    margin-top: -27px;
+    margin-left: 52px;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+.icones-menu-lateral img {
+    width: 32px;
+    height: 32px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.lblTelaPadrao {
+    position: absolute;
+    font-size: 30pt;
+    top: 2px;
+    left: 50px;
+    color: #2ecc71;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.iconeSend {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 8px;
+    left: 123px;
+}
+
+.painelFundo {
+    background-color: red;
+    top: 120px;
+    position: relative;
+    width: 200px;
+    left: 260px;
+
+}
+
+#conteudo1 {
+    height: 790px;
+    width: 98%;
+    top: 80px;
+    float: right;
+    border-radius: 5px;
+    position: absolute;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid #d7dfe3;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(215, 223, 227);
+    border-top: none;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    z-index: 0;
+}
+
+/*FIM conteúdo*/
+
+/*Parte de trás do conteudo*/
+
+.conteudo {
+    background-color: #CEF5ED;
+    height: 93vh;
+    position: relative;
+    top: 59px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+
+
+#cabecalho {
+    width: 98%;
+    height: 60px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    border: 1px solid #d7dfe3;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+
+}
+
+.titulo {
+    color: #2ecc71;
+    font-size: 30px;
+    text-align: left;
+    padding: 12px;
+    margin-left: 10px;
+    font-family: Calibri;
+}
+
+.titulo a {
+    color: #2ecc71;
+}
+
+
+.traco {
+    border: .7px solid #16a085;
+    margin-top: -40px;
+    position: absolute;
+    width: 135px;
+    margin-left: 71px;
+}
+
+
+
+#rodape {
+    width: 230px;
+    height: 50px;
+    background-color: #20bf6b;
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    display: none;
+
+}
+
+#rodape1 {
+    width: 230px;
+    height: 50px;
+    background-color: #20bf6b;
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    transition: .4s;
+}
+
+#lista {
+    display: flex;
+    margin-left: -70px;
+    margin-top: 10px;
+}
+
+#lista li {
+    margin-left: 0px;
+    padding-left: 55px;
+
+}
+
+#expandItensLateral1 {
+    display: none;
+
+}
+
+/*ToolTips*/
+
+.toolTipTextoSair {
+    visibility: hidden;
+    width: 70px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 8px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-sair .toolTipTextoSair::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 55%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+.toolTipTextoNotificacao {
+    visibility: hidden;
+    width: 110px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 30px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-notificacao .toolTipTextoNotificacao::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+.toolTipTextoPerfil {
+    visibility: hidden;
+    width: 130px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 75px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.perfil-usuario .toolTipTextoPerfil::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 48%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+.btn-sair:hover .toolTipTextoSair {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-notificacao:hover .toolTipTextoNotificacao {
+    visibility: visible;
+    opacity: 1;
+}
+
+.perfil-usuario:hover .toolTipTextoPerfil {
+    visibility: visible;
+    opacity: 1;
+}
+
+.enviandoCarregando {
+    width: 350px;
+    background-color: green;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 80px;
+    z-index: 9999;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.divimg {
+    background-image: url(../Imagens/loading.png);
+    animation: gira 3s linear infinite;
+    width: 32px;
+    height: 32px;
+    top: 10px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+
+
+@keyframes gira {
+    0%{
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+.imgPerfilProf{
+    background-image: url(../Imagens/ImagensProfessor/userProf.png);
+    background-repeat: no-repeat;
+}
+
+.imgSairProf{
+    background-image: url(../Imagens/ImagensProfessor/sairProf.png);
+    background-repeat: no-repeat;
+}
+.imgConfigProf{
+    background-image: url(../Imagens/ImagensProfessor/configProf.png);
+    background-repeat: no-repeat;
+}
+.imgNotificacaoProf{
+    background-image: url(../Imagens/ImagensProfessor/alarmProfessor.png);
+    background-repeat: no-repeat;
+}
+
+/**/
+
+
+
+.toolTipTextoSair {
+    visibility: hidden;
+    width: 70px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 8px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-sair .toolTipTextoSair::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 55%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+.toolTipTextoNotificacao {
+    visibility: hidden;
+    width: 110px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 93px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-notificacao .toolTipTextoNotificacao::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+.toolTipTextoPerfil {
+    visibility: hidden;
+    width: 130px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 135px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.perfil-usuario .toolTipTextoPerfil::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 48%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+
+.toolTipTextoConfig {
+    visibility: hidden;
+    width: 130px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 25px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-configuracao .toolTipTextoConfig::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 48%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+
+.btn-sair:hover .toolTipTextoSair {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-notificacao:hover .toolTipTextoNotificacao {
+    visibility: visible;
+    opacity: 1;
+}
+
+.perfil-usuario:hover .toolTipTextoPerfil {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-configuracao:hover .toolTipTextoConfig {
+    visibility: visible;
+    opacity: 1;
+}
+
+#menu-config {
+    width: 270px;
+    height: 150px;
+    position: fixed;
+    background-color: white;
+    box-shadow: 1px 1px 7px grey;
+    right: 70px;
+    top: 60px;
+    color: #2ecc71;
+    z-index: 9999;
+    transition: all .4s;
+    display: none;
+}
+
+#menu-config legend{
+    background-color: #2ecc71;;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    display: flex;
+    width: 98.5%;
+    height: 25px;
+}
+
+#menu-config legend img{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+#menu-config legend p{
+    color: white;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+}
+
+.tema{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tema img{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.tema button{
+    background-color: #2ecc71;;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    width: 85px;
+    padding-bottom: 2px;
+}
+
+.imgLua{
+background-image: url(../Imagens/ImagensProfessor/luaProf.png);
+}
+
+.imgConfigMenor{
+    background-image: url(../Imagens/settings-work-tool-menor.png);
+}
+
+
+

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav menu lateral */
+
+
+
+.FotoResponsavel{
+    position: relative;
+    width: 280px;
+    height: 320px;
+    border-radius: 3px;
+    //background-color: cadetblue;
+}
+.FotoResponsavel .fotoResp{
+    position: relative;
+    width: 280px;
+    height: 320px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.tooltipPerfilResp{
+    visibility: hidden;
+    width: 70px;
+    background-color: #2d4486;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    top: 18px;
+    left: -90px;
+    padding: 5px;
+    position: absolute;
+    font-size: 13pt;
+    z-index: 1;
+}
+.iconeVisu:hover .tooltipPerfilResp{
+    visibility: visible;
+    cursor: pointer;
+}
+.localNomeResponsavel{
+    position: relative;
+    width: 280px;
+    height: 40px;
+    background-color: #fff;
+}
+.lblNomeDoResponsavel{
+    position: relative;
+    color: #262626;
+    top: 6px;
+    left: 16px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+
+.visualizarConversas{
+    position: relative;
+    width: 280px;
+    height: 40px;
+    transition: all .4s;
+    cursor: pointer;
+    background-color: #5f4ee4;
+}
+.visualizarConversas:hover{
+    background-color: #6c5ce7;
+}
+.icones{
+    position: relative;
+    width: 30px;
+    top: 9px;
+    left: 9px;
+    transition: all .2s;
+}
+.lblVisualizar{
+    position: absolute;
+    font-size: 14pt;
+    color: #fff;
+    top: 19px;
+    left: 65px;
+    cursor: pointer;
+}
+
+.iconeBolinha{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 7px;
+    left: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.btnTrocaFoto{
+    display: none;
+}

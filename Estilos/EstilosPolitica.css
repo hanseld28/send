@@ -1,0 +1,16 @@
+body{
+    padding:  1.6rem;
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 22px;
+    padding: 0px;
+    margin: 8px;
+    font-family: Arial, sans-serif
+}

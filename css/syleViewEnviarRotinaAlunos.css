@@ -1,0 +1,1359 @@
+a {
+    text-decoration: none;
+}
+
+.telaEnviarRotinaAlunos {
+    position: relative;
+    width: 100%;
+    height: 890px; //left: 40px;
+    background-color: #fff;
+
+
+}
+
+.topotelaEnviarRotinaAlunos {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #27ae60;
+}
+
+.iconeSetaRetornoturmas {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.iconeSetaRetornoturmas:hover {
+    border-radius: 3px;
+}
+
+.iconSetaRetornoturmas {
+    position: relative;
+    width: 35px;
+    top: 12.5px;
+    left: 12px;
+}
+
+
+.iconRotinaAlunos {
+    position: relative;
+    width: 55px;
+    top: 12px;
+}
+
+.lblRotinaAlunos {
+    position: relative;
+}
+
+.iconeElabelRotina h1{
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    top: 5px;
+    font-size: 27pt;
+    position: relative;
+    top: 5px;
+}
+
+.iconeElabelRotina h1 img {
+    position: relative;
+    left: -5px;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lblRotinaEspecificaParaAluno {
+    position: absolute;
+    top: 8px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #e74c3c;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+/* .conteudotelaEnviarRotinaAlunos{
+    position: relative;
+    width: 100%;
+    height: 810px;
+    background-color: #fff;
+} */
+
+.menutopotelaEnviarRotinaAlunos {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    /* box-shadow: 1px 1px 7px grey; */
+    background-color: #f2f2f2;
+    /* border-bottom: 1px solid #cccccc; */
+}
+
+.btnNovaRotinaAlunos {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.btnTodasAsRotinasEnviadas {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 200px;
+   /*  opacity: .5; */
+    background-color: #f2f2f2;
+}
+
+.iconeElabelTurmas h1 {
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.btnRecentesRotinasEnviadas {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 400px;
+    /* opacity: .5; */
+    background-color: #f2f2f2;
+}
+
+.iconeElabelNovaRotinaAlunos {
+    position: relative;
+    top: -3px;
+    left: 40px;
+}
+
+.iconNovaRotinaAlunos {
+    position: relative;
+    width: 30px;
+    left: -18px;
+    top: 17px;
+}
+
+.lblNovaRotinaAlunos {
+    position: relative;
+    top: 10px;
+    left: -5px;
+    font-size: 17pt;
+    color: #27ae60;
+    cursor: pointer;
+}
+
+.iconeElabelTodasRotinaAlunos {
+    position: relative;
+    top: -3px;
+    left: 40px;
+}
+
+.iconTodasAsRotinasEnviadas {
+    position: relative;
+    width: 30px;
+    left: -18px;
+    top: 17px;
+}
+
+.lblTodasAsRotinasEnviadas {
+    position: relative;
+    top: 10px;
+    left: -5px;
+    font-size: 17pt;
+    color: #27ae60;
+    cursor: pointer;
+}
+
+.iconeElabelRecentesRotinaAlunos {
+    position: relative;
+    top: -3px;
+    left: 40px;
+}
+
+.iconRecentesRotinasEnviadas {
+    position: relative;
+    width: 30px;
+    left: -20px;
+    top: 17px;
+}
+
+.lblRecentesRotinasEnviadas {
+    position: relative;
+    top: 10px;
+    left: -10px;
+    font-size: 17pt;
+    color: #27ae60;
+    cursor: pointer;
+}
+
+.caixaGlobalNovaRotinasEnviadas {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: 50%;
+    top: 52%;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    margin-bottom: 35px;
+}
+
+
+.caixaDataHorarioEultimaData {
+    position: relative;
+    width: 100%;
+    height: 49px;
+    /* border-bottom-style: solid;
+    border-bottom-color: #D9D9D8;
+    border-bottom-width: 1px; */
+    background-color: #fff;
+}
+.caixaTurma {
+    position: relative;
+    width: 100%;
+    height: 49px;
+    border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px; //background-color: blue;
+}
+
+.lblTitDataAtual {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 14pt;
+    color: #333333;
+}
+
+.lblDataAtual {
+    color: #595959;
+}
+
+.lblHorarioRotina {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    font-size: 14pt;
+    color: #333333;
+    transform: translate(-50%);
+}
+
+table.tabelaNovaRotinaSelects tr.linhaCdSRotinaTurma td {
+    text-align: center;
+    color: #666666;
+    font-size: 18px;
+}
+
+.inpHR {
+    position: relative;
+    width: 110px;
+    height: 25px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 11pt;
+    border: 1px solid #bfbfbf;
+    margin-left: 10px;
+}
+
+.lblUltimaDataRotina {
+    position: relative;
+    top: 15px;
+    font-size: 14pt;
+    color: #333333;
+    float: right;
+    right: 10px;
+
+}
+
+.lblDataDaUltima {
+    color: #595959;
+}
+
+.localDeterminadaTurmaRotina {
+    position: relative;
+    top: 6.5px;
+    left: 20px;
+    width: 110px;
+    height: 35px;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px 6px grey;
+}
+
+.lblDeterminadaTurmaRotina {
+    position: relative;
+    font-size: 13pt;
+    top: 5px;
+    left: 8px;
+    color: #262626;
+}
+
+
+
+
+
+.lblMesmaRotinaParaTodos {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 14pt;
+    color: #333333;
+}
+
+.iconeExpandirDivSelectsCategoriasRotinas {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    top: -12px;
+    left: 480px;
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.iconSetaExpandirSelectCategoriasRotinas {
+    position: relative;
+    width: 15px;
+    top: 6.9px;
+    left: 5.9px;
+}
+
+
+.caixaCheckBoxTodasCategorias {
+    position: relative;
+    border-top: 1px solid rgb(129, 199, 149);
+    background-color: #fff;
+}
+
+.linhatgl {
+    position: relative;
+    width: 100%;
+    transition: all .4s;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(129, 199, 149);
+    border-bottom-width: 1px;
+}
+
+.caixaBtnConfirmarSelecao {
+    position: relative;
+    width: 100%;
+    height: 58px;
+    top: -130px;
+    background-color: #fff;
+}
+
+.btnConfirmarSelecao {
+    position: relative;
+    border: none;
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 13.5pt;
+    top: 15px;
+    //left: 790px;
+    background-color: #27ae60;
+    cursor: pointer;
+    float: right;
+    right: 60px;
+}
+
+.btnConfirmarSelecao:hover {
+
+    background-color: limegreen;
+}
+
+.caixaSelectsTodasCategorias {
+
+    position: relative;
+    width: 100%;
+    height: 180px;
+    border-radius: 3px;
+    border: 1px solid rgb(129, 199, 149);
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-left-style: solid;
+        border-right-color: rgb(129, 199, 149);
+        border-left-color: rgb(129, 199, 149);
+    background-color: #fff;
+    border-right: 0px;
+    border-left: 0px;
+
+}
+.lblSelecionarTAlunos {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 7px;
+    color: #333333;
+    font-size: 13.5pt;
+    background-color: transparent;
+}
+/*CheckBox*/
+
+.checkbox-regularC {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #2ecc71;
+    padding: 7px;
+    height: 8px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.checkbox-regularC:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+
+}
+
+.checkbox-regularC:checked:after {
+    content: '\2714';
+    font-size: 13px;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+    color: limegreen;
+}
+
+.checkbox-regularC:checked ~ #menu-cima{
+    background-color: #fff;
+    color: aqua;
+}
+
+
+
+
+.elemento {
+  background:red;
+  width: 200px;
+  height: 100px;
+  position: relative;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.muda {
+  display: block;
+}
+.muda:checked +#menu-cima {
+  background:blue;
+  width: 500px;
+}
+
+.label-muda {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: none;
+}
+
+
+/*FIM CheckBox*/
+
+
+#box-toggle {
+    background-color: rgb(146, 242, 179);
+    border-top: 1px solid rgb(129, 199, 149);
+}
+
+table .tituloCdSRotinaTurma {
+    color: #404040;
+    font-size: 14pt;
+}
+
+.tgl {
+    position: relative;
+    height: 210px;
+    //background-color: blue;
+}
+
+table.tabelaNovaRotinaSelects {
+    position: relative;
+    transition: all .4s;
+    width: 100%;
+    height: 40%;
+    top: -131px;
+    //left: 155px;
+    border: none;
+}
+
+
+/*CheckBox*/
+
+.checkbox-regularS:disabled {
+    background-color: lightgrey;
+    border: grey;
+    cursor: not-allowed;
+}
+
+.checkbox-regularS {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #2ecc71;
+    padding: 7px;
+    height: 8px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.checkbox-regularS:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+
+}
+
+.checkbox-regularS:checked:after {
+    content: '\2714';
+    font-size: 13px;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+    color: limegreen;
+}
+
+/*FIM CheckBox*/
+.div-selectRCards {
+    position: relative;
+    cursor: pointer;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    width: 118px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.div-selectRCards select {
+    position: relative;
+    cursor: pointer;
+    width: 118px;
+    height: 35px;
+    background: url(../Imagens/iconeSetaDeSelecaoAlternativa.png) no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        background-position-x: 0%;
+        background-position-y: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: 95px center;
+    border: none;
+    font-size: 15pt;
+    padding-left: 3px;
+    font-family: 'Calibri', sans-serif;
+    color: #fff;
+    background-color: white;
+    border: 1px solid grey;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.div-selectRCards select:disabled {
+    cursor: not-allowed;
+    border: 1px solid grey;
+    background-color: lightgrey;
+}
+
+.linhaCdSRotinaTurma {
+
+    background-color: #cccc;
+    cursor: not-allowed;
+    border: 0px;
+
+}
+
+.tituloCdTRotinaTurma {
+    color: #404040;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;
+    border-bottom: 2px black solid;
+}
+
+.linhaCdTRotinaTurma {
+    text-align: left;
+    padding-left: 25px;
+    padding: 10px;
+    font-size: 18px;
+    color: #595959;
+}
+
+
+table.tabelaTodasRotinaDeterminadaTurma {
+    width: 90%;
+    overflow: hidden;
+    border-collapse: collapse;
+    border: solid #e1e1e1 1px;
+    margin-top: 10px;
+}
+
+table.tabelaTodasRotinaDeterminadaTurma tr {
+    color: #444;
+    background-color: white;
+    border: solid #e1e1e1 1px;
+    font-weight: 500;
+}
+
+table.tabelaTodasRotinaDeterminadaTurma td {
+    border: solid #e1e1e1 1px;
+
+}
+
+table.tabelaTodasRotinaDeterminadaTurma tr:nth-child(2n+1) {
+    background-color: #CEF5ED;
+}
+
+table.tabelaRecentesRotinaDeterminadaTurma {
+    width: 90%;
+    overflow: hidden;
+    border-collapse: collapse;
+    border: solid #e1e1e1 1px;
+    margin-top: 10px;
+}
+
+table.tabelaRecentesRotinaDeterminadaTurma tr {
+    color: #444;
+    background-color: white;
+    border: solid #e1e1e1 1px;
+    font-weight: 500;
+}
+
+table.tabelaRecentesRotinaDeterminadaTurma td {
+    border: solid #e1e1e1 1px;
+
+}
+
+table.tabelaRecentesRotinaDeterminadaTurma tr:nth-child(2n+1) {
+    background-color: #CEF5ED;
+}
+
+.tituloCdRecentesRotinaTurma {
+    color: #404040;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;
+    border-bottom: 2px black solid;
+}
+
+.linhaCdRecentesRotinaTurma {
+
+    padding-left: 25px;
+    padding: 10px;
+    font-size: 18px;
+    color: #595959;
+    text-align: center;
+
+}
+
+
+.divPesquisaAlunoRotinaEspecifica {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    top: -9.6px;
+    position: relative;
+
+}
+
+
+.inpPesquisaAluno {
+    position: absolute;
+    width: 42%;
+    height: 38px;
+    top: 46px;
+    border-radius: 5px;
+    color: #595959;
+    font-size: 13pt;
+    padding-left: 10px;
+    border: 1px solid #2ecc71;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url(../Imagens/ImagensRotinaProfessor/lupaProfessor.png);
+    background-repeat: no-repeat;
+    background-position: right 10px bottom 7px;
+    background-origin: padding-box;
+    padding-right: 30px;
+    box-shadow: inset 0px 0px 2px #2ecc71;
+}
+
+.lblPesquisaAluno {
+    position: absolute;
+    top: 15px;
+    right: 265px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #333333;
+    display: none;
+}
+
+.setinhaEspecificaRotina{
+    display: none;
+}
+
+table.tabelaNovaRotinaDeterminadaTurma {
+
+    position: relative;
+    top: -60px;
+    width: 98%;
+    height: 100%;
+    left: 50%;
+    border-collapse: collapse;
+    transform: translate(-50%);
+
+}
+
+.selectAltCard select{
+    background-color: #fff;
+}
+
+.div-selectRAprendizadoAlternativaAlunos select {
+    position: relative;
+    cursor: pointer;
+    width: 130px;
+    height: 35px;
+    background: url(../Imagens/iconeSetaDeSelecaoAlternativa.png) no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        background-position-x: 0%;
+        background-position-y: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: 89px center;
+    border: none;
+    font-size: 15pt;
+    padding-left: 3px;
+    font-family: 'Calibri', sans-serif;
+    color: #fff;
+    background-color: #fff;
+    border: 1px solid grey;
+}
+
+.div-selectRAprendizadoAlternativaAlunos select:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.btnAdicionarOcorrenciaAluno:disabled{
+cursor: not-allowed;
+}
+
+/* .linhaSelect {
+    background-color: #ccc;
+    cursor: not-allowed;
+} */
+
+/* .linhaOcorrencia {
+    background-color: #ccc;
+    cursor: not-allowed;
+} */
+
+
+.caixaRotinaEspecificaCampoPesquisaEtabelaNovaRotina {
+    position: relative;
+    width: 100%;
+    /* height: 550px; */
+    left: 7px;
+    /* border-bottom-style: solid; */
+    /* border-bottom-color: #d9d9d9; */
+    /* border-bottom-width: 1px; */
+    /* margin-bottom: 0px; */
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: -7px;
+    padding-bottom: 40px;
+}
+
+
+
+.caixaTabelaNovaRotina {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 980px;
+    /* height: 420px; */
+    border-radius: 3px;
+    max-width: 980px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 29px;
+}
+
+
+table.tabelaNovaRotinaDeterminadaTurma tr.linhaCdRotinaTurma td.linhaSelect {
+    text-align: center;
+    color: #666666;
+    font-size: 13pt;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+table .tituloCdRotinaTurma {
+    color: #404040;
+    text-align: center;
+    font-size: 14pt;
+}
+table.tabelaNovaRotinaDeterminadaTurma tr.linhaCdRotinaTurma td.linhaAlunosNome{
+    color: #666666;
+    font-size: 13pt;
+}
+
+table.tabelaNovaRotinaDeterminadaTurma tr.linhaCdRotinaTurma td.linhaRotinaStatus{
+    text-align: center;
+    color: #666666;
+    font-size: 13pt;
+}
+table.tabelaNovaRotinaDeterminadaTurma tr.linhaCdRotinaTurma td.linhaOcorrencia{
+    text-align: center;
+}
+.linhaCdRotinaTurma, .linhaAlunosNome, .linhaRotinaStatus, .linhaOcorrencia{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #bfbfbf;
+}
+
+
+.linhaOcorrencia a {
+    
+    margin: 10px;
+}
+
+/*CheckBox*/
+
+.checkbox-regularCt:disabled {
+    background-color: lightgrey;
+    border: grey;
+    cursor: not-allowed;
+    margin-right: 8px;
+}
+
+.table:disabled{
+    background-color: lightgrey;
+    border: grey;
+    cursor: not-allowed;
+    
+}
+
+
+
+
+.checkbox-regularCt {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #2ecc71;
+    padding: 7px;
+    height: 8px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+}
+
+.checkbox-regularCt:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+
+}
+
+.checkbox-regularCt:checked:after {
+    content: '\2714';
+    font-size: 13px;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+    color: limegreen;
+}
+
+/*FIM CheckBox*/
+
+/*CheckBox*/
+
+.checkbox-regularN {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #2ecc71;
+    padding: 7px;
+    height: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.checkbox-regularN:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+
+}
+
+.checkbox-regularN:checked:after {
+    content: '\2714';
+    font-size: 13px;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+    color: limegreen;
+}
+
+/*FIM CheckBox*/
+
+
+
+
+.btnAdicionarOcorrenciaAluno{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: -20px;
+    border:none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14pt;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+.btnCancelarRotinaAlunos {
+    position: relative;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 16pt;
+    top: -90px;
+    bottom: 10px;
+    background-color: #e74c3c;
+    cursor: pointer;
+    margin-bottom: 20px;
+    float: right;
+    right: 15px;
+
+}
+.btnCancelarRotinaAlunos:hover{
+    background-color: #eb2f06;
+}
+
+.btnEnviarRotinaAlunos {
+
+    position: relative;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 16pt;
+    top: -90px;
+    bottom: 10px;
+    background-color: #27ae60;
+    cursor: pointer;
+    margin-bottom: px;
+    float: right;
+    right: 30px;
+
+}
+
+.btnEnviarRotinaAlunos:hover{
+background-color: limegreen;    
+}
+
+
+.btnSalvarOcorrencia{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12pt;
+    background-color: #3498db;
+    cursor: pointer;
+    top: 258px;
+    left: 407px;
+}
+
+.div-selectRAprendizadoAlternativaAlunos {
+    position: relative;
+    cursor: pointer;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    width: 114px;
+    margin-left: 27px;
+    overflow: hidden;
+    left: 40%;
+    transform: translate(-50%);
+}
+.iconeGerarPdfTurma {
+
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: all .4s;
+    cursor: pointer;
+    background-color: #fff;
+    z-index: 9;
+    float: right;
+    top: -110px;
+
+}
+.iconeGerarPdfTurma img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.lblOrdenarPor {
+
+    position: absolute;
+    top: 13px;
+    font-size: 15pt;
+    color: #595959;
+    display: flex;
+    right: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.caixaTurmaTodasDataIntervaloEbusca {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 59px;
+    border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px;
+    
+}
+/* .caixaTabelaTodasRotina{
+    position: relative;
+    top: 25px;
+    width: 940px;
+    height: 440px;
+    max-height: 440px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    left: 10px;
+    border-radius: 3px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #d9d9d9;
+    //background-color: blue;
+} */
+
+.localDeteminadaTurmaT{
+    position: relative;
+top: 6.5px;
+left: 15px;
+width: 100px;
+height: 35px;
+border-radius: 3px;
+box-shadow: 0.5px 0.5px 6px grey;
+}
+.lblDeteminadaTurmaT{
+    position: relative;
+font-size: 13pt;
+top: 5px;
+left: 8px;
+color: #262626;
+}
+
+
+/*CheckBox*/
+
+.checkbox-regularTodas {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid #2ecc71;
+    padding: 7px;
+    height: 8px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.checkbox-regularTodas:checked {
+    background-color: white;
+    border: 2px solid limegreen;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+
+}
+
+.checkbox-regularTodas:checked:after {
+    content: '\2714';
+    font-size: 13px;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+    color: limegreen;
+}
+
+/*FIM CheckBox*/
+
+.lblFiltrarTodas{
+    position: absolute;
+margin-top: 11px;
+margin-left: 155px;
+color: #333333;
+font-size: 13.5pt;
+}
+
+.lblDe{
+    position: relative;
+top: 11px;
+left: 65px;
+font-size: 14pt;
+color: #333333;
+}
+.inpDe {
+
+    position: relative;
+    width: 125px;
+    height: 25px;
+    top: 9px;
+    left: 72px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 11pt;
+    border: 1px solid #bfbfbf;
+
+}
+
+.lblAte{
+    position: relative;
+top: 11px;
+left: 82px;
+font-size: 14pt;
+color: #333333;
+}
+
+.inpAte {
+
+    position: relative;
+    width: 123px;
+    height: 25px;
+    top: 9px;
+    left: 90px;
+    border-radius: 3px;
+    color: #595959;
+    font-size: 11pt;
+    border: 1px solid #bfbfbf;
+
+}
+
+
+.div-selectOrdenacao {
+
+    position: relative;
+    cursor: pointer;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    width: 155px;
+    height: 38px;
+    overflow: hidden;
+    margin-left: 10px;
+    top: -4px;
+
+}
+
+.div-selectOrdenacao select{
+    position: relative;
+    cursor: pointer;
+    width: 180px;
+    height: 38px;
+    background: url(../Imagens/iconeSetaSelectDeOrdenacao.png) no-repeat;
+    background-position: 124px center;
+    border: none;
+    font-size: 11pt;
+    padding-left: 3px;
+    font-family: 'Calibri',sans-serif;
+    color: #4d4d4d;
+}
+
+
+table.tabelaTodasRotinaDeterminadaTurma {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    border: none;
+}
+table .tituloCdTRotinaTurma {
+    color: #404040;
+    text-align: center;
+    font-size: 14pt;
+}
+table.tabelaTodasRotinaDeterminadaTurma tr.linhaCdTRotinaTurma td {
+    text-align: center;
+    color: #666666;
+}
+.bntBuscar {
+
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12pt;
+    background-color: #3498db;
+    cursor: pointer;
+    top: 8px;
+    left: 550px;
+
+}
+
+.caixaGlobalTodasRotinasEnviadas {
+
+    position: relative;
+    width: 98%;
+    height: 570px;
+    left: 10px;
+    top: 10px;
+    border-radius: 3px;
+
+}
+
+.localDeterminadaTurmaR{
+    position: relative;
+top: 22px;
+left: 20px;
+width: 110px;
+height: 35px;
+border-radius: 3px;
+
+}
+.lblDeterminadaTurmaR{
+    position: relative;
+font-size: 13pt;
+top: 5px;
+left: 8px;
+color: #262626;
+}
+.caixaTabelaRecentesRotina {
+
+    position: relative;
+    top: -20px;
+    width: 98%;
+    height: 520px;
+    left: 10px;
+
+}
+table.tabelaRecentesRotinaDeterminadaTurma {
+
+    position: relative;
+    width: 100%;
+    border: none;
+
+}
+table .tituloCdRecentesRotinaTurma {
+    color: #404040;
+    text-align: center;
+    font-size: 14pt;
+}
+table.tabelaRecentesRotinaDeterminadaTurma tr.linhaCdRecentesRotinaTurma td {
+    text-align: center;
+    color: #666666;
+}
+.lblTotalOcorrencias{
+    position: relative;
+    color: #404040;
+    font-size: 15pt;
+    font-family: Calibri;
+    top: -33px;
+    left: 397px;
+}
+
+
+.btnCancelarOcorrencia {
+
+    background-color: red;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    border: 0px;
+    color: #fff;
+    font-size: 11.5pt;
+    top: -5px;
+    position: relative;
+    left: 16px;
+    cursor: pointer;
+
+}
+
+.RotinaEnviadaNaoEncontrada {
+    color: grey;
+    font-size: 22px;
+    text-align: center;
+    top: 120px;
+    position: relative;
+}

@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topoTelaVisualizarPerfilResponsavel{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    z-index: 101;
+    background-color: #536DFE;
+}
+
+
+.iconePerfilResponsavelTela{
+    position: relative;
+    width: 53px;
+    top: 9px;
+}
+.lblPerfilResponsavelTela{
+    position: relative;
+    font-size: 25pt;
+    top: -5px;
+    left: 10px;
+    color: #fff;
+}
+.btnMeuPerfilResponsavel{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    transition: all .4s;
+    background-color: #fff;
+}
+.btnAlterarFotoResponsavel {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 200px;
+    transition: all .4s;
+}
+
+
+.fotoPerfilDoresponsavel{
+    position: relative;
+    top: 20px;
+    left: 43px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+
+
+.localInformacoesPerfilResponsavel{
+    position: relative;
+    display: flex;
+    width: 592px;
+    height: 406px;
+    background-color: #fff;
+}
+.info1{
+    position: relative;
+    width: 296px;
+    height: 406px;
+    background-color: #fff;
+}
+.lblNomeResponsavelPerfil{
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+    font-size: 23pt;
+    color: #4d4d4d;
+}
+.lbltLogin{
+    position: relative;
+    display: block;
+    font-size: 15pt;
+    color: #999999;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.lblLoginRespPerfil{
+    position: relative;
+    margin-left: 5px;
+    color: #4d4d4d;
+}
+.lbltCpf{
+    position: relative;
+    display: block;
+    font-size: 15pt;
+    color: #999999;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.lblCpfRespPerfil{
+    position: relative;
+    margin-left: 10px;
+    color: #4d4d4d;
+}
+.lbltEndereco{
+    position: relative;
+    display: block;
+    font-size: 15pt;
+    color: #999999;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+.lblEndRespPerfil{
+    position: relative;
+    margin-left: 10px;
+    color: #4d4d4d;
+}
+.lbltComplemento{
+    position: relative;
+    display: block;
+    font-size: 15pt;
+    color: #999999;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.lblCompRespPerfil{
+    position: relative;
+    margin-left: 10px;
+    color: #4d4d4d;
+}
+.info2{
+    position: relative;
+    width: 296px;
+    height: 406px;
+    background-color: #fff;
+}
+
+.lbltNum{
+    position: relative;
+    display: block;
+    font-size: 15pt;
+    color: #999999;
+    margin-top: 89px;
+    margin-left: 30px;
+}
+.lblNumRespPerfil{
+    position: relative;
+    margin-left: 10px;
+    color: #4d4d4d;
+}
+.lbltCep{
+    position: relative;
+    display: block;
+    font-size: 15pt;
+    color: #999999;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.lblCepRespPerfil{
+    position: relative;
+    margin-left: 10px;
+    color: #4d4d4d;
+}
+.lbltCidade{
+    position: relative;
+    display: block;
+    font-size: 15pt;
+    color: #999999;
+    margin-top: 59px;
+    margin-left: 30px;
+}
+.lblCidadeRespPerfil{
+    position: relative;
+    margin-left: 10px;
+    color: #4d4d4d;
+}
+
+
+.iconSetaRetorno {
+    position: relative;
+    width: 30px;
+    top: 12px;
+    left: 12px;
+}
+
+
+.painelAlterarSenhaResponsavel{
+    position: relative;
+    width: 100%;
+    height: 406px;
+    transition:  all 0.4s;
+    background-color: #fff;
+}
+
+.localIconeDeAlterarSenhaElabel{
+    position: relative;
+    width: 320px;
+    height: 406px;
+    background-color: #f2f2f2;
+}
+.iconAlterarSenhaResponsavel{
+    position: relative;
+    width: 210px;
+    top: 30px;
+    left: 50px;
+}
+
+
+.btnselecionarFoto{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: #737373;
+    font-size: 11pt;
+    margin-top: 90px;
+    margin-left: -27px;
+    background-color: #d9d9d9;
+    border:1px solid #bfbfbf;
+    cursor: pointer;
+}
+

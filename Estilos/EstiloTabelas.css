@@ -1,0 +1,342 @@
+table th {
+    color: #404040;
+    font-size: 14pt;
+    font-family: calibri;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 25px;
+
+}
+
+table {
+    transform: translate(-50%);
+    left: 50%;
+    position: relative;
+}
+
+tr:nth-child(2n+2) {
+    background-color: #b3daff;
+}
+
+.tituloTabela {
+    color: #404040;
+    font-size: 14pt;
+    font-family: calibri;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.linhaTabela {
+    color: #626262;
+    font-size: 12pt;
+    font-family: calibri;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.iconTabela {
+    display: flex;
+    margin-right: 5px;
+}
+
+.iconTabela img {
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+}
+
+.imgverMais{
+    background-image: url(..//Imagens/verMais.png);
+    background-repeat: no-repeat;
+}
+
+
+.imgEditar {
+    background-image: url(../Imagens/pencil-edit-button.png);
+}
+
+.imgEditar:hover {
+    background-image: url(../Imagens/pencil-edit-button1.png)
+}
+
+.imgExcluir {
+    background-image: url(../Imagens/waste-bin.png);
+}
+
+.imgExcluir:hover {
+    background-image: url(../Imagens/waste-bin1.png)
+}
+
+.imgProntuario {
+    background-image: url(../Imagens/book.png);
+}
+
+.imgProntuario:hover {
+    background-image: url(../Imagens/book1.png)
+}
+
+.imgRelatorioEspecifico {
+    background-image: url(../Imagens/printer-.png);
+}
+
+.imgRelatorioEspecifico:hover {
+    background-image: url(../Imagens/printer-1.png)
+}
+
+
+.tituloConsulta {
+    margin-top: 10px;
+    font-size: 30px;
+    color: grey;
+    font-family: Calibri;
+    font-weight: 500;
+    text-align: center;
+}
+
+.div-result-matricula {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+.tabelaCadAux {
+    position: absolute;
+    top: 50px;
+}
+
+.div-result .paginacaoCadAux {
+    margin-top: 20px;
+}
+
+
+
+
+/*TABELA CADASTRO AUXILIXARES*/
+table.bordasimples {
+    margin-top: 15px;
+    width: 60%;
+    overflow: hidden;
+    border-collapse: collapse;
+    border: solid #e1e1e1 1px;
+    top: -10px;
+}
+
+table.bordasimples tr{
+    color: #444;
+    background-color: white;
+    border: solid #e1e1e1 1px;
+    font-weight: 500;
+}
+
+table.bordasimples td {
+    border: solid #e1e1e1 1px;
+
+}
+
+table.bordasimples tr:nth-child(2n+1) {
+    background-color: #e5f1fd;
+}
+
+.tituloTabelaCadAux {
+    color: #404040;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;
+    border-bottom: 2px black solid;
+}
+
+.linhaTabelaCadAux{
+    text-align: left;
+    padding-left: 25px;
+    padding: 10px;
+    font-size: 18px;
+    color: #595959;
+}
+
+.tdAcoes{
+    width: 10%;
+    padding: 10px;
+}
+
+.tdAcoesTurma{
+    width: 35%;
+}
+
+.tituloAcoesTabelaCadAux{
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    color: #595959;
+}
+
+.tituloConsultaCadAux{
+    margin-top: -55px;
+    color: #404040;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*Utilizada na Usuário e Matrícula*/
+table.bordasimples2 {
+    margin-top: 70px;
+    width: 90%;
+    overflow: hidden;
+    border-collapse: collapse;
+    border: solid #e1e1e1 1px;
+    top: -10px;
+}
+
+table.bordasimples2 tr{
+    color: #444;
+    background-color: white;
+    border: solid #e1e1e1 1px;
+    font-weight: 500;
+}
+
+table.bordasimples2 td {
+    border: solid #e1e1e1 1px;
+
+}
+
+table.bordasimples2 tr:nth-child(2n+1) {
+    background-color: #e5f1fd;
+}
+
+/*Utilizada no Funcionário*/
+table.bordasimples3 {
+
+    margin-top: 20px;
+    width: 90%;
+    overflow: hidden;
+    border-collapse: collapse;
+    border: solid #e1e1e1 1px;
+    top: -10px;
+
+}
+table.bordasimples3 tr{
+    color: #444;
+    background-color: white;
+    border: solid #e1e1e1 1px;
+    font-weight: 500;
+}
+
+table.bordasimples3 td {
+    border: solid #e1e1e1 1px;
+
+}
+
+table.bordasimples3 tr:nth-child(2n+1) {
+    background-color: #e5f1fd;
+}
+
+/*Utilizada no Aluno*/
+table.bordasimples4{
+    margin-top: 70px;
+    width: 98%;
+    overflow: hidden;
+    border-collapse: collapse;
+    border: solid #e1e1e1 1px;
+    top: -10px;
+}
+
+table.bordasimples4 tr{
+    color: #444;
+    background-color: white;
+    border: solid #e1e1e1 1px;
+    font-weight: 500;
+}
+
+table.bordasimples4 td {
+    border: solid #e1e1e1 1px;
+
+}
+
+table.bordasimples4 tr:nth-child(2n+1) {
+    background-color: #e5f1fd;
+}
+/**/
+
+/*Utilizada na Pesquisa do Responsável*/
+table.bordasimples5 {
+    margin-top: 70px;
+    width: 62%;
+    overflow: hidden;
+    border-collapse: collapse;
+    border: solid #e1e1e1 1px;
+    top: -8px;
+
+}
+
+table.bordasimples5 tr{
+    color: #444;
+    background-color: white;
+    border: solid #e1e1e1 1px;
+    font-weight: 500;
+}
+
+table.bordasimples5 td {
+    border: solid #e1e1e1 1px;
+
+}
+
+table.bordasimples5 tr:nth-child(2n+1) {
+    background-color: #e5f1fd;
+}
+
+
+table.bordasimples5:disabled {
+cursor: not-allowed;
+}
+
+table.bordasimples5 tr:nth-child(2n+1):disabled{
+    background-color: grey;
+}
+
+
+/**/
+.linhaTabelaCadAux1{
+    text-align: left;
+    padding-left: 25px;
+    padding: 5px;
+    font-size: 18px;
+    color: #595959;
+
+}
+
+.tituloTabelaCadAux1 {
+    color: #404040;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 6px;
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;
+    border-bottom: 2px black solid;
+}
+
+.tituloTabelaCadAux2{
+    width: 5%;
+    text-align: center;
+    background-color: #fff;
+    color: #404040;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.linhaTabelaCadAux2{
+    width: 5%;
+    
+}
+
+

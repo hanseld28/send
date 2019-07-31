@@ -1,0 +1,828 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* @media only screen and (max-width: 500px) {
+    #menu-cima {
+        width: 100%;
+        margin-top: 58px;
+        position: fixed;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        border-bottom: 1px solid lightgray;
+    }
+
+    #menu-lateral {
+        margin-top: 120px;
+        border: none;
+    }
+    label[for="btn-menu-lateral"] {
+        z-index: 9999;
+        position: fixed;
+        margin-left: 10px;
+        color: #3589F0;
+
+    }
+
+    .icones-menu-cima {
+        float: none;
+        margin: auto;
+    }
+    .icones-menu-cima li {
+        margin: auto;
+    }
+
+    #menu-lateral {
+        margin-left: 0px;
+        margin-top: 117px;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral {
+        margin-left: -175px;
+    }
+
+    .conteudo {
+        top: 110px;
+
+    }
+
+    #rodape {
+
+        margin-left: 20px;
+
+    }
+    #lista {
+        margin-left: 80px;
+    }
+
+
+
+} */
+
+@media only screen and (max-width: 1400px) {
+    label[for="btn-menu-lateral"] {
+        display: block;
+    }
+
+    label[for="btn-menu-lateral"] {
+        z-index: 9999;
+    }
+
+    #menu-lateral {
+        margin-left: -175px;
+        transition: all .4s;
+    }
+
+    #menu-lateral img {
+        margin-left: 183px;
+        transition: all .4s;
+    }
+
+    .viewPerfil {
+        display: none;
+    }
+    .viewPerfl img {
+        width: 58px;
+        height: 58px;
+        margin-left: 10px;
+        border-radius: 40px;
+        border: 2px solid #fff;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    #menu-lateral .icones-menu-lateral {
+        margin-top: 0px;
+        transition: all .4s;
+    }
+
+    #menu-lateral .icones-menu-lateral p {
+        display: none;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral {
+        margin-left: 0;
+
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgFunc {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgAluno {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgDemaisCadastros {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgContato {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .imgResp {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .imgUser {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgAjuda {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgInfo {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgCronograma {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgAgenda {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .imgTurma {
+        margin-left: 10px;
+        transition: all .4s;
+    }
+        #btn-menu-lateral:checked ~ #menu-lateral .imgMatricula{
+        margin-left: 10px;
+        transition: all .4s;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .icones-menu-lateral p {
+        display: block;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .traco {
+        display: block;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .viewPerfil {
+        display: block;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .iconePerfil img {
+        margin-left: 10px;
+    }
+
+
+    #btn-menu-lateral:checked ~ #painelGeralCadastrosAuxiliares {
+        margin-left: 200px;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral #expandItensLateral {
+        display: none;
+    }
+
+
+    #btn-menu-lateral:checked ~ #menu-lateral #rodape {
+        display: none;
+
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral #rodape1 {
+        display: block;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoAgenda {
+        display: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoAluno {
+        display: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoFunc {
+        display: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoCronograma {
+        display: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoTurma {
+        display: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoUsers {
+        display: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoResponsaveis {
+        display: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoCadastrosAuxiliares {
+        display: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .toolTipTextoMatricula{
+        display: none;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral #btnCadastroAluno {
+        border: none;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral #btnTurma {
+        border: none;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral #btnCadastroFuncionario {
+        border: none;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral #btnCadastroAgenda {
+        border: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral #btnCadastroCronograma {
+        border: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .demaisCadastros {
+        border: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .btnCadastrarResp {
+        border: none;
+    }
+    #btn-menu-lateral:checked ~ #menu-lateral .btnCadastrarMatricula {
+        border: none;
+    }
+
+    #btn-menu-lateral:checked ~ #menu-lateral .icones-menu-lateral li{
+        width: 220px;
+    }
+
+    .icones-menu-lateral li:hover{
+        width: 216px;
+    }
+    
+    .conteudo {
+        margin-left: 80px;
+        transition: all .4s;
+    }
+
+    #expandItensLateral {
+        position: fixed;
+        bottom: 1px;
+        background-color: #1ab3ff;
+        z-index: 99999;
+        display: block;
+        padding: 12px;
+        padding-right: 15px;
+        height: 25px;
+    }
+    
+    #expandItensLateral img {
+        width: 20px;
+        margin-top: 5px;
+    }
+    
+    #expandItensLateral1 {
+        position: fixed;
+        bottom: 1px;
+        background-color: #20bf6b;
+        z-index: 99999;
+        display: block;
+        padding: 12px;
+        padding-right: 15px;
+        height: 25px;
+    }
+    
+    #expandItensLateral1 img {
+        width: 20px;
+        margin-top: 5px;
+    }
+
+    #rodape {
+        width: 200px;
+        left: -60%;
+        transition: all .4s;
+        display: block;
+        bottom: 0px;
+        position: fixed;
+    }
+
+    #rodape1 {
+        display: none;
+    }
+
+    #lista {
+        width: 20px;
+        margin-left: -250px;
+    }
+
+    #lista li {
+        width: 10px;
+    }
+
+    .toolTipTextoContato1 {
+        visibility: hidden;
+        width: 80px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: -30px;
+        left: 50px;
+        float: right;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .btn-contato1 .toolTipTextoContato1::after {
+        content: " ";
+        position: absolute;
+        top: 100%;
+        left: 42%;
+        margin-left: -5px;
+        border-width: 6px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, .6) transparent transparent transparent;
+    }
+
+    .toolTipTextoInfo1 {
+        visibility: hidden;
+        width: 120px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: -30px;
+        left: 95px;
+        float: right;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .btn-info1 .toolTipTextoInfo1::after {
+        content: " ";
+        position: absolute;
+        top: 100%;
+        left: 46%;
+        margin-left: -5px;
+        border-width: 6px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, .6) transparent transparent transparent;
+    }
+
+    .toolTipTextoAjuda1 {
+        visibility: hidden;
+        width: 80px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: -30px;
+        left: 175px;
+        float: right;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .btn-ajuda1 .toolTipTextoAjuda1::after {
+        content: " ";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 6px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, .6) transparent transparent transparent;
+    }
+    .btn-contato1:hover .toolTipTextoContato1 {
+        visibility: visible;
+        opacity: 1;
+    }
+    .btn-info1:hover .toolTipTextoInfo1 {
+        visibility: visible;
+        opacity: 1;
+    }
+    .btn-ajuda1:hover .toolTipTextoAjuda1 {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .btn-info1 {
+        cursor: pointer;
+    }
+
+    .btn-ajuda1 {
+        cursor: pointer;
+    }
+
+    .imgAluno:hover {
+        background-image: url(../Imagens/aluno.png);
+        width: 32px;
+        height: 32px;
+
+    }
+    .imgDemaisCadastros:hover {
+        background-image: url(../Imagens/books-stack1.png);
+        width: 32px;
+        height: 32px;
+    }
+    .imgFunc:hover {
+        background-image: url(../Imagens/clerk-with-tie.png);
+    }
+    .imgAgenda:hover {
+        background-image: url(../Imagens/open-book.png);
+    }
+    .imgCronograma:hover {
+        background-image: url(../Imagens/calendar12.png);
+    }
+
+    .imgResp:hover {
+        background-image: url(../Imagens/parentsdddd.png);
+    }
+        .imgUser:hover {
+        background-image: url(../Imagens/usersss.png);
+    }
+    .imgMatricula:hover{
+        background-image: url(../Imagens/phone-book1.png);
+    }
+
+    #btnCadastroAluno:hover {
+        border-right: 4px solid white;
+        padding-right: 10px;
+    }
+    #btnTurma:hover {
+        border-right: 4px solid white;
+        padding-right: 10px;
+    }
+
+    #btnCadastroFuncionario:hover {
+        border-right: 4px solid white;
+        padding-right: 10px;
+    }
+    #btnCadastroAgenda:hover {
+        border-right: 4px solid white;
+        padding-right: 10px;
+    }
+    .btnCadastrarMatricula:hover {
+        border-right: 4px solid white;
+        padding-right: 10px;
+    }
+
+    #btnCadastroCronograma:hover {
+        border-right: 4px solid white;
+        padding-right: 10px;
+    }
+    .btnCadastrarResp:hover {
+        border-right: 4px solid white;
+        padding-right: 10px;
+    }
+
+    .demaisCadastros:hover {
+        border-right: 4px solid white;
+        padding-right: 10px;
+    }
+
+    .toolTipTextoTurma {
+        display: block;
+        visibility: hidden;
+        width: 80px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 66px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    #btnTurma .toolTipTextoTurma::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -12%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    #btnTurma:hover .toolTipTextoTurma {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .toolTipTextoFunc {
+        display: block;
+        visibility: hidden;
+        width: 100px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 185px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .btnCadastroFuncionario .toolTipTextoFunc::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -10%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    .btnCadastroFuncionario:hover .toolTipTextoFunc {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+        .toolTipTextoMatricula{
+        display: block;
+        visibility: hidden;
+        width: 100px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 125px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .btnCadastrarMatricula .toolTipTextoMatricula::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -10%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    .btnCadastrarMatricula:hover .toolTipTextoMatricula {
+        visibility: visible;
+        opacity: 1;
+    }
+    .toolTipTextoAluno {
+        display: block;
+        visibility: visible;
+        width: 100px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 15px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .btnCadastrarAluno .toolTipTextoAluno::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -10%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    .btnCadastrarAluno:hover .toolTipTextoAluno{
+        visibility: visible;
+        opacity: 1;
+    }
+        .toolTipTextoResponsaveis {
+        display: block;
+        visibility: hidden;
+        width: 110px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 70px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .btnCadastrarResp .toolTipTextoResponsaveis::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -9%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    .btnCadastrarResp:hover .toolTipTextoResponsaveis{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .toolTipTextoAgenda {
+        display: block;
+        visibility: hidden;
+        width: 80px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 180px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    #btnCadastroAgenda .toolTipTextoAgenda::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -12%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    #btnCadastroAgenda:hover .toolTipTextoAgenda {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .toolTipTextoCronograma {
+        display: block;
+        visibility: hidden;
+        width: 110px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 240px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    #btnCadastroCronograma .toolTipTextoCronograma::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -9%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    #btnCadastroCronograma:hover .toolTipTextoCronograma {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .toolTipTextoCadastrosAuxiliares {
+        display: block;
+        visibility: hidden;
+        width: 180px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 300px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .demaisCadastros .toolTipTextoCadastrosAuxiliares::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -6%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    .demaisCadastros:hover .toolTipTextoCadastrosAuxiliares {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .toolTipTextoUsers {
+        display: block;
+        visibility: hidden;
+        width: 100px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        position: absolute;
+        border: 100%;
+        top: 240px;
+        left: 240px;
+        margin-left: 0px;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .btnCadastrarUsers .toolTipTextoUsers::after {
+        content: " ";
+        position: absolute;
+        top: 25%;
+        left: -10%;
+        margin-left: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    .btnCadastrarUsers:hover .toolTipTextoUsers {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #painelGeralCadastrosAuxiliares {
+        margin-left: 30px;
+    }
+
+    .tema {
+    display: flex;
+    margin-top: 10px;
+    margin-left: -155px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

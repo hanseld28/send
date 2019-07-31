@@ -1,0 +1,388 @@
+.Desativado {
+    color: #fff;
+    background-color: rgb(52, 52, 52);
+}
+
+.Desativado .menuCima {
+    background-color: #232323;
+    box-shadow: none;
+}
+
+.Desativado .localizacaoLogo {
+    border-right: 1px solid #444;
+}
+
+
+.Desativado .caixaPainels {
+    background-color: rgb(29, 31, 33);
+    border: 1px solid dimgray;
+}
+
+
+.Desativado .conteudoAtalhos {
+    background-color: rgb(29, 31, 33);
+    border: 1px solid dimgray;
+}
+
+.Desativado .caixaPainel {
+    background-color: rgb(29, 31, 33);
+
+}
+
+.Desativado .caixapainelAtalhos {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .iconNotificacoes {
+    background-image: url(../Imagens/ImagensModoNoturno/alarm.png);
+}
+
+.Desativado .iconConfiResp {
+    background-image: url(../Imagens/ImagensModoNoturno/settings-work-tool-black.png);
+}
+
+.Desativado .iconSair {
+    background-image: url(../Imagens/ImagensModoNoturno/logout.png);
+}
+
+.Desativado .menuCanto {
+    background-color: rgb(29, 31, 33);
+    border-top: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado .FotoResponsavel legend p {
+    color: grey;
+}
+
+.Desativado #menu-config legend {
+    background-color: #232323;
+
+}
+
+.Desativado #menu-config {
+    background-color: rgb(52, 52, 52);
+    box-shadow: none;
+    border: 1px solid dimgray;
+}
+
+.Desativado #menu-config legend {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .tema p {
+    color: white;
+}
+
+.Desativado .imgLua {
+    background-image: url(../Imagens/ImagensModoNoturno/moon-black.png)
+}
+
+.Desativado .topoTelaVisualizarPerfilResponsavel {
+    background-color: #232323;
+}
+
+.Desativado .painelMeuPerfilResponsavel {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .conteudoTelaVisualizarPerfilResponsavel {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .info1 {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .info2 {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .lblNomeResponsavelPerfil {
+    color: #fff;
+}
+
+.Desativado .lbltLogin {
+    color: #fff;
+}
+
+.Desativado .lblLoginRespPerfil {
+    color: #fff;
+}
+
+.Desativado .lbltCpf {
+    color: #fff;
+}
+
+.Desativado .lblCpfRespPerfil {
+    color: #fff;
+}
+
+.Desativado .lbltEndereco {
+    color: #fff;
+}
+
+.Desativado .lblEndRespPerfil {
+    color: #fff
+}
+
+.Desativado .lbltComplemento {
+    color: #fff;
+}
+
+.Desativado .lblCompRespPerfil {
+    color: #fff;
+}
+
+.Desativado .lbltNum {
+    color: #fff;
+}
+
+.Desativado .lblNumRespPerfil {
+    color: #fff;
+}
+
+.Desativado .lbltCep {
+    color: #fff;
+}
+
+.Desativado .lblCepRespPerfil {
+    color: #fff;
+}
+
+.Desativado .lbltCidade {
+    color: #fff;
+}
+
+.Desativado .lblCidadeRespPerfil {
+    color: #fff;
+}
+
+.Desativado .menuTopoTelaVisualizarPerfilResponsavel {
+    background-color: #232323;
+}
+
+.Desativado .painelAlterarSenhaResponsavel {
+    background-color: rgb(29, 31, 33);
+    border-top-color: 1px solid rgb(29, 31, 33);
+}
+
+.Desativado .localInputsAltaracaoDeSenha {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .btnAlterarSenhaForm {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .localInputsAltaracaoDeSenha label {
+    color: #fff;
+}
+
+.Desativado .topotelaDeVisualizarOsFilhos {
+    background-color: #232323;
+}
+
+.Desativado .pNomeMeuFilho {
+    background-color: #232323;
+}
+
+.Desativado .localNomeAgendaEprontuario {
+    background-color: #232323;
+    border-top: 1px solid #232323;
+}
+
+.Desativado .localFotoFilho {
+    background-color: rgb(29, 31, 33);
+    border: 1px solid #232323;
+}
+
+.Desativado .cardsFilhos {
+    border: transparent;
+}
+
+.Desativado .divTopoVoltarCardsFilhos {
+    background-color: #232323;
+}
+
+.Desativado .conteudoAgenda {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado table .titulo {
+    color: #fff;
+    background-color: grey;
+}
+
+.Desativado table.tabelaRotina tr.infoRotinas td {
+    background-color: grey;
+    color: #fff;
+}
+
+.Desativado .btnVisualizarRotina {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .lblDe {
+    color: #fff;
+}
+
+.Desativado .lblAte {
+    color: #fff;
+}
+
+.Desativado .lblOrdenarPor {
+    color: #fff;
+}
+
+.Desativado .bntBuscarRotina {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .bntTodasAsRotinas {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .inpAte {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .inpDe {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .conteudoTelaVisualizarComunicados {
+
+    background-color: rgb(29, 31, 33);
+    border-bottom: 1px solid transparent;
+
+}
+
+.Desativado .topoTelaVisualizarComunicados {
+    background-color: #232323;
+}
+
+.Desativado .telaVisualizarComunicados{
+    border: 0px solid transparent;
+}
+
+.Desativado .informacoesProntuario{
+   background-color: rgb(29, 31, 33); 
+}
+
+.Desativado .divTopoVoltarCardFilho{
+    background-color: #232323;
+}
+
+.Desativado .areaFichaMedica label{
+    color: #fff;
+}
+
+.Desativado .pNomeFP{
+    color: #fff;
+}
+.Desativado .lblFMturma{
+    color: #fff;
+}
+
+.Desativado .lblFMgrau{
+    color: #fff;
+}
+.Desativado .lblDFMnasc{
+    color: #fff;
+}
+.Desativado .lblSexoFMs{
+    color: #fff;
+}
+.Desativado .lblNFMm{
+    color: #fff;
+}
+
+.Desativado .divTopoVoltarAgendaFilho{
+    background-color: #232323;
+}
+
+.Desativado .areaInformacoesDadosDaRotinaDofilho{
+    background-color: rgb(29, 31, 33); 
+}
+
+.Desativado .lblDataTDaRotina{
+    color: #fff;
+}
+
+.Desativado .lblNomeDoFilhoNaRotina{
+    color: #fff;
+}
+
+
+.Desativado .pNomeDoFilho{
+    color: #fff;
+}
+
+.Desativado .lblTurmaNaRotina{
+    color: #fff;
+}
+
+
+.Desativado .lblTProfessorNaRotina{
+    color: #fff;
+}
+
+.Desativado .pProfessorDoFilho{
+    color: #fff;
+}
+
+
+.Desativado .pTurmaDoFilho{
+    color: #fff;
+}
+
+.Desativado .lblOcorrenciasDofilho{
+    color: #fff;
+}
+
+
+.Desativado .pOcorrenciaRelatada{
+    color: #fff;
+}
+
+.Desativado .caixaLabelCategoria{
+   background-color: rgb(29, 31, 33); 
+    color: #fff;
+}
+
+.Desativado .lbTituloCategoria{
+    color: #fff;
+}
+.Desativado .centraldenotificacao legend{
+    background-color: #232323;
+    color: #fff;
+}
+
+.Desativado .centraldenotificacao ul li{
+   background-color: rgb(29, 31, 33); 
+    
+}
+
+.Desativado .conteudoCardResp{
+    background-color: transparent;
+}
+

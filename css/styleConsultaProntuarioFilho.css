@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divTopoVoltarCardFilho{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #1e90ff;
+}
+
+.iconeRetornarCardFilho:hover{
+    border-radius: 3px;
+}
+
+.iconProntuarioFilho{
+    position: relative;
+    width: 45px;
+    top: 12px;
+}
+.lblProntuario{
+    position: relative;
+    font-size: 25pt;
+    left: 10px;
+    color: #fff;
+}
+.informacoesProntuario{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 480px;
+    background-color: #fff;
+}
+.areaInformacoesFilho {
+    position: relative;
+    width: 350px;
+    border-right: 3px solid #8c8c8c;
+}
+.fotoDePerfilFilhoFichaMedica {
+    position: relative;
+    width: 240px;
+    height: 200px;
+    top: 10px;
+    left: 45px;
+    border-radius: 3px;
+    background-color: white;
+}
+.fotoDePerfilFilhoFichaMedica .iconFotoFilho {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+.pNomeFP {
+    position: absolute;
+    font-size: 14.5pt;
+    color: #333333;
+    max-width: 270px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.lblFMturma {
+    position: absolute;
+    font-size: 14.5pt;
+    color: #333333;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.lblFMgrau {
+    position: absolute;
+    font-size: 14.5pt;
+    color: #333333;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+.lblDFMnasc {
+    position: absolute;
+    font-size: 14.5pt;
+    color: #333333;
+    margin-top: 160px;
+    margin-left: 10px;
+}
+.lblSexoFMs {
+    position: absolute;
+    font-size: 14.5pt;
+    color: #333333;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+.lblNFMm {
+    position: absolute;
+    font-size: 14.5pt;
+    color: #333333;
+    margin-top: 240px;
+    margin-left: 10px;
+}
+.lblFichaMedica {
+    position: absolute;
+    top: 20px;
+    margin-left: 30px;
+    font-size: 25pt;
+    color: #4d4d4d;
+}
+.icontiposangue {
+    position: absolute;
+    width: 35px;
+    top: 100px;
+    margin-left: 30px;
+}
+.lblTS {
+    position: absolute;
+    top: 105px;
+    margin-left: 70px;
+    font-size: 17.5pt;
+    color: #4d4d4d;
+}
+.iconOutrosAtributosMedicos3 {
+    position: absolute;
+    width: 35px;
+    top: 170px;
+    margin-left: 30px;
+}
+.lblDC {
+    position: absolute;
+    top: 175px;
+    margin-left: 70px;
+    font-size: 17.5pt;
+    color: #4d4d4d;
+}
+.iconMedicacoes {
+    position: absolute;
+    width: 35px;
+    top: 250px;
+    margin-left: 30px;
+}
+.lblM {
+    position: absolute;
+    top: 250px;
+    margin-left: 70px;
+    font-size: 17.5pt;
+    color: #4d4d4d;
+}
+.iconDeficiencias {
+    position: absolute;
+    width: 35px;
+    top: 320px;
+    margin-left: 30px;
+}
+.lblD {
+    position: absolute;
+    top: 320px;
+    margin-left: 70px;
+    font-size: 17.5pt;
+    color: #4d4d4d;
+}
+.icontratamentoscirurgicos {
+    position: absolute;
+    width: 35px;
+    top: 390px;
+    margin-left: 30px;
+}
+.lblTC {
+    position: absolute;
+    top: 390px;
+    margin-left: 70px;
+    font-size: 17.5pt;
+    color: #4d4d4d;
+}
+.iconOutrosAtributosMedicos {
+    position: absolute;
+    width: 35px;
+    top: 100px;
+    margin-left: 395px;
+}
+.lblPDS {
+    position: absolute;
+    top: 105px;
+    margin-left: 440px;
+    font-size: 17.5pt;
+    color: #4d4d4d;
+}
+.iconOutrosAtributosMedicos2 {
+    position: absolute;
+    width: 35px;
+    top: 170px;
+    margin-left: 395px;
+}
+.lblAlergias {
+    position: absolute;
+    top: 175px;
+    margin-left: 440px;
+    font-size: 17.5pt;
+    color: #4d4d4d;
+}

@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+#modalErro {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.caixaDialogo {
+    position: fixed;
+    background-color: #fff;
+    border-radius: .3em;
+    width: 570px;
+    height: 340px;
+    z-index: 999999;
+    left: 50%;
+    top: 50%;
+    margin-left: -285px;
+    margin-top: -170px;
+}
+
+.caixaDialogo svg {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: 30px;
+    z-index: 10;
+}
+
+.caixaDialogoErro {
+    position: fixed;
+    background-color: #fff;
+    border-radius: .3em;
+    width: 570px;
+    height: 340px;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    margin-left: -285px;
+    margin-top: -170px;
+}
+
+.caixaDialogoErro svg {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: 30px;
+    z-index: 10;
+}
+
+.caixaDialogoCorpo h1 {
+    position: absolute;
+    color: dimgray;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    width: 570px;
+    margin-top: 200px;
+}
+
+.caixaDialogoRodape {
+    height: 70px;
+    margin-top: 270px;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+}
+
+.caixaDialogoRodape button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #00bfff;
+    border: 0px;
+    border-radius: .3em;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.caixaDialogoCorpoErro h1 {
+    position: absolute;
+    color: dimgray;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    width: 570px;
+    margin-top: 200px;
+}
+
+.caixaDialogoRodapeErro {
+    height: 70px;
+    margin-top: 270px;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+}
+
+.caixaDialogoRodapeErro button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #00bfff;
+    border: 0px;
+    border-radius: .3em;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+   width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.caixaDialogoRodape button:hover {
+    background-color: rgba(0, 191, 255, .6);
+}
+
+.caixaDialogoRodapeErro button:hover {
+    background-color: rgba(0, 191, 255, .6);
+}
+
+#Capa_1 path,
+line,
+polyline,
+polygon {
+    stroke-width: 3px;
+    stroke: #91DC5A;
+    
+}
+
+path {
+    fill: transparent;
+}
+
+#Capa_1 {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 2s linear forwards;
+    -o-animation: dash 2s linear forwards;
+    -moz-animation: dash 2s linear forwards;
+    -ms-animation: dash 2s linear forwards;
+    animation: dash 2s linear forwards;
+    z-index: 99999;
+}
+
+#Capa_2 path, line, polyline, polygon{
+    stroke: #f70f39;
+     stroke-width: 8px;
+}
+#Capa_2{
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash .5s linear forwards;
+    -o-animation: dash .5s linear forwards;
+    -moz-animation: dash .5s linear forwards;
+    animation: dash .5s linear forwards;
+    z-index: 10;
+}
+
+#Capa_3 path, line, polyline, polygon{
+    stroke: #F59300;
+     stroke-width: 8px;
+}
+#Capa_3{
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash .5s linear forwards;
+    -o-animation: dash .5s linear forwards;
+    -moz-animation: dash .5s linear forwards;
+    animation: dash .5s linear forwards;
+    z-index: 10;
+}
+
+@-webkit-keyframes dash {
+    from {
+        stroke-dashoffset: 2000;
+        fill:#000;
+    }
+    to {
+        stroke-dashoffset: 0;
+        fill:#000;
+    }
+}
+
+@media(max-width:1190px){
+
+    body{
+        overflow-x: scroll;
+    }
+}

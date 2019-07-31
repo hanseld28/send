@@ -1,0 +1,96 @@
+.relatorioGeral{
+    padding-top: 10px;
+}
+
+
+.relatorioGeral h1{
+    font-size: 22px;
+    text-align: center;
+    font-family: Calibri;
+    font-weight: 600;
+    color: black;
+}
+
+.relatorioGeral table{
+    transform: translate(-50%);
+    left: 50%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.relatorioGeral table th{
+font-size: 18px;
+color: white;
+font-family: Calibri;
+padding: 5px;
+background-color: cadetblue;
+text-align: center;
+font-weight: 500;
+}
+
+.relatorioGeral table tr{
+font-size: 17px;
+color: black;
+text-align: center;
+font-family: Calibri;
+}
+
+tr:nth-child(2n+2) {
+    background-color: #b3daff;
+}
+
+
+.traco{
+    border: 0.5px solid black;
+}
+
+.logo img{
+width: 60px;
+height: 80px;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.dadosEmissao{
+    top: 55px;
+    position: absolute;
+    color: black;
+    font-family: Calibri;
+    font-size: 20px;
+    right: 20px;   
+}
+
+.dadosCadastros{
+    font-family: Calibri;
+    font-size: 18px;
+    text-align: center;
+}
+
+.relatorioEspecifico{
+      padding-top: 10px;
+}
+
+.relatorioEspecifico h1{
+    font-size: 22px;
+    text-align: left;
+    font-family: Calibri;
+    font-weight: 600;
+    color: black;
+    
+}
+
+.mesmaLinha{
+    display: flex;
+    margin-bottom: -34px;
+}
+
+.negrito{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+.relatorioEspecifico p{
+    font-size: 20px;
+    font-family: Calibri;
+}

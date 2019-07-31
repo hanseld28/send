@@ -1,0 +1,114 @@
+ h1{
+    font-size: 22px;
+    text-align: center;
+    font-family: Calibri;
+    font-weight: 600;
+    color: black;
+}
+
+table{
+    transform: translate(-50%);
+    position: absolute;
+    left: 50%;
+    margin: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 17px;
+    color: #626262;
+    text-align: center;
+    font-family: Calibri;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+table tr{
+    border: 1px solid #000;
+}
+
+table td{
+    border: 1px solid #000; 
+
+}
+
+table th{
+    border: 1px solid #000; 
+
+}
+
+
+.tabelaResp{
+    transform: translate(-50%);
+    position: absolute;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+.tabelaPequena{
+    transform: translate(-50%);
+    position: absolute;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.traco{
+    border: 0.5px solid black;
+    width: 100%;
+}
+
+img{
+width: 50px;
+height: 70px;
+margin-bottom: 10px;
+}
+
+.dadosEmissao{
+    top: 6px;
+    position: absolute;
+    color: black;
+    font-family: Calibri;
+    font-size: 20px;
+    right: 52px;   
+}
+
+.dadosCadastros{
+    font-family: Calibri;
+    font-size: 13px;
+    left: 27%;
+    bottom: 55px;
+    position: absolute;
+}
+
+.relatorioEspecifico{
+      padding-top: 10px;
+}
+
+.relatorioEspecifico h1{
+    font-size: 22px;
+    text-align: left;
+    font-family: Calibri;
+    font-weight: 600;
+    color: black;
+    
+    
+}
+
+.mesmaLinha{
+    display: flex;
+    margin-bottom: -34px;
+}
+
+.negrito{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+.relatorioEspecifico p{
+    font-size: 20px;
+    font-family: Calibri;
+}
+

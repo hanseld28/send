@@ -1,0 +1,211 @@
+.conteudoCardProf {
+    width: 102%;
+    left: -1%;
+    height: 101%;
+    position: absolute;
+    top: 0px;
+    background-color: #CEF5ED;
+    border: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    line-height: 1.4;
+
+
+}
+
+.embrulhoCardsProf {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.conteudoTopoMensagensProf {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 25px;
+    background-color: whitesmoke;
+    grid-template-areas: 'topoMensagensGame1';
+    
+}
+
+.topoMensagensProf {
+    background-color: white;
+    text-align: center;
+    padding: 1.2rem 2rem;
+    min-height: 10px;
+    box-shadow: 0px 2px 5px grey;
+    color: #0099e5;
+    font-size: 20px;
+}
+
+/* .topoMensagens2 {
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    min-height: 20px;
+    box-shadow: 0px 2px 5px grey;
+} */
+
+.top-conteudoProf {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-areas: 
+        'top-caixaProf top-caixaProf top-caixaProf2' 
+        'top-caixaProf top-caixaProf top-caixaProf3' 
+       
+    /* 'top-caixa2 top-caixa2 top-caixa2 top-caixa1 top-caixa1 top-caixa1 miniCard4'; */
+}
+
+.topo-caixaProf{
+    background-color: white;
+    display: grid;
+    box-shadow: 0px 2px 5px grey;
+    
+}
+
+.top-caixaProf{
+    grid-area: top-caixaProf;
+    min-height: 250px;
+    background-color: #fff;
+    background-image: url(../Imagens/ImagensInicioProf/abc-books-chalk-265076.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-caixaProf:hover{
+     transform: scale(1.05);
+}
+
+.top-caixaProf p{
+  color: #fff;
+  font-size: 50px;
+  margin-top: 300px;
+  margin-bottom: 0px;
+ 
+}
+
+.top-caixaProf button{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #2ecc71;
+  border: 0px;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+   
+}
+
+.top-caixaProf button:hover{
+  background-color:mediumseagreen;
+    
+
+}
+
+.top-caixaProf2 {
+    grid-area: top-caixaProf2;
+    min-height: 220px;
+    background-color: #fff;
+    padding: 1.2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../Imagens/ImagensInicioProf/notebook-pen-table-97076.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-caixaProf2:hover{
+     transform: scale(1.05);
+}
+
+.top-caixaProf2 p {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.top-caixaProf2 button{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #2ecc71;
+  border: 0px;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top-caixaProf2 button:hover{
+  background-color:mediumseagreen;
+    
+
+}
+
+.top-caixaProf3 {
+    grid-area: top-caixaProf3;
+    min-height: 340px;
+    background-color: #fff;
+    padding: 1.2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../Imagens/ImagensInicioProf/activity-art-art-class-730807.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-caixaProf3:hover{
+     transform: scale(1.05);
+}
+
+.top-caixaProf3 p{
+  color: #fff;
+  font-size: 30px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+ 
+}
+
+.top-caixaProf3 button:hover{
+  background-color:mediumseagreen;
+    
+}
+
+
+
+.top-caixaProf3 button{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #2ecc71;
+  border: 0px;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.conteudoRodapeProf{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.rodapeProf {
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    min-height: 15px;
+    box-shadow: 0px 2px 5px grey;
+    color: grey;
+    font-size: 18px;
+}
+
+/*CARDS*/
+
+/*PREVISÃO DO TEMPO*/

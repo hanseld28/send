@@ -1,0 +1,1573 @@
+* {
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #eef5f9;
+    overflow-y: scroll;
+    font-family: 'Arial', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.balao {
+    float: right;
+    margin-right: 150px;
+    margin-top: 76px;
+    position: relative;
+    z-index: 9999;
+    height: 50px;
+    width: 420px;
+    background-color: #dcdcdc;
+    border-top: 100px;
+    border-radius: .4em;
+    display: none;
+}
+
+.balao:after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: -16px;
+    border-left: 20px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #dcdcdc;
+    -webkit-transform: rotate(1040deg);
+
+}
+
+.balao p {
+    margin-top: 18px;
+    position: absolute;
+    color: dimgray;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 100;
+    margin-left: 35px;
+}
+
+.balao img {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+label[for="btn-menu-lateral"] {
+    width: 30px;
+    height: 30px;
+    padding: 9px;
+    color: #3589F0;
+    font-size: 29px;
+    cursor: pointer;
+    position: fixed;
+    margin-left: 300px;
+    z-index: 1;
+    display: none;
+}
+
+#btn-menu-lateral {
+    display: none;
+}
+
+
+/*Menu de Cima*/
+
+#menu-cima {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    float: right;
+    height: 58px;
+    position: fixed;
+    box-shadow: 1px 1px 7px gray;
+    z-index: 9998;
+}
+
+.icones-menu-cima {
+    float: right;
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 269px;
+}
+
+.icones-menu-cima img {
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+}
+
+.icones-menu-cima li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.imgPerfilUsuario{
+    background-image: url(../Imagens/user1);
+    background-repeat: no-repeat;
+}
+
+.imgNotificacao{
+    background-image: url(../Imagens/config.png);
+}
+.imgSair{
+    background-image: url(../Imagens/logout1.png);
+}
+
+
+.imgHome {
+    margin-left: 270px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-image: url(../Imagens/home.png);
+    width: 32px;
+    height: 32px;
+}
+
+.perfil-usuario {
+    height: 38px;
+}
+
+.perfil-usuario img {
+    width: 35px;
+    height: 35px;
+}
+
+.perfil-usuario p {
+    margin-left: 10px;
+    float: right;
+    position: relative;
+    font-size: 18px;
+    font-family: Calibri;
+    margin-top: 8px;
+    color: gray;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+#menu-config {
+    width: 270px;
+    height: 150px;
+    position: fixed;
+    background-color: white;
+    box-shadow: 1px 1px 7px grey;
+    right: 50px;
+    top: 60px;
+    color: #0099e5;
+    z-index: 9999;
+    transition: all .4s;
+    display: none;
+}
+
+#menu-config legend{
+    background-color: #0099e5;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    display: flex;
+    width: 97.5%;
+    height: 25px;
+}
+
+#menu-config legend img{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+#menu-config legend p{
+    color: white;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+}
+
+.tema{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tema img{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.tema button{
+    background-color: #0099e5;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    width: 85px;
+    padding-bottom: 2px;
+}
+
+.imgLua{
+background-image: url(../Imagens/moon.png);
+}
+
+.imgConfigMenor{
+    background-image: url(../Imagens/settings-work-tool-menor.png);
+}
+
+
+/*Fim Menu de Cima*/
+
+/*Lugar do Logo*/
+
+#logo {
+    background-color: whitesmoke;
+    width: 230px;
+    height: 58px;
+    float: left;
+    position: fixed;
+    border-right: 1px solid #dcdcdc;
+    z-index: 9998;
+}
+
+#logo h1 {
+    padding: 10px;
+    padding-left: 70px;
+}
+
+/*FIM Lugar do Logo*/
+
+/*Menu Lateral*/
+
+#menu-lateral {
+    background-color: #0099e5;
+    /*ou #3589F0 ou #078fbc ou #069* ou rgb(66, 133, 244)*/
+    width: 230px;
+    height: 94%;
+    position: fixed;
+    margin-top: 58px;
+    transition: all .8s;
+    border-top: 1px solid #0f54c1;
+    box-shadow: 1px 1px 7px gray;
+    z-index: 9999;
+}
+
+/*Menu Lateral parte superior*/
+
+.viewPerfil {
+    width: 230px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #29487d;
+}
+
+.viewPerfil h1 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    color: whitesmoke;
+    position: absolute;
+    margin-top: -57px;
+    margin-left: 73px
+}
+
+.viewPerfil h2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Calibri;
+    color: whitesmoke;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 74px;
+}
+
+.titulo-menu-lateral {
+    padding: 8px;
+    color: #d7e4f3;
+    font-size: 20px;
+}
+
+.iconePerfil img {
+    width: 58px;
+    height: 58px;
+    margin-left: 10px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/*FIM Menu Lateral parte superior*/
+
+/*Menu Lateral icones de cadastros*/
+
+.icones-menu-lateral {
+    position: absolute;
+    margin-top: 20px;
+    color: aqua;
+}
+
+.icones-menu-lateral li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: -39px;
+    cursor: pointer;
+    width: 230px;
+}
+
+.icones-menu-lateral li:hover {
+    background-color: deepskyblue;
+}
+
+.icones-menu-lateral li p {
+    color: white;
+
+}
+
+.icones-menu-lateral ul li p {
+    margin-top: -10px;
+
+}
+
+.icones-menu-lateral a {
+    text-decoration: none;
+}
+
+/*Icones do subMenu*/
+
+.icones-menu-lateral li ul {
+    display: none;
+}
+
+.icones-menu-lateral li.tap ul {
+    display: block;
+}
+
+/*.icones-menu-lateral li.tap .setaSubMenu:after {
+    content: '\2039';
+}*/
+
+.icones-menu-lateral li ul li {
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 230px;
+    margin-bottom: -20px;
+    margin-left: -42px;
+    background-color: royalblue;
+}
+
+/*.setaSubMenu:after {
+    content: '\203A';
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 210px;
+    color: white;
+    font-size: 25px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}*/
+
+/*FIM Icones do subMenu*/
+
+/*Menu Lateral Hover e imagens*/
+
+/*Troca Imagens do icones do menu lateral*/
+
+/*#7ac7eb*/
+
+.imgFunc {
+    background-image: url(../Imagens/manager-avatar1.png);
+}
+
+.imgAluno {
+    background-image: url(../Imagens/students-cap1.png);
+}
+
+.imgDemaisCadastros {
+    background-image: url(../Imagens/books-stack1.png);
+}
+
+.imgContato {
+    background-image: url(../Imagens/call-answer.png);
+}
+
+.imgAjuda {
+    background-image: url(../Imagens/question1.png)
+}
+
+.imgInfo {
+    background-image: url(../Imagens/information-circular-button-symbol1.png)
+}
+
+.imgCronograma {
+    background-image: url(../Imagens/calendar1.png);
+}
+
+.imgAgenda {
+    background-image: url(../Imagens/notepad11.png);
+}
+
+.imgTurma {
+    background-image: url(../Imagens/board.png);
+}
+
+.imgResp {
+    background-image: url(../Imagens/coupleh.png);
+}
+
+.imgUser {
+    background-image: url(../Imagens/userr.png);
+}
+
+.imgMatricula {
+    background-image: url(../Imagens/phone-book.png);
+}
+
+/*FIM Troca Imagens do icones do menu lateral*/
+
+/*FIM Menu Lateral Hover e imagens*/
+
+/*FIM Menu Lateral icones de cadastros*/
+
+.icones-menu-lateral p {
+    color: white;
+    text-decoration: none;
+    margin-top: -27px;
+    margin-left: 52px;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+.icones-menu-lateral img {
+    width: 32px;
+    height: 32px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+label[for="btn-demais-cadastros"] {
+    display: block;
+    z-index: 1;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+.demaiscadastrostexto {
+    position: relative;
+    top: 18px;
+}
+
+#btn-demais-cadastros {
+    display: none;
+}
+
+#btn-demais-cadastros:checked ~ #painelGeralCadastrosAuxiliares {
+    display: block;
+}
+
+#btn-demais-cadastros:checked ~ #painelGeralCadastrosAuxiliares {
+    display: block;
+}
+
+#painelGeralCadastrosAuxiliares {
+    display: none;
+    margin-left: 180px;
+    position: fixed;
+    margin-top: -15px;
+    transition: all .4s;
+    z-index: 2;
+}
+
+.fecharCadastrosAuxiliares {
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-top: 75px;
+    margin-left: 860px;
+    position: absolute;
+    background-color: red;
+    z-index: 99;
+    border-radius: 50px;
+    border: 2px solid lightgrey;
+    cursor: pointer;
+}
+
+.fecharCadastrosAuxiliares p {
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-right: 9px;
+    padding-left: 10px;
+}
+
+.fecharCadastrosAuxiliares:hover {
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+}
+
+.cadastrosAuxiliares {
+    background-color: #0099e5;
+    width: 800px;
+    margin-left: 80px;
+    margin-top: 90px;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.painelCadastrosAuxiliares:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 30px;
+    height: 340px;
+    background-color: #0099e5;
+    transform-origin: left;
+    border-bottom-left-radius: 10px;
+}
+
+
+/*.cadastrosAuxiliares:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    width: 105px;
+    height: 400px;
+    background-color: #0099e5;
+    transform-origin: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}*/
+
+.cadastrosAuxiliares ul {
+    display: flex;
+    position: relative;
+    width: 94%;
+    margin-left: -20px;
+    margin-top: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.cadastrosAuxiliares .linha2 {
+    display: flex;
+    position: relative;
+    margin-left: 132px;
+    margin-top: -10px;
+}
+
+.cadastrosAuxiliares .linha2 li {
+    width: 138px;
+    margin-top: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.cadastrosAuxiliares li {
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border: white 1px solid;
+    text-decoration: none;
+}
+
+.cadastrosAuxiliares p {
+    color: white;
+    font-size: 16px;
+    font-family: calibri;
+    position: relative;
+}
+
+
+.cadastrosAuxiliares h1 {
+    color: white;
+    font-size: 18px;
+    font-family: calibri;
+    position: relative;
+    margin-top: 7px;
+    font-weight: 100;
+}
+
+.painelCadastrosAuxiliares {
+    position: absolute;
+    background-color: white;
+    box-shadow: 1px 1px 7px grey;
+    width: 780px;
+    height: 340px;
+    top: 120px;
+    margin-left: 20px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/*FIM Menu Lateral*/
+
+/*Rodape e rodape1 e botao de expandir os itens*/
+
+#rodape {
+    width: 230px;
+    height: 50px;
+    background-color: #1ab3ff;
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    display: none;
+
+}
+
+#rodape1 {
+    width: 230px;
+    height: 50px;
+    background-color: #1ab3ff;
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    transition: .4s;
+}
+
+#lista {
+    display: flex;
+    margin-left: -70px;
+    margin-top: 10px;
+}
+
+#lista li {
+    margin-left: 0px;
+    padding-left: 55px;
+
+}
+
+#expandItensLateral {
+    display: none;
+}
+
+/*FIM Rodape e rodape1 e botao de expandir os itens*/
+
+/*cabecalho*/
+
+#cabecalho {
+    width: 98%;
+    height: 60px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    border: 1px solid #d7dfe3;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+
+}
+
+.titulo {
+    color: #009efb;
+    font-size: 30px;
+    text-align: left;
+    padding: 17px;
+    font-family: Arial;
+}
+
+/*FIM cabecalho*/
+
+/* -------- Animacao de carregamento-------------- */
+
+.enviandoCarregando {
+    width: 350px;
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 80px;
+    z-index: 9999;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.divimg {
+    background-image: url(../Imagens/loading.png);
+    animation: gira 3s linear infinite;
+    width: 32px;
+    height: 32px;
+    top: 10px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+
+/*conteúdo*/
+
+#conteudo1 {
+    height: 820px;
+    width: 98%;
+    top: 80px;
+    /*antes estava 80px*/
+    float: right;
+    border-radius: 5px;
+    position: absolute;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid #d7dfe3;
+    border-top: none;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    z-index: 0;
+
+}
+
+/*FIM conteúdo*/
+
+/*Parte de trás do conteudo*/
+
+.conteudo {
+    background-color: #eef5f9;
+    height: 93vh;
+    position: relative;
+    top: 59px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+
+/*FIM Parte de trás do conteudo*/
+
+/*Configurações da tela de ajuda*/
+
+.traco {
+    border: .7px solid whitesmoke;
+    margin-top: -40px;
+    position: absolute;
+    width: 135px;
+    margin-left: 71px;
+}
+
+#ajuda {
+    width: 350px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    z-index: 99999;
+    right: 20px;
+    top: 10%;
+    cursor: all-scroll;
+    box-shadow: 2px 2px 10px gray;
+    display: none;
+}
+
+.ajudaTitulo {
+    background-color: #1ab3ff;
+    height: 60px;
+    width: 335px;
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.fecharAjuda {
+    position: absolute;
+    top: 0px;
+    transition: all .4s;
+    left: 92%;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.fecharAjuda:hover {
+    color: #777;
+}
+
+.ajudaConteudo {
+    background-color: white;
+    height: 440px;
+    position: absolute;
+    margin-top: 60px;
+    width: 350px;
+    overflow-y: scroll;
+    cursor: auto;
+    overflow-x: hidden;
+}
+
+.ajudaConteudo::-webkit-scrollbar-track {
+    background-color: white;
+    height: 10px;
+}
+
+.ajudaConteudo::-webkit-scrollbar {
+    background: white;
+    width: 12px;
+}
+
+.ajudaConteudo::-webkit-scrollbar-thumb {
+    background-color: #dcdcdc;
+}
+
+.ajudinha {
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 1px 1px 7px grey;
+    margin-top: 10px;
+    height: 80px;
+}
+
+.ajudinha h1 {
+    color: gray;
+    font-weight: 600;
+    word-break: break-all;
+    font-size: 16px;
+    text-align: center;
+}
+
+.ajudinha p {
+    padding-top: 5px;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-ajuda {
+    cursor: pointer;
+}
+
+/*FIM Configurações da tela de ajuda*/
+
+/*Configurações da tela de informações*/
+
+.modalInfo {
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999999;
+    display: none;
+}
+
+.info {
+    background-color: white;
+    width: 800px;
+    height: 70vh;
+    overflow-y: scroll;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.fecharInfo {
+    float: right;
+    padding-right: 20px;
+    padding-top: 8px;
+    font-size: 25px;
+}
+
+.fecharInfo:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.infoConteudo {
+    position: absolute;
+    top: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.infoConteudo p {
+    color: gray;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.infoConteudo h1 {
+    position: absolute;
+    left: 50%;
+    color: #1ab3ff;
+    transform: translate(-50%);
+    top: -60px;
+}
+
+.infoConteudo img {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 5%;
+}
+
+.btn-info {
+    cursor: pointer;
+}
+
+.info::-webkit-scrollbar-track {
+    background-color: white;
+    height: 10px;
+}
+
+.info::-webkit-scrollbar {
+    background: white;
+    width: 12px;
+}
+
+.info::-webkit-scrollbar-thumb {
+    background-color: #dcdcdc;
+}
+
+/*FIM Configurações da tela de informações*/
+
+/*ToolTips*/
+
+.toolTipTextoSair {
+    visibility: hidden;
+    width: 70px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 8px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-sair .toolTipTextoSair::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 55%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+.toolTipTextoNotificacao {
+    visibility: hidden;
+    width: 110px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 30px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-notificacao .toolTipTextoNotificacao::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+.toolTipTextoPerfil {
+    visibility: hidden;
+    width: 130px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: 60px;
+    right: 75px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.perfil-usuario .toolTipTextoPerfil::after {
+    content: " ";
+    position: absolute;
+    top: -44%;
+    left: 48%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .6) transparent;
+}
+
+.toolTipTextoContato {
+    visibility: hidden;
+    width: 80px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: -30px;
+    left: 50px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-contato .toolTipTextoContato::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .6) transparent transparent transparent;
+}
+
+.toolTipTextoInfo {
+    visibility: hidden;
+    width: 120px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: -30px;
+    left: 105px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-info .toolTipTextoInfo::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 46%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .6) transparent transparent transparent;
+}
+
+.toolTipTextoAjuda {
+    visibility: hidden;
+    width: 80px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    border: 100%;
+    top: -30px;
+    left: 200px;
+    float: right;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.btn-ajuda .toolTipTextoAjuda::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .6) transparent transparent transparent;
+}
+
+
+.btn-sair:hover .toolTipTextoSair {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-notificacao:hover .toolTipTextoNotificacao {
+    visibility: visible;
+    opacity: 1;
+}
+
+.perfil-usuario:hover .toolTipTextoPerfil {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-contato:hover .toolTipTextoContato {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-info:hover .toolTipTextoInfo {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-ajuda:hover .toolTipTextoAjuda {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toolTipTextoAgenda {
+    display: none;
+
+}
+
+.toolTipTextoAluno {
+    display: none;
+
+}
+
+.toolTipTextoFunc {
+    display: none;
+
+}
+
+.toolTipTextoCronograma {
+    display: none;
+}
+
+.toolTipTextoTurma {
+    display: none;
+}
+
+.toolTipTextoCadastrosAuxiliares {
+    display: none;
+}
+
+.toolTipTextoResponsaveis {
+    display: none;
+}
+
+.toolTipTextoUsers {
+    display: none;
+}
+
+.toolTipTextoMatricula {
+    display: none;
+}
+
+/*FIM tooltips*/
+
+.painelInicial {
+    padding: 40px 0;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+.conteudoPainelInicial {
+    width: 100%;
+    margin: 0px auto;
+    margin: 20px 30px;
+}
+
+.linha1 {
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+    /*Antess -10px*/
+    box-sizing: border-box;
+}
+
+.linha1 .coluna {
+    margin: 0 30px;
+    position: relative;
+    width: 20%;
+    min-height: 350px;
+    background-color: aqua;
+    float: left;
+    margin-top: 10px;
+}
+
+
+.lblTelaPadrao {
+    position: absolute;
+    font-size: 30pt;
+    top: 2px;
+    left: 50px;
+    color: #74b9ff;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.iconeSend {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 8px;
+    left: 123px;
+}
+
+.formCadastroAluno {
+    display: none;
+}
+
+.divAluno {
+    display: none;
+}
+
+
+/*Cadastros Auxiliares*/
+
+.linhaCadAux {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 22px;
+    left: 60px;
+    box-sizing: border-box;
+    
+
+}
+
+.linhaCadAux .colunaCadAux {
+    margin: 0 5px 10px;
+    position: relative;
+    width: 9%;
+    min-height: 110px;
+    background-color: transparent;
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 0px;
+
+}
+
+.colunaCadAux p {
+    font-size: 15px;
+    text-align: center;
+    font-family: Calibri;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    bottom: -70px;
+}
+
+.colunaCadAux img {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+}
+
+.cimaCadAux {
+    width: 100%;
+    height: 185px;
+    background-color: #0099e5;
+    margin-top: 0px;
+    position: absolute;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#atividadeExtraCurricularIMG {
+    background-color: transparent;
+    width: 85px;
+}
+
+.cimaCadAux h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.cimaCadAux .linhaCadAux .colunaCadAux:hover {
+    background-color: deepskyblue;
+    border: 1px dashed royalblue;
+}
+
+.barraPesquisaCadAux {
+    background-color: #0099e5;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 185px;
+    display: flex;
+}
+
+.barraPesquisaCadAux form {
+    display: flex;
+    transform: translate(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+
+
+
+
+/*Media Queries*/
+
+@media (max-width:1692px) {
+    .linhaCadAux {
+        margin-left: 22px;
+        left: 60px;
+    }
+}
+
+@media (max-width:1625px) {
+    .linhaCadAux {
+        margin-left: 18px;
+        left: 60px;
+    }
+}
+
+@media (max-width:1576px) {
+    .linhaCadAux {
+        margin-left: 14px;
+        left: 60px;
+    }
+}
+
+@media (max-width:1501px) {
+    .linhaCadAux {
+        margin-left: 10px;
+        left: 60px;
+    }
+}
+
+@media (max-width:1436px) {
+    .linhaCadAux {
+        margin-left: 7px;
+        left: 60px;
+    }
+}
+
+@media (max-width:1389px) {
+    .linhaCadAux {
+        margin-left: 5px;
+        left: 60px;
+    }
+}
+
+@media (max-width:1379px) {
+    .linhaCadAux {
+        margin-left: 4px;
+        left: 60px;
+    }
+}
+
+
+/* @media only screen and (max-width: 1370px) {
+    #cabecalho {
+        display: none;
+    }
+
+} */
+
+@media (max-width:1348px) {
+    .linhaCadAux {
+        margin-left: 10px;
+        left: 60px;
+    }
+    .linhaCadAux .colunaCadAux {
+        margin: 0 3px 10px;
+        width: 9%;
+        min-height: 110px;
+    }
+    .colunaCadAux p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:1277px) {
+    .linhaCadAux {
+        margin-left: 18px;
+        left: 60px;
+    }
+}
+
+@media (max-width:1257px) {
+    .linhaCadAux {
+        margin-left: 15px;
+        left: 60px;
+    }
+}
+
+
+@media (max-width:1219px) {
+    .linhaCadAux {
+        margin-left: 16px;
+        left: 60px;
+    }
+}
+
+
+
+@media (max-width:1199px) {
+    .linhaCadAux {
+        margin-left: 12px;
+        left: 60px;
+    }
+    .linhaCadAux .colunaCadAux {
+        margin: 0 3px 10px;
+        width: 9%;
+        min-height: 110px;
+    }
+    .colunaCadAux p {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:1190px){
+    #menu-cima{
+       width: 1190px;
+    }
+        #cabecalho{
+        width: 1089.8px;
+    }
+        
+    #conteudo1{
+        width: 1089.8px;
+    }
+    body{
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width:1167px) {
+    .linhaCadAux {
+        margin-left: 12px;
+        left: 60px;
+    }
+    .linhaCadAux .colunaCadAux {
+        margin: 0 3px 10px;
+        width: 9%;
+        min-height: 110px;
+    }
+.colunaCadAux p {
+    font-size: 12px;
+}
+
+}
+
+@media (max-width:1096px) {
+    .linhaCadAux {
+        margin-left: 20px;
+        left: 60px;
+    }
+    .linhaCadAux .colunaCadAux {
+        margin: 0 2px 10px;
+        width: 9%;
+        min-height: 110px;
+    }
+    .colunaCadAux p {
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width:1024px) {
+    .linhaCadAux {
+        margin-left: 8px;
+        left: 60px;
+    }
+    .linhaCadAux .colunaCadAux {
+        margin: 0 3px 10px;
+        width: 9%;
+        min-height: 110px;
+    }
+    .colunaCadAux p {
+        font-size: 13.5;
+        font-weight: 400;
+    }
+
+}
+
+
+
+@media (max-width:998px) {
+    .linhaCadAux {
+        margin-left: 6px;
+        left: 60px;
+    }
+    .linhaCadAux .colunaCadAux {
+        margin: 0 3px 10px;
+        width: 9%;
+        min-height: 110px;
+    }
+    .colunaCadAux p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:994px) {
+    .linhaCadAux {
+        margin-left: 6px;
+        left: 60px;
+    }
+    .linhaCadAux .colunaCadAux {
+        margin: 0 4px 10px;
+        width: 77px;
+        min-height: 110px;
+    }
+    .cimaCadAux {
+        width: 880px;
+    }
+
+    #cabecalho {
+        width: 880px;
+    }
+    body {
+        overflow-x: scroll;
+    }
+
+}
+
+/*::selection {
+  background: #069; WebKit/Blink Browsers 
+}*/
+
+/*::-moz-selection {
+  background: #069;  Gecko Browsers 
+}*/

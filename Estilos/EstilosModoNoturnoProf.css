@@ -1,0 +1,695 @@
+.Desativado {
+    color: white;
+    background-color: rgb(52, 52, 52);
+}
+
+.Desativado #menu-cima {
+    background-color: #232323;
+    box-shadow: none;
+}
+
+.Desativado #logo {
+    background-color: #232323;
+    border-right: 1px solid dimgray;
+    transition: none;
+
+}
+
+.Desativado #menu-lateral {
+    background-color: rgb(29, 31, 33);
+    border-top: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado #conteudo1 {
+
+    background-color: rgb(29, 31, 33);
+    border: 0px;
+
+}
+
+.Desativado #cabecalho {
+    background-color: rgb(29, 31, 33);
+    border: 1px solid dimgray;
+}
+
+.Desativado .conteudo {
+    background-color: rgb(52, 52, 52);
+
+}
+
+.Desativado .conteudoCardProf {
+    background-color: rgb(52, 52, 52);
+}
+
+.Desativado .rodapeProf {
+    background-color: rgb(29, 31, 33);
+    border: 1px solid dimgray;
+    box-shadow: none;
+
+}
+
+.Desativado #rodape1 {
+    background-color: rgb(29, 31, 33);
+    border-top: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado #rodape {
+    background-color: rgb(29, 31, 33);
+    border-top: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado .icones-menu-lateral li:hover {
+    background-color: rgb(71, 71, 71);
+}
+
+
+.Desativado .imgPerfilProf {
+    background-image: url(../Imagens/ImagensModoNoturno/user.png);
+    background-repeat: no-repeat;
+}
+
+.Desativado .imgNotificacaoProf {
+    background-image: url(../Imagens/ImagensModoNoturno/alarm.png);
+}
+
+.Desativado .imgSairProf {
+    background-image: url(../Imagens/ImagensModoNoturno/logout.png);
+}
+
+.Desativado .imgConfigProf {
+    background-image: url(../Imagens/ImagensModoNoturno/settings-work-tool-black.png);
+}
+
+.Desativado .caixaDataHorarioEultimaData {
+    background-color: rgb(29, 31, 33);
+    color: #fff;
+}
+
+.Desativado .lblTitDataAtual {
+    color: #fff;
+}
+
+.Desativado .lblDataAtual {
+    color: #fff;
+}
+
+.Desativado .lblHorarioRotina {
+    color: #fff;
+}
+
+.Desativado .lblUltimaDataRotina {
+    color: #fff;
+}
+
+.Desativado .lblDataDaUltima {
+    color: #fff;
+}
+
+.Desativado .caixaTurma {
+    background-color: rgb(29, 31, 33);
+    border: transparent;
+}
+
+.Desativado .divPesquisaAlunoRotinaEspecifica {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .caixaRotinaEspecificaCampoPesquisaEtabelaNovaRotina {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .caixaGlobalNovaRotinasEnviadas {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .telaEnviarRotinaAlunos {
+    background-color: rgb(29, 31, 33);
+    border: 1px solid transparent;
+}
+
+.Desativado .topotelaEnviarRotinaAlunos {
+    background-color: #232323;
+}
+
+.Desativado .iconeSetaRetornoturmas {
+    background-color: #626262;
+}
+
+.Desativado .localDeterminadaTurmaRotina {
+    color: #fff;
+}
+
+.Desativado .lblDeterminadaTurmaRotina {
+    color: #fff;
+}
+
+.Desativado #box-toggle {
+
+    background-color: rgb(71, 71, 71);
+    border: transparent;
+
+}
+
+.Desativado .lblMesmaRotinaParaTodos {
+    color: #fff;
+}
+
+.Desativado .linhatgl {
+    border: transparent;
+}
+
+.Desativado .caixaBtnConfirmarSelecao {
+    background-color: transparent;
+}
+
+.Desativado .caixaSelectsTodasCategorias {
+    background-color: transparent;
+}
+
+.Desativado .caixaSelectsTodasCategorias {
+    border: transparent;
+}
+
+.Desativado .selecionarTodos {
+    background-color: transparent;
+}
+
+.Desativado .selecionarTodos {
+
+    background-color: rgb(71, 71, 71);
+    border: transparent;
+
+}
+
+.Desativado .caixaCheckBoxTodasCategorias {
+    border: transparent;
+}
+
+.Desativado .lblSelecionarTAlunos {
+    color: #fff;
+}
+
+.Desativado .lblSelecionarTAlunos {
+    color: #fff;
+}
+
+.Desativado table .tituloCdSRotinaTurma {
+    color: #fff;
+}
+
+.Desativado table.tabelaNovaRotinaSelects tr.linhaCdSRotinaTurma td {
+    color: #fff;
+}
+
+.Desativado .checkbox-regularC {
+    background-color: transparent;
+    border: 2px solid green;
+}
+
+.Desativado .checkbox-regularS {
+    background-color: transparent;
+    border: 2px solid green;
+}
+
+.Desativado .btnConfirmarSelecao {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .btnConfirmarSelecao:hover {
+    background-color: grey;
+}
+
+.Desativado .lblRotinaEspecificaParaAluno {
+    color: #fff;
+
+}
+
+.Desativado .inpPesquisaAluno {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .inpHR {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado table.tabelaNovaRotinaDeterminadaTurma tr.linhaCdRotinaTurma td.linhaRotinaStatus {
+    color: #fff;
+}
+
+.Desativado .table .tituloCdRotinaTurma {
+    color: #fff;
+}
+
+.Desativado table.tabelaNovaRotinaDeterminadaTurma tr.linhaCdRotinaTurma td.linhaAlunosNome {
+    color: #fff;
+}
+
+.Desativado .menutopotelaEnviarRotinaAlunos {
+    background-color: #232323;
+}
+
+.Desativado .btnCancelarRotinaAlunos {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .btnEnviarRotinaAlunos {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado table .tituloCdRotinaTurma {
+
+    color: #fff;
+
+}
+
+.Desativado .checkbox-regularN {
+    background-color: transparent;
+    border: 2px solid green;
+}
+
+.Desativado .checkbox-regularCt {
+    background-color: transparent;
+    border: 2px solid green;
+}
+
+.Desativado .checkbox-regularCt:disabled {
+    background-color: grey;
+    border: 1px solid #626262;
+
+}
+
+.Desativado .btnCancelarRotinaAlunos:hover {
+    background-color: #eb2f06;
+}
+
+.Desativado .btnTodasAsRotinasEnviadas{
+    background-color: #232323;
+}
+.Desativado .btnRecentesRotinasEnviadas{
+     background-color: #232323;
+}
+.Desativado .btnNovaRotinaAlunos{
+    background-color: #fff;
+} 
+
+.Desativado .lblDeteminadaTurmaT {
+    color: #fff;
+}
+
+.Desativado .checkbox-regularTodas {
+    border: 2px solid green;
+    background-color: transparent;
+}
+
+.Desativado .lblFiltrarTodas {
+    color: #fff;
+}
+
+.Desativado .btnVerTodasRotinasDeterminadaTurma{
+    background-color: #232323
+}
+
+.Desativado .btnVerComunicadosRecentesDeterminadaTurma{
+    background-color: #232323;
+}
+.Desativado .btnNovoComunicado{
+    background-color: #fff;
+}
+.Desativado .lblDe {
+    color: #fff;
+}
+
+.Desativado .lblAte {
+    color: #fff;
+}
+
+.Desativado .inpDe {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .inpAte {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .bntBuscar {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .lblOrdenarPor {
+    color: #fff;
+}
+
+.Desativado table.tabelaTodasRotinaDeterminadaTurma td {
+    background-color: grey;
+    color: #fff;
+}
+
+.Desativado .lblDeterminadaTurmaR {
+    color: #fff;
+}
+
+.Desativado table.tabelaRecentesRotinaDeterminadaTurma td {
+    color: #fff;
+    background-color: grey;
+}
+
+.Desativado .caixaTurmaTodasDataIntervaloEbusca {
+    border: 0px;
+}
+
+.Desativado .localComunicados {
+
+    background-color: rgb(29, 31, 33);
+    border-bottom: 8px rgb(29, 31, 33) solid;
+
+}
+
+.Desativado .caixaComunicado {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .conteudoTelaComunicado {
+    border: transparent;
+}
+
+.Desativado .inputAssunto {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .taComunicado {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .btnEnviarComunicado {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .lblTodosT {
+    color: #fff;
+}
+
+.Desativado .lblDeTabelaTodosOsComunicados {
+    color: #fff;
+}
+
+.Desativado .lblAteTabelaTodosOsComunicados {
+    color: #fff;
+}
+
+.Desativado .inpDeTabelaTodosOsComunicados {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .inpAteTabelaTodosOsComunicados {
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+    background-color: rgb(18, 18, 18);
+}
+
+.Desativado .btnBuscarTodosComunicados {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .btnTodosComunicados {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .lblOrdernarPorTabelaTodosOsComunicados {
+    color: #fff;
+}
+
+.Desativado table .tituloComunicado1 {
+    background-color: grey;
+    color: #fff;
+}
+
+.Desativado .caixaTabelaRecentesOsComunicados {
+    background-color: transparent;
+}
+
+.Desativado .lblTodosR {
+    color: #fff;
+}
+
+.Desativado .tituloComunicado2,
+.tituloComunicado,
+.linhaComunicadore,
+.linhaComuT {
+    background-color: grey;
+    color: #fff;
+}
+
+.Desativado .topoTelaComunicado {
+    background-color: #232323;
+}
+
+.Desativado .iconeRetornaparaabasturmasalunos {
+    background-color: #626262;
+}
+
+.Desativado .topoTelaVisualizarAlunos {
+    background-color: #232323;
+}
+
+.Desativado .iconeRetornoAbaAlunos {
+    background-color: #626262;
+}
+
+.Desativado .conteudoAlunos {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .linha1T {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .linha2T {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .artC1 {
+    background-color: rgb(29, 31, 33);
+    color: #fff;
+}
+
+.Desativado .artCC1 {
+    background-color: rgb(29, 31, 33);
+    color: #fff;
+}
+
+.Desativado .artC2 {
+    background-color: rgb(29, 31, 33);
+    color: #fff;
+}
+
+.Desativado .lblTurmaAlunoT {
+    color: #fff;
+}
+
+.Desativado table .tituloAlunosT {
+    background-color: grey;
+    color: #fff;
+}
+
+.Desativado .conteudoTurmas {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado table.tabelaAlunosTurmaProf tr.infoAlunosT td {
+    background-color: grey;
+    color: #fff;
+}
+
+.Desativado .lbltotalAlunosT {
+    color: #fff;
+}
+
+.Desativado .lblRoEnviadas {
+    color: #fff;
+}
+
+.Desativado .lblRoFaltam {
+    color: #fff;
+}
+
+.Desativado .artTabelaTurmas2 {
+
+    background-color: rgb(29, 31, 33);
+    border: 1px solid transparent;
+
+}
+
+.Desativado .artTabelaTurmas1 {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .linhaTabelaTurmas2 {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .topoTelaVisualizarTurmas {
+    background-color: #232323;
+}
+
+.Desativado .iconeRetornaparaabaPrincipal {
+    background-color: #626262;
+}
+
+.Desativado table .tituloTurmasT {
+    color: #fff;
+}
+
+.Desativado table.tabelaTurmasT tr.infoTurmasT td {
+    color: #fff;
+    background-color: #232323;
+}
+.Desativado .btnNovaRotina {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .btnNovoComunicadoTurma {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .btnVisualizarAlunos {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .top-caixaProf {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .top-caixaProf2 {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .top-caixaProf3 {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .top-caixaProf button {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .top-caixaProf2 button {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .top-caixaProf3 button {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado .menuComunicado{
+    background-color: #232323; 
+}
+
+.Desativado #menu-config legend {
+    background-color: #232323;
+
+}
+
+.Desativado #menu-config {
+    background-color: rgb(52, 52, 52);
+    box-shadow: none;
+    border: 1px solid dimgray;
+}
+
+.Desativado #menu-config legend {
+    background-color: rgb(29, 31, 33);
+}
+
+.Desativado .tema p {
+    color: white;
+}
+
+.Desativado .imgLua {
+    background-image: url(../Imagens/ImagensModoNoturno/moon-black.png)
+}
+
+.Desativado .lblTotalOcorrencias{
+    color: #fff;
+}
+
+.Desativado .lblTituloComunicado{
+    color: #fff;
+}
+
+.Desativado .lblProfessorComunicado{
+    color: #fff;
+}
+.Desativado .caixaAssunto label{
+    color: #fff;
+}
+
+.Desativado .lblnaoEncontrado{
+    color: #fff;
+}
+
+.Desativado table.tabelaComunicadoTurma tr.linhaComunicado td{
+    background-color: gray;
+    color: #fff;
+}

@@ -1,0 +1,749 @@
+/*.day {
+    color: black;
+    background-color: #eef5f9;
+}*/
+
+.Desativado {
+    color: white;
+    background-color: rgb(52, 52, 52);
+    transition: all .0s;
+
+}
+
+.Desativado .tituloConsultaCadAux{
+    color: #fff;
+}
+
+.Desativado #menu-cima {
+    background-color: #232323;
+    box-shadow: none;
+}
+
+.Desativado #logo {
+    background-color: #232323;
+    border-right: 1px solid dimgray;
+    transition: none;
+ 
+}
+
+.Desativado #menu-lateral {
+    background-color: rgb(29,31,33);
+    border-top: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado .icones-menu-lateral li:hover{
+    background-color: rgb(71,71,71);
+}
+
+.Desativado #conteudo1 {
+    background-color: rgb(29,31,33);
+    border: 1px solid dimgray;
+}
+
+.Desativado #cabecalho {
+    background-color: rgb(29,31,33);
+    border: 1px solid dimgray;
+}
+.Desativado .titulo {
+ color: #fff;
+}
+
+
+.Desativado .conteudo {
+    background-color: rgb(52, 52, 52);
+
+}
+
+.Desativado .viewPerfil{
+    border-bottom: 1px solid dimgray;
+}
+
+.Desativado .iconePerfil img{
+    border: 2px solid dimgray;
+
+}
+.Desativado .traco{
+    border: 1px solid dimgray;
+}
+
+.Desativado #rodape1{
+   background-color: #232323;
+    border-top: 1px solid dimgray;
+}
+
+.Desativado .imgAluno{
+    background-image: url(../Imagens/ImagensModoNoturno/students-cap.png);
+}
+
+.Desativado .imgFunc{
+    background-image: url(../Imagens/ImagensModoNoturno/manager-avatar.png);
+}
+
+.Desativado .imgMatricula{
+    background-image: url(../Imagens/ImagensModoNoturno/phone-book.png);
+}
+.Desativado .imgResp{
+    background-image: url(../Imagens/ImagensModoNoturno/parents.png);
+}
+.Desativado .imgUser{
+    background-image: url(../Imagens/ImagensModoNoturno/user-male-black-shape.png);
+}
+.Desativado .imgDemaisCadastros{
+    background-image: url(../Imagens/ImagensModoNoturno/books-stack.png);
+}
+
+.Desativado label[for="btn-menu-lateral"] {
+color: white;
+}
+
+.Desativado .imgPerfilUsuario{
+    background-image: url(../Imagens/ImagensModoNoturno/user.png);
+    background-repeat: no-repeat;
+}
+
+.Desativado .imgNotificacao{
+    background-image: url(../Imagens/ImagensModoNoturno/settings-work-tool-black.png);
+}
+.Desativado .imgSair{
+    background-image: url(../Imagens/ImagensModoNoturno/logout.png);
+}
+.Desativado .imgConfiguracao{
+    background-image: url(../Imagens/ImagensModoNoturno/settings-work-tool-black.png);
+}
+
+.Desativado input{
+    background-color: rgb(18,18,18);
+    border: 1px solid rgb(70,70,70);
+    color: #fff;
+}
+.Desativado .btnProxPasso{
+    background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+    
+}
+
+.Desativado .cadastroLocalizacao form .btnProxPasso{
+    background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado .cadastroLocalizacao form .btnProxPasso:hover{
+    background-color: grey;
+}
+
+.Desativado .btnProxPasso:hover{
+    background-color: rgb(71,71,71);
+   
+}
+
+.Desativado .FormCadastroAtividade .btnProxPasso14{
+    background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none; 
+}
+.Desativado .FormCadastroAtividade .btnProxPasso14:hover{
+    background-color: rgb(71,71,71);
+   
+}
+
+.Desativado .cadastroFuncionario form .btnProxPasso{
+       background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none;  
+}
+.Desativado .cadastroFuncionario form .btnProxPasso:hover{
+    background-color: rgb(71,71,71);
+}
+
+
+
+.Desativado .cadastroDadosResp form .btnProxPasso{
+    background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none; 
+}
+.Desativado .cadastroDadosResp form .btnProxPasso:hover{
+background-color: rgb(71,71,71);
+}
+
+.Desativado .cadastroAluno form .btnProxPasso{
+       background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none;  
+}
+.Desativado .cadastroAluno form .btnProxPasso:hover{
+  background-color: rgb(71,71,71);  
+}
+
+
+.Desativado .FormCadastroAtividade form .btnProxPasso13{
+    background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none; 
+}
+.Desativado .FormCadastroAtividade form .btnProxPasso13:hover{
+background-color: rgb(71,71,71);
+}
+
+.Desativado .regular-input-text-logradouro:disabled {
+
+    background-color: #dcdcdc;
+    border: 2px solid grey;
+    box-shadow: none;
+    cursor: not-allowed;
+
+}
+
+.Desativado .abrirRelatorioGeralRevisaoDados{
+    
+    background-color: #000;
+}
+
+.Desativado select{
+    background-color: rgb(18,18,18);
+    border: 1px solid rgb(70,70,70);
+    color: #fff;
+}
+
+.Desativado .cimaPesquisa{
+    background-color: #232323;
+}
+
+.Desativado .abrirAbaCadastro {
+  background-color: rgb(18,18,18);  
+}
+
+.Desativado .abrirRelatorioGeralCadAux{
+    background-color: rgb(18,18,18); 
+}
+
+.Desativado .abriRelatorioGeral{
+    background-color: rgb(18,18,18); 
+}
+
+.Desativado .linhaTabela{
+    color: white;
+}
+
+.Desativado table th{
+    color: white;
+}
+
+.Desativado .barraPesquisaBotao{
+    background-color: rgb(52,52,52);
+    height: 37px;
+}
+
+.Desativado .barraPesquisaBotao img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.Desativado .paginacao li a{
+    color: white;
+    border: 1px solid rgb(70,70,70);
+    background-color: rgb(52,52,52);
+}
+
+.Desativado .paginacaoCadAux li a{
+    color: white;
+    border: 1px solid rgb(70,70,70);
+   background-color: #232323;
+}
+.Desativado .paginacaoCadAux li:hover a{
+   background-color: #000;
+}
+
+.Desativado .paginacao li:hover a{
+     background-color: black;
+}
+
+.Desativado .barraProgresso li:before {
+    color: white;
+    border: 1px solid rgb(70,70,70);
+    background-color: rgb(52,52,52);
+}
+
+.Desativado input:focus{
+    border: 1px solid rgb(70,70,70);
+}
+
+.Desativado .checkbox-regular {
+    color: white;
+    border: 1px solid rgb(70,70,70);
+    background-color: rgb(52,52,52);
+}
+
+.Desativado .checkbox-regular:checked {
+    border: 1px solid green;
+}
+
+.Desativado .checkbox-regular:checked:after {
+    color: green;
+}
+
+.Desativado .tituloTabela{
+    color: white;
+}
+
+.Desativado .cadastrosAuxiliares{
+    background-color: #232323;
+    box-shadow: 0px;
+    border-left: 1px solid dimgray;
+    border-top: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+    border-bottom: 0px;
+}
+
+.Desativado .painelCadastrosAuxiliares:after{
+    background-color: #232323;
+    box-shadow: none;
+    border-top: 0px;
+    border-left: 1px solid dimgray;
+}
+
+
+.Desativado .painelCadastrosAuxiliares{
+   background-color: rgb(52, 52, 52);
+    box-shadow: none;
+}
+
+.Desativado .abrirAbaCadastroAux{
+    background-color: black;
+}
+
+.Desativado #menu-config{
+   background-color: rgb(52, 52, 52);
+    box-shadow: none;
+    border: 1px solid dimgray;
+}
+
+.Desativado #menu-config legend{
+    background-color: rgb(29,31,33);
+}
+
+.Desativado .tema p{
+  color: white;
+} 
+
+.Desativado .imgLua{
+    background-image: url(../Imagens/ImagensModoNoturno/moon-black.png)
+}
+
+.Desativado .conteudoCard{
+    background-color: rgb(52, 52, 52);
+}
+
+.Desativado .topoMensagens1{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+
+
+.Desativado .miniCard4{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+
+.Desativado  .miniCard2
+
+{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+
+.Desativado .miniCard1{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+
+.Desativado .conteudoTopoMensagens{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+.Desativado  .conteudoTopoMensagens{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+.Desativado .conteudoTopoMensagens{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+
+.Desativado .topo-caixa{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+.Desativado .caixa{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+
+.Desativado .rodape{
+    box-shadow: none;
+     border: 1px solid dimgray;
+}
+
+
+.Desativado .topoMensagens1{
+  background-color: rgb(29,31,33);
+}
+
+
+.Desativado .rodape{
+  background-color: rgb(29,31,33);
+}
+
+.Desativado .topo-caixa{
+  background-color: rgb(29,31,33);  
+}
+
+.Desativado .cld-days{
+  background-color: rgb(29,31,33);  
+}
+
+.Desativado .miniCard2{
+  background-color: rgb(29,31,33);  
+}
+
+.Desativado .imgCard{
+  background-color: rgb(29,31,33);  
+}
+
+.Desativado .embrulho{
+    background-color: rgb(29,31,33);
+     border: 1px solid dimgray;
+     border-top: 0px;
+}
+
+.Desativado .embrulho12{
+    background-color: rgb(29,31,33);
+    border: 0px;
+   
+}
+
+.Desativado .regular-input-text{
+    border: 1px solid dimgray;
+    color: #fff;
+    box-shadow: none;
+}
+
+.Desativado .cadastroFuncionario form .regular-input-text{
+    border: 1px solid dimgray;
+    box-shadow: none;
+    background-color: rgb(18,18,18);
+}
+
+.Desativado .FormCadastroPeriodo .regular-input-text-mesma-linha{
+    border: 1px solid dimgray;
+    box-shadow: none;
+    background-color: rgb(18,18,18);
+}
+
+.Desativado .select-regular{
+     border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+.Desativado .FormCadastroAtividade .select-regular {
+      border: 1px solid dimgray;
+    box-shadow: none;
+    color: #fff;
+}
+
+.Desativado h1{
+    color: #fff;
+}
+
+.Desativado .cimaPesquisaAluno{
+    background-color: #232323;
+}
+
+.Desativado .barraProgresso li{
+color: #fff;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barraProgresso li.ativo:before {
+    border-color: #27ae60;
+    background-color: #27ae60;
+
+}
+
+.barraProgresso li.ativo + li:after {
+    background-color: green;
+}
+
+.barraProgresso li.ativo2 {
+    color: white;
+
+}
+
+.barraProgresso li.ativo2:before {
+    background-color: green;
+}
+
+.barraProgresso li.ativo2:before {
+    border-color: #27ae60;
+    background-color: #27ae60;
+}
+
+.barraProgresso li.ativo2 + li:after {
+    background-color: green;
+}
+
+.barraProgresso li.ativo3 {
+    color: white;
+
+}
+
+.barraProgresso li.ativo3:before {
+    background-color: green;
+}
+
+.barraProgresso li.ativo3:before {
+    border-color: #27ae60;
+    background-color: #27ae60;
+}
+
+.barraProgresso li.ativo3 + li:after {
+    background-color: green;
+}
+
+
+.barraProgresso li.ativo4 {
+    color: white;
+
+}
+
+.barraProgresso li.ativo4:before {
+    background-color: green;
+}
+
+.barraProgresso li.ativo4:before {
+    border-color: #27ae60;
+    background-color: #27ae60;
+}
+
+.barraProgresso li.ativo4 + li:after {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Desativado .fotoDePerfilAluno{
+        border: 1px solid dimgray;
+        box-shadow: none; 
+}
+
+.Desativado .tituloTabelaCadAux{
+    background-color: #232323;
+    color: #fff;
+}
+
+.Desativado table tr:nth-child(2n+2) {
+    color: white;
+    background-color: rgb(71,71,71);
+    
+}
+.Desativado .linhaTabelaCadAux{
+    color: #fff;
+    background-color: rgb(52, 52, 52);
+}
+
+.Desativado table.bordasimples5 td{
+    border: 1px solid grey;
+}
+
+.Desativado table.bordasimples4 td{
+    border: 1px solid grey;
+}
+
+.Desativado table.bordasimples3 td{
+    border: 1px solid grey;
+}
+
+.Desativado table.bordasimples2 td{
+    border: 1px solid grey;
+}
+.Desativado table.bordasimples1 td{
+    border: 1px solid grey;
+}
+
+.Desativado table.bordasimples td{
+    border: 1px solid grey;
+}
+
+.Desativado  td{
+    color: #fff;
+    background-color: rgb(52, 52, 52);
+    border: 1px solid dimgray;
+}
+
+.Desativado .tdAcoesTurma{
+    color: #fff;
+    background-color: rgb(52, 52, 52);
+}
+
+.Desativado .tituloAcoesTabelaCadAux{
+    background-color: #232323;
+    color: #fff;
+}
+
+.Desativado fieldset{
+    border: 1px solid grey;
+    box-shadow: none;
+}
+
+.Desativado .FormCadastroAtividade fieldset{
+    border: 1px solid grey;
+    box-shadow: none;
+}
+
+.Desativado .FormCadastroPeriodo fieldset{
+    border: 1px solid grey;
+    box-shadow: none;
+}
+
+.Desativado .FormCadastroPeriodo fieldset legend{
+background-color: transparent;
+}
+.Desativado .FormCadastroAtividade fieldset legend{
+background-color: transparent;
+}
+
+.Desativado .FormCadastroAtividade .btnProxPasso1{
+    background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado .FormCadastroPeriodo .btnProxPasso1{
+    background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado .FormCadastroPeriodo .btnProxPasso1:hover{
+background-color: grey;
+}
+.Desativado .FormCadastroAtividade .btnProxPasso1:hover{
+background-color: grey;
+}
+
+.Desativado .FormCadastroPeriodo .select-regular{
+    border: 1px solid dimgray;
+    box-shadow: none;
+    background-color: rgb(18,18,18);  
+}
+
+.Desativado .cimaCadAux{
+    background-color: #232323;
+}
+
+.Desativado .barraPesquisaCadAux{
+     background-color: #232323;
+}
+
+.Desativado .paginacaoCadAux li a{
+    background-color: rgb(29,31,33);
+    border: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado .imgHome{
+    background-image: url(../Imagens/home-black.png);
+}
+
+.Desativado #cronograma{
+    color: #2793e6;
+}
+
+.Desativado .pesquisaResp{
+    background-color: #232323;
+}
+
+
+.Desativado .caixaDialogoCorpo h1 {
+    color: dimgray;
+}
+
+
+.Desativado .caixaDialogoCorpoErro h1 {
+    color: dimgray;
+}
+
+.Desativado .btnProxPassoA{
+    background-color: rgb(0,0,0);
+    border: 1px solid dimgray;
+    box-shadow: none;
+}
+
+.Desativado .btnProxPassoA:hover{
+    background-color: grey;
+}
+
+
+.Desativado .cadastroResp form input:disabled {
+    border: 1px solid #666666;
+    background-color: #999999;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.Desativado .cadastroResp form select:disabled {
+    border: 1px solid #666666;
+    background-color: #999999;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.Desativado input::-webkit-input-placeholder {
+   color: #666666;
+}
+
+.Desativado input::-moz-placeholder { /* Firefox 18- */
+   color: #666666;  
+}
+
+.Desativado input::-moz-placeholder {  /* Firefox 19+ */
+   color: #666666;  
+}
+
+.Desativado input:-ms-input-placeholder {  
+   color: #666666;  
+}
+
+@media only screen and (max-width: 1300px) {
+  .Desativado  .conteudo {
+        margin-left: 80px;
+        transition: all .4s;
+    }
+}

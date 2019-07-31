@@ -1,0 +1,290 @@
+.telaComunicado {
+    position: relative;
+    width: 100%;
+    height: 570px;
+}
+
+.topoTelaComunicado{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #27ae60;
+}
+.conteudoTelaComunicado {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 570px;
+    background-color: white;
+}
+
+.iconComunicado{
+    position: relative;
+    width: 55px;
+    top: 12px;
+}
+
+.lblTopoComunicado {
+    position: relative;
+    color: #fff;
+    font-size: 27pt;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.menuLateralComunicado {
+    position: relative;
+    width: 240px;
+    height: 709px;
+    box-shadow: 1px 1px 7px grey;
+    background-color: #ffffff;
+}
+
+.localComunicados {
+    position: relative;
+    width: 100%;
+    height: 709px;
+    box-shadow: 1px 1px 4px grey;
+    background-color: #ffffff;
+}
+.btnNovoComunicado{
+    position: absolute;
+    width: 160px;
+    height: 42px;
+    margin-top: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 1px 1px 7px grey;
+    background-color: #fff;
+}
+.iconNovoComunicado{
+    position: relative;
+    width: 25px;
+    top: 8px;
+    left: 15px;
+}
+.lblNovoComunicado{
+    position: relative;
+    color: #0088cc;
+    top: 2px;
+    left: 25px;
+    font-size: 14pt;
+    cursor: pointer;
+}
+.funcionalidadesMenuComunicado{
+    position: relative;
+    top: 100px;
+    width: 200px;
+    height: 84px;
+    //background-color: blue;
+}
+.btnVerTodasRotinasDeterminadaTurma{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    //box-shadow: 1px 1px 7px grey;
+    background-color: #e6e6e6;
+}
+.btnVerComunicadosRecentesDeterminadaTurma{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+    top: 42px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    //box-shadow: 1px 1px 7px grey;
+    background-color: #ffffff;
+}
+.lblTodosComunicadosDeterminadaTurma{
+    position: relative;
+    font-size: 13.5pt;
+    left: 20px;
+    color:#00aaff;
+    cursor: pointer;
+}
+.lblRecentesComunicadosDeterminadaTurma{
+    position: relative;
+    font-size: 13.5pt;
+    left: 20px;
+    color:#00aaff;
+    cursor: pointer;
+}
+.iconTodosComunicados{
+    position: relative;
+    width: 25px;
+    top: 6px;
+    left: 10px;
+}
+.iconRecentesComunicados{
+    position: relative;
+    width: 25px;
+    top: 6px;
+    left: 10px;
+}
+.lblNaoHaComunicados {
+    position: absolute;
+    font-size: 14pt;
+    top: 50%;
+    left: 50%;
+    color: #999999;
+    transform: translate(-50%,-50%);
+}
+.localDeterminadaLabelTurma{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 140px;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px grey;
+}
+.lblDeterminadaTurma{
+    position: relative;
+    font-size: 16pt;
+    top: 10px;
+    left: 8px;
+    color: #595959;
+}
+
+
+.caixaComunicado {
+    position: absolute;
+    width: 85%;
+    height: 470px;
+    top: 35%;
+    left: 50%;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+}
+
+.lblTituloComunicado {
+    position: relative;
+    font-size: 13pt;
+    display: block;
+    color: #595959;
+    top: 12px;
+    left: 20px;
+}
+.lblTurmaComunicado{
+    font-weight: bold;
+    color: #4d4d4d;
+    font-size: 13pt;
+}
+.taComunicado {
+    position: relative;
+    resize: none;
+    width: 97.1%;
+    height: 316px;
+    font-size: 14pt;
+    font-family: 'Calibri',sans-serif;
+    color: #595959;
+    padding-left: 20px;
+    padding-top: 10px;
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+
+.btnEnviarComunicado {
+    position: relative;
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 13.5pt;
+    background-color: #27ae60;
+    top: 15px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}
+
+.caixa2 {
+    position: relative;
+    width: 99.9%;
+    height: 40px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+
+.caixa1 {
+    position: relative;
+    width: 99.9%;
+    height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+.caixaAssunto{
+    position: relative;
+    width: 99.7%;
+    height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+.inputAssunto{
+    position: relative;
+    width: 97.1%;
+    height: 40px;
+    border:none;
+    font-size: 13pt;
+    font-family: 'Calibri',sans-serif;
+    color: #595959;
+    border-bottom: 1px solid #d9d9d9;
+    padding-left: 20px;
+}
+.lblProfessorComunicado{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 14pt;
+    color: #333333;
+}
+
+.iconeComunicadoElabel{
+    position: relative;
+    left: 380px;
+}
+.iconComunicado{
+    position: relative;
+    width: 55px;
+    top: 12px;
+}
+
+.lblTopoComunicado {
+    position: relative;
+    color: #fff;
+    top: -2px;
+    margin-left: 7px;
+    font-size: 27pt;
+    text-align: center;
+    font-family: Calibri;
+}
+
+
+.iconeRetornaparaabasturmasalunos{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+}
+.iconeRetornaparaabasturmasalunos:hover{
+    border-radius: 3px;
+}
+.iconSetaRetornaparaabasturmasalunos{
+    position: relative;
+    width: 35px;
+    top: 12.5px;
+    left: 12px;
+}

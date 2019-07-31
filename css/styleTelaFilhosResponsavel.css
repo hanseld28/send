@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* div onde fica todo o conteudo da tela dos filhos */
+
+/* ----------------------------------- */
+
+/* tela filho 1 */
+
+
+
+/* ------------------- */
+
+.topotelaDeVisualizarOsFilhos{
+    position: relative;
+	width: 100%;
+	height: 70px;
+	background-color: #536DFE;
+}
+
+
+.iconeReAbasCardsFilhos{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 8px;
+    left: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+    background-color: #fff;
+}
+.iconeReAbasCardsFilhos:hover{
+    border-radius: 3px;
+}
+.iconSetaRetorno{
+    position: relative;
+    width: 30px;
+    top: 12px;
+    left: 12px;
+}
+
+.iconMeusFilhos{
+    position: relative;
+    width: 53px;
+    top: 9px;
+}
+.lblMeusFilhos{
+    position: relative;
+    font-size: 25pt;
+    top: -5px;
+    left: 10px;
+    color: #fff;
+}
+
+
+
+
+.caixaAgendaEprontuario{
+    display: block;
+}
+.iconProntuario{
+    position: relative;
+    width: 35px;
+    top: 22px;
+    left: 22px;
+}
+
+.iconAgenda{
+    position: relative;
+    width: 35px;
+    top: 22px;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tooltipProntuario{
+    visibility: hidden;
+    width: 80px;
+    background-color: #b3b3b3;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    top: 18px;
+    left: -100px;
+    padding: 5px;
+    position: absolute;
+    font-size: 13pt;
+    z-index: 1;
+}
+.iconeProntuario:hover .tooltipProntuario{
+    visibility: visible;
+    cursor: pointer;
+}
+.tooltipAgenda{
+    visibility: hidden;
+    width: 70px;
+    background-color: #b3b3b3;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    top: 18px;
+    left: -90px;
+    padding: 5px;
+    position: absolute;
+    font-size: 13pt;
+    z-index: 1;
+}
+
+
+
+
+.lblIconAF{
+    position: relative;
+    top: -9px;
+    left: -60px;
+    font-size: 15pt;
+    font-family: Calibri;
+    color: #fff;
+}
+
+.lblIconPF{
+    position: relative;
+    top: -9px;
+    left: -90px;
+    font-size: 15pt;
+    font-family: Calibri;
+    color: #fff;
+}
+
